@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#39;blank&#39;&gt;Noah A. Smith&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</link>
+      <atom:link href="/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#39;blank&#39;&gt;Noah A. Smith&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#39;blank&#39;&gt;Noah A. Smith&lt;/a&gt;</title>
+      <link>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</link>
+    </image>
+    
+    <item>
+      <title>A Formal Hierarchy of RNN Architectures</title>
+      <link>/publication/rnn_hierarchy/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rnn_hierarchy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mixture of h-1 Heads is Better than h Heads</title>
+      <link>/publication/mae/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
+      <link>/publication/sledgehammer/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sledgehammer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
+      <link>/publication/finetune/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/finetune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Green AI</title>
+      <link>/publication/greenai/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/greenai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</title>
+      <link>/publication/inoculation/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/inoculation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Enhanced Contextual Word Representations</title>
+      <link>/publication/kermit/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/kermit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaLM: A Hybrid Parser and Language Model</title>
+      <link>/publication/palm/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/palm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN Architecture Learning with Sparse Regularization </title>
+      <link>/publication/sparsifying/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sparsifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Show Your Work: Improved Reporting of Experimental Results </title>
+      <link>/publication/showyourwork/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annotation Artifacts in Natural Language Inference Data</title>
+      <link>/publication/artifacts/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/artifacts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTMs Exploit Linguistic Attributes of Data</title>
+      <link>/publication/lstm/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational Recurrences</title>
+      <link>/publication/rr/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
+      <link>/publication/sopa/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sopa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story Cloze Task: UW NLP System</title>
+      <link>/publication/lsdsem_uw_nlp/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lsdsem_uw_nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
+      <link>/publication/language_constraint/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/language_constraint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

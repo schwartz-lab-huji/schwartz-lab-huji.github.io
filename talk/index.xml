@@ -1,37 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | Academic</title>
+    <title>Invited Talks | Home</title>
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <description>Invited Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
+      <title>Invited Talks</title>
       <link>/talk/</link>
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <title>Green AI</title>
+      <link>/talk/green_ai/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/talk/green_ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Green NLP</title>
+      <link>/talk/green_nlp/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/talk/green_nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Interpretable Deep Learning for Natural Language Processing</title>
+      <link>/talk/towards_interpretable/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/talk/towards_interpretable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inductive Bias of Deep Networks through Language Patterns</title>
+      <link>/talk/inductive_bias/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/talk/inductive_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pattern-based Solutions to Limitations of Leading Word Embeddings</title>
+      <link>/talk/pattern-based_solutions/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>/talk/pattern-based_solutions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word Similarity via Symmetric Patterns</title>
+      <link>/talk/word_similarity/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/talk/word_similarity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Knowledge Acquisition using Frequency Based Patterns</title>
+      <link>/talk/semantic_knowledge/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>/talk/semantic_knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acquiring Semantic Knowledge using Patterns</title>
+      <link>/talk/acquiring_semantic/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/talk/acquiring_semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying Authorships of very Short Texts using Flexible Patterns</title>
+      <link>/talk/identifying_authorships/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      <guid>/talk/identifying_authorships/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Representation using Flexible Patterns</title>
+      <link>/talk/semantic_representation/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>/talk/semantic_representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</title>
+      <link>/talk/neutralizing_linguistically/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>/talk/neutralizing_linguistically/</guid>
+      <description></description>
     </item>
     
   </channel>

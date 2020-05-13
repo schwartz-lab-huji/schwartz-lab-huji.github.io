@@ -1,0 +1,58 @@
+About:
+----------
+
+This package includes a conversion script from the constituent format used in the Penn Treebank into dependency trees.
+The resulting scheme is the most learnable scheme, as described in the paper:
+"Learnability-based Syntactic Annotation Design"
+by Roy Schwartz, Omri Abend and Ari Rappoport.
+
+This code is an extension of the pennconverter script, generously provided by Richard Johansson
+(http://nlp.cs.lth.se/software/treebank_converter/).
+For convenience of usage, we removed most of the configuration options, so the script only allows to generate the most learnable scheme discovered in the paper above.
+For a more flexible version of the script, please use the original pennconverter script from the link above.
+
+The users of this code are requested to cite the above-mentioned publications.<br>
+By downloading this code, users agree to the <a href="http://fileadmin.cs.lth.se/nlp/software/pennconverter/license.txt" target="_blank">this license.
+
+
+
+Package Contents:
+---------------------------
+
+This package includes the following files:
+1. README - this file
+2. learnable_pennconverter.jar - a jar file that converts a constituency annotated file into a dependency annotated file.
+
+
+
+Requirements and Installation:
+---------------------------
+
+java =>5 is required 
+No compilation/installation is required. 
+
+
+Running:
+---------------------------
+
+To run, type:
+
+java -jar learnable_pennconverter.jar
+
+Command Line Options:
+---------------------------
+-f FILE					read (constituency) input from FILE (default: stdin)
+-t FILE					output to (dependency) FILE (default: stdout)
+-log FILE				write log messages to FILE (default: no messages)
+-verbosity N				set verbosity level in log file to N (0, 1, or 2; default: 0)
+-stopOnError[=*true*|false]		terminate if an error is encountered
+-format[=*conllx*|conll2008|tab]	Output format
+
+
+Important:
+---------------------------
+The program is unable to handle treebanks in languages other than English.
+
+
+
+For any questions or feedback, you may contact Roy Schwartz (roys02 AT cs DOT huji DOT ac DOT il)

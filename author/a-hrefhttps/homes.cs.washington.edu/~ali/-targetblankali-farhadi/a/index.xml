@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://homes.cs.washington.edu/~ali/&#39; target=&#39;blank&#39;&gt;Ali Farhadi&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/homes.cs.washington.edu/~ali/-targetblankali-farhadi/a/</link>
+      <atom:link href="/author/a-hrefhttps/homes.cs.washington.edu/~ali/-targetblankali-farhadi/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://homes.cs.washington.edu/~ali/&#39; target=&#39;blank&#39;&gt;Ali Farhadi&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://homes.cs.washington.edu/~ali/&#39; target=&#39;blank&#39;&gt;Ali Farhadi&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/homes.cs.washington.edu/~ali/-targetblankali-farhadi/a/</link>
+    </image>
+    
+    <item>
+      <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
+      <link>/publication/finetune/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/finetune/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

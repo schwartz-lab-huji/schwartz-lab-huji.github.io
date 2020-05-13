@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>word_representations | Home</title>
+    <link>/tag/word_representations/</link>
+      <atom:link href="/tag/word_representations/index.xml" rel="self" type="application/rss+xml" />
+    <description>word_representations</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>word_representations</title>
+      <link>/tag/word_representations/</link>
+    </image>
+    
+    <item>
+      <title>Automatic selection of context configurations for improved (and fast) class-specific word representations</title>
+      <link>/publication/context_config/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/context_config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Patterns and Coordinations: Fast and Enhanced Representations of Verbs and Adjectives</title>
+      <link>/publication/sp_sg/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/sp_sg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pattern-based methods for Improved Lexical Semantics and Word Embeddings</title>
+      <link>/publication/thesis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Well Do Distributional Models Capture Different Types of Semantic Knowledge?</title>
+      <link>/publication/semantics_from_text/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/semantics_from_text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Pattern Based Word Embeddings for Improved Word Similarity Prediction</title>
+      <link>/publication/sp_embeddings/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/sp_embeddings/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

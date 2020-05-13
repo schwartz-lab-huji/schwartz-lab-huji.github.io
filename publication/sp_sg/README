@@ -1,0 +1,65 @@
+About:
+----------
+
+This package is used to generate symmetric pattern (SP) contexts to be fed to the word2vec toolkit. A complete description of the system appears in [1] below. 
+
+This toolkit is for academic use only. Please cite [1] if you use it.
+
+
+####### Package content #######
+
+The pacakge contains a single perl script: gen_SP_w2v_input.pl, this README file, and a list of symmetric pattern types (selected_patterns.dat, see below).
+
+
+####### Installation and requirements #######
+
+No installation is required. The only tool required is perl 5. 
+
+
+####### Running #######
+
+To run the code, simply run:
+
+perl gen_SP_w2v_input.pl <input files (comma separated)> <patterns input file (one pattern per line)> <context pairs output file> <word vocab output file> <context vocab output file> <unigram count input file -- optional>
+
+Example: 
+perl gen_SP_w2v_input.pl corpus.txt selected_patterns.dat context_pairs.dat word_vocab.dat context_vocab.dat unigram_count.dat
+
+
+Where:
+
+1. input files: one or more plain text files (separated by commas)
+
+2. patterns input file: a file containing the symmetric pattern types, one pattern per line, where pattern elements are separated by hyphens, and wildcards are marked by the CW symbol. For example, the pattern "X and Y" is written "CW-and-CW". The file for generating the patterns experimented with in the paper can be found in the file "selected_patterns.dat". 
+In order to generate your own set of symmetric patterns, you can use the implementation of the (Davidov and Rappoport, 2006) algorithm for extracting symmetric patterns types from plain text, which can be found in http://www.cs.huji.ac.il/~roys02/software/dr06/dr06.html
+
+3. context pairs output file: an output file that will contain the list of (words,context) pairs to be fed as input to the word2vec toolkit.
+
+4. word vocab output file: an output file that will contain the word vocabulary to be fed as input to the word2vec toolkit.
+
+5. context vocab output file: an output file that will contain the context vocabulary to be fed as input to the word2vec toolkit.
+
+6. unigram input file: if you have a pre-computed file with unigram frequencies, this can speed up the process (otherwise the script computes it, which takes time). The input format is one line per word of the format "word count". E.g.,
+the	438738378
+of	220328162
+and	192290490
+...
+
+####### Generating embeddings #######
+
+
+To use the output of the script to generate the embeddings, download the word2vec implementation of Omer Levy & Yoav Goldberg [2] from https://bitbucket.org/yoavgo/word2vecf, and feed it with files 3-5 above: 
+
+word2vecf -train <context pairs file>  -wvocab <word vocab file> -cvocab <context vocab file>  -output <vector output name> 
+
+
+####### References #######
+
+[1] Roy Schwartz, Roi Reichart and Ari Rappoport, "Symmetric Patterns and Coordinations: Fast and Enhanced Representations of Verbs and Adjectives", in proc. of NAACL 2016.
+
+[2] Omer Levy and Yoav Goldberg. 2014. Dependency-based word embeddings. In Proc. of ACL
+
+
+####### Questions and Feedback #######
+
+roys02@cs.huji.ac.il

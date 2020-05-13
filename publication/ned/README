@@ -1,0 +1,142 @@
+About:
+----------
+
+This package includes an implementation of the Neutral Edge Direction (NED) evaluation measure.
+This is a measure used to evaluate dependency parses against a gold standard.
+
+This code can also be found in: http://www.cs.huji.ac.il/~roys02/software/ned.html
+
+A complete description of NED appears in the paper:
+"Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing"
+by Roy Schwartz, Omri Abend, Roi Reichart and Ari Rappoport.
+
+
+
+Copying and Modifying
+---------------------------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+A copy of the GNU General Public License can be found in the file
+'License.txt' which is part of this distribution.
+
+
+
+Package Contents:
+---------------------------
+
+This package includes the following files:
+1. README - this file
+2. NED.pl - executable file which performs the evaluation.
+3. figure2_gold.txt, figure2_test.txt - example files. They include two
+possible annotations of the sentence "I want to eat",
+as presented in Figure 2 in the paper.
+4. ParseSentence.pm, POS.pm - required (perl) packages.
+
+Compilation and Installation:
+
+NED.pl is a perl script, which requires perl 5 installed. The
+following (standard) perl packages are also required:
+Getopt::Long
+IO::File
+List::Util
+
+No compilation is required. NED.pl is the executable file.
+ParseSentence.pm and POS.pm must be downloaded and put in the same
+directory as NED.pl. Running the script must be done from this directory.
+
+
+Running:
+------------
+
+To run, type:
+
+perl NED.pl -if <test file> -gold <gold standard file> 
+	 -ml <Maximum sentence length to evaluate (default 10000)>
+       -h (display this help message)
+
+
+Input:
+--------
+
+The input and gold files need to be in the following format:
+Each token appears in its own line. Blank lines separate between sentences.
+
+Any of the following formats is supported:
+
+1. Each line contains only the token's parent (e.g., "2")
+2. Each line contains tab separated word, POS tag and parent (e.g., "I   PRP     2")
+3. Each line contains tab separated CoNLL format (e.g., "1       I      _       _ 	PRP      _       2       _       2       _")
+
+The parent field indicates the token's parent, and can be a number in the range 1-<number of tokens> or the
+root, which can be either -1 or 0.
+
+In formats where punctuation appears (i.e., format 2 or 3), 
+either of the following POS tags are considered punctuation and are thus ignored:
+
+1. , . : # ( )
+2. -LRB- -RRB-
+3. `` ''
+4. LS SYM PUNCT
+
+
+Input file and gold standard file must have exactly the same number of
+lines, where the blank lines must agree.
+Other file formats will invoke an error.
+If both files contain words and POS tags (i.e., format 2 or 3), they
+must also match for each line or an error will be invoked.
+Using test and gold files in different formats (i.e., a gold file in format 1 and a test file in format 2) is supported 
+(as long as both are appear in one of the formats above, and follow the rules above).
+
+
+Output:
+-----------
+
+<number of correct tokens>/<total number of tokens> (<NED score>)
+
+
+Examples:
+---------------
+
+figure2_gold.txt and figure2_test.txt include the gold parse and some
+induced parse of the sentence "I want to eat",
+as presented in figure 2 in the paper and are included in this distribution.
+
+Invoking this command:
+NED.pl -if figure2_test.txt -gold figure2_gold.txt
+
+Yields the following output:
+4/4 (1.000)
+
+This means that the evaluation of figure2_test.txt against
+figure2_gold.txt results in 4 correct tokens out of 4 - 
+a NED score of 1.
+
+
+Invoking this command:
+NED.pl -if WSJ_parsed_file -gold WSJ_23_gold -ml 10
+
+Yields the following output:
+2155/2672 (0.807)
+
+This means that the evaluation of WSJ_parsed_file (not supplied in
+this distribution) against WSJ10 (not supplied either) results
+in 2155 correct tokens out of 2672 and a NED score of 0.807.
+
+
+Errors:
+----------
+
+Errors are invoked in case the file format does not match one of the
+formats above, or if the files are inconsistent (see input section).
+Bad dependency graphs (e.g., graphs which contain a loop or a
+punctuation token that has dependents) might also invoke an error.
+

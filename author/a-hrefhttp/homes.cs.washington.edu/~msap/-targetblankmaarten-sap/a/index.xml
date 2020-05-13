@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;http://homes.cs.washington.edu/~msap/&#39; target=&#39;blank&#39;&gt;Maarten Sap&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttp/homes.cs.washington.edu/~msap/-targetblankmaarten-sap/a/</link>
+      <atom:link href="/author/a-hrefhttp/homes.cs.washington.edu/~msap/-targetblankmaarten-sap/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;http://homes.cs.washington.edu/~msap/&#39; target=&#39;blank&#39;&gt;Maarten Sap&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;http://homes.cs.washington.edu/~msap/&#39; target=&#39;blank&#39;&gt;Maarten Sap&lt;/a&gt;</title>
+      <link>/author/a-hrefhttp/homes.cs.washington.edu/~msap/-targetblankmaarten-sap/a/</link>
+    </image>
+    
+    <item>
+      <title>Story Cloze Task: UW NLP System</title>
+      <link>/publication/lsdsem_uw_nlp/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lsdsem_uw_nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
+      <link>/publication/language_constraint/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/language_constraint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

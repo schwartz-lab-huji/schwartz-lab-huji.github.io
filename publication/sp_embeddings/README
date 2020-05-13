@@ -1,0 +1,22 @@
+About:
+----------
+
+The word embeddings found in this package are genearated using symmetric patterns.
+The embeddings can also be found in: http://www.cs.huji.ac.il/~roys02/papers/sp_embeddings/sp_embeddings.html
+
+A complete description of the embeddings appears in the paper:
+Roy Schwartz, Roi Reichart and Ari Rappoport, "Symmetric Pattern Based Word Embeddings for Improved Word Similarity Prediction", in proc. of CoNLL 2015.
+
+
+####### Package content #######
+
+The published embeddings lead to state-of-the-art results on the SimLex999 dataset.
+
+The embeddings are slightly different from the ones described on the paper:
+First, the vectors in the papers were generated using the entire lexicon as features (around 200K words). 
+In order to reduce the size of the vectors, we publish vectors of size 10K only). 
+This actually leads to a further 1-1.5 increase in our embeddings' performance.
+
+Moreover, we also publish a dense version of our vectors, generated using the random projection algorithm (we used the scikit python package, http://scikit-learn.org/stable/modules/random_projection.html).
+We publish both vectors of size 300 and 500. Results using these vectors are slightly inferior compared to the original (sparse) vectors.
+

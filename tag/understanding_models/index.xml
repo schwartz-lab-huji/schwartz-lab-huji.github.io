@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>understanding_models | Home</title>
+    <link>/tag/understanding_models/</link>
+      <atom:link href="/tag/understanding_models/index.xml" rel="self" type="application/rss+xml" />
+    <description>understanding_models</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>understanding_models</title>
+      <link>/tag/understanding_models/</link>
+    </image>
+    
+    <item>
+      <title>A Formal Hierarchy of RNN Architectures</title>
+      <link>/publication/rnn_hierarchy/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rnn_hierarchy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaLM: A Hybrid Parser and Language Model</title>
+      <link>/publication/palm/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/palm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN Architecture Learning with Sparse Regularization </title>
+      <link>/publication/sparsifying/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sparsifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational Recurrences</title>
+      <link>/publication/rr/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
+      <link>/publication/sopa/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sopa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

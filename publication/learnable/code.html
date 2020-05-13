@@ -1,0 +1,89 @@
+<html>
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Cabin:600|Nunito:400,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../import.js"></script> 
+<link rel="stylesheet" href="../styles.css" type="text/css">
+<title >Generating the Most Learnable Dependency Scheme</title>
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<h1 class=page_titles>Generating the Most Learnable Dependency Scheme</h1>
+
+<p>
+This page contains a conversion script from the constituent format used in the Penn Treebank into dependency trees.
+
+It was developed in the <a href="http://www.huji.ac.il/" target="_blank">The Hebrew University of Jerusalem</a> by Roy Schwartz.
+<br>
+A complete description of the scheme appears in the paper <a href="#footnote-1">Schwartz et al., 2012</a>.
+This code is a redistribution of the <a href=http://nlp.cs.lth.se/software/treebank_converter/ target="_blank">pennconverter script</a>, generously provided by <a href=http://www.df.lth.se/~richardj/ target="_blank">Richard Johansson</a>, and based on the paper <a href="#footnote-2">Johansson and Nugues, 2007</a>.
+
+<br>
+<br>
+
+For convenience of usage, we removed most of the configuration options, so the script can only generate the most learnable scheme described in <a href="#footnote-1">Schwartz et al., 2012</a>.
+For a more flexible version of the script, use the original <a href=http://nlp.cs.lth.se/software/treebank_converter/ target="_blank">pennconverter script</a>.
+
+
+<h3>Download</h3>
+The jar file is available <a href='learnable_pennconvertor.jar'>here</a>
+
+
+
+<h3> Usage </h3>
+
+The users of this code are requested to cite the above-mentioned publications.
+By downloading this code, users agree to the <a href="http://fileadmin.cs.lth.se/nlp/software/pennconverter/license.txt" target="_blank">this license</a>.
+
+<h4>Requirements and Installation </h4>
+
+java => 5 is required. No compilation/installation is required. 
+
+<h4>Running </h4>
+
+To run, type:
+<br><br>
+<code>java -jar learnable_pennconverter.jar</code>
+
+<h4>Command Line Options</h4>
+
+<table class="normal">
+			<tr><td><code>-f FILE</code></td> <td class="code_description">read (constituency) input from FILE (default: STDIN)</td></tr>
+
+			<tr><td><code>-t FILE</code></td> <td class="code_description">output to (dependency) FILE (default: STDOUT)</td></tr>
+			<tr><td><code>-log FILE</code></td> <td class="code_description">write log messages to FILE (default: no messages)</td></tr>
+			<tr>
+				<td><code>-verbosity N</code></td>
+				<td class="code_description">set verbosity level in log file to N (0, 1, or 2; default: 0)</td>
+
+			</tr>
+			<tr>
+				<td><code>-stopOnError[=<b>true</b>|false]</code></td>
+				<td class="code_description">terminate if an error is encountered</td>
+			</tr>
+			<tr><td><code>-format[=<b>conllx</b>|conll2008|tab]</code></td> <td class="code_description">Output format</td></tr>
+			<tr><td><code>-help</code></td> <td class="code_description">Help message</td></tr>
+		</table>
+
+<h4>Important</h4>
+The program is unable to handle treebanks in languages other than English.
+
+
+<h3>References</h3>
+<p id="footnote-1">Roy Schwartz, Omri Abend and Ari Rappoport, <i><a href='https://www.aclweb.org/anthology/D13-1193.pdf'>Learnability-based Syntactic Annotation Design</a></i>.
+ In proceedings of <a href="http://www.coling2012-iitb.org/" target="_blank">COLING 2012</a> (long paper)
+</p>
+
+<p id="footnote-2">Richard Johansson and Pierre Nugues, <i><a href="http://dspace.utlib.ee/dspace/bitstream/10062/2560/1/reg-Johansson-10.pdf">Extended Constituent-to-dependency Conversion for English</a></i>,
+In proceedings of <a href="http://math.ut.ee/nodalida2007/" target="_blank">NODALIDA 2007
+[<a href="http://dspace.utlib.ee/dspace/bitstream/10062/2560/1/reg-Johansson-10.pdf">pdf</a>] 
+[<a href='http://www.df.lth.se/~richardj/bibtex.cgi/johansson2007a' target="_blank">bib</a>]
+</p>
+<br>
+    
+</body>
+
+</html>

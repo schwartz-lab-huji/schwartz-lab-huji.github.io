@@ -1,0 +1,104 @@
+About:
+----------
+
+This package includes an implementation of the Davidov and Rappoport algorithm (DR06) for extracting symmetric patterns (SPs) from plain text.
+
+This code is written by Roy Schwartz can also be found in: http://www.cs.huji.ac.il/~roys02/software/dr06.html
+
+A complete description of the algorithm appears in the paper:
+"Efficient unsupervised discovery of word categories using symmetric patterns and high frequency words.",
+Dmitry Davidov and Ari Rappoport, In proceedings of ACL-Coling 2006
+
+
+
+Copying and Modifying
+---------------------------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+A copy of the GNU General Public License can be found in the file
+'License.txt' which is part of this distribution.
+
+
+
+Package Contents:
+---------------------------
+
+This package includes the following files:
+1. README - this file
+2. dr06.pl - executable file which computes the set of patterns.
+3. License.txt - a license file
+
+Compilation and Installation:
+
+dr06.pl is a perl script, which requires perl 5 installed. The
+following (standard) perl packages are also required:
+IO::File;
+Getopt::Long;
+List::Util 
+
+No compilation is required. dr06.pl is the executable file.
+
+
+Running:
+------------
+
+To run, type:
+
+perl dr06.pl 
+-h                                      # Display help message
+-if=s [MANDATORY]                       # Input file of plain text to compute set of SPs.
+-lc+                                    # Convert text to lower case
+-m_thr=f (0.05)                         # Threshold of M measure for selecting SPs
+-max_pattern_length=i (5)               # Maximum pattern length to consider.
+-merge_sps+                             # Optional: merge patterns that are a longer version of 
+                                        # 			another selected SP. 
+                                        #			For example, "BOTH CW and CW" contains "CW and CW",
+                                        #			and can thus be ignored.
+-min_edge_frequency=i (3)               # Minimal frequency for edge to be considered in the 
+                                        # graph construction.
+-min_num_of_edges_per_pattern (5000)    # Minimum of edge types for a pattern to be considered a candidate.
+-n_cws=i (10000)                        # Number of content words (CWs) for computing the M measure (for efficiency)
+-n_hfws=i (1000)                        # Number of high frequency words (HFWs) that can serve as pattern elements.
+-n_pattern_candidates=i (5000)          # Number of patterns to considered (the N most frequent patterns)
+-of=s [MANDATORY]                       # Output file for selected SPs.
+-top_n_lines=i (10000000)               # Use only the top N lines for computing vocabulary and list of pattern candidates.
+
+
+
+Comments:
+------------
+* I would recommend using a corpus of at least 10M sentences, preferably more to get good results. 
+  * Most of the parameters above are used for pruning the graph and have no other effect in most cases.
+  The only real important parameter is m_thr. Setting it to 0.05 gives between 10 and a few dozens of patterns (for English)
+  when using a large enough corpus, and the merge_sps parameter.
+* This code is language independent and can be applied to a corpus in any language.
+
+
+Feedback:
+------------
+If you have any questions, feel free to email roys 02 at cs dot huji dot ac dot il
+
+
+Credit:
+------------
+
+If you do use this tool in your projects, please cite one of the following papers:
+
+*   "Efficient unsupervised discovery of word categories using symmetric patterns and high frequency words",
+    Dmitry Davidov and Ari Rappoport, In proceedings of ACL-Coling 2006
+
+*   "Symmetric Pattern Based Word Embeddings for Improved Word Similarity Prediction",
+    Roy Schwartz, Roi Reichart and Ari Rappoport, In proceedings of CoNLL 2015
+
+*   "Minimally Supervised Classification to Semantic Categories using Automatically Acquired Symmetric Patterns"
+    Roy Schwartz, Roi Reichart and Ari Rappoport, In proceedings of COLING 2014
+

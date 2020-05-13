@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;http://www.cs.huji.ac.il/~oabend/&#39; target=&#39;blank&#39;&gt;Omri Abend&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttp/www.cs.huji.ac.il/~oabend/-targetblankomri-abend/a/</link>
+      <atom:link href="/author/a-hrefhttp/www.cs.huji.ac.il/~oabend/-targetblankomri-abend/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;http://www.cs.huji.ac.il/~oabend/&#39; target=&#39;blank&#39;&gt;Omri Abend&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;http://www.cs.huji.ac.il/~oabend/&#39; target=&#39;blank&#39;&gt;Omri Abend&lt;/a&gt;</title>
+      <link>/author/a-hrefhttp/www.cs.huji.ac.il/~oabend/-targetblankomri-abend/a/</link>
+    </image>
+    
+    <item>
+      <title>Learnability-based Syntactic Annotation Design</title>
+      <link>/publication/learnable/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/learnable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</title>
+      <link>/publication/ned/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/ned/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

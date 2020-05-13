@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roy Schwartz | Home</title>
+    <link>/author/roy-schwartz/</link>
+      <atom:link href="/author/roy-schwartz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Roy Schwartz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/author/roy-schwartz/avatar_hu3397c8cde79113be5c3a703bd43c7578_1567461_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Roy Schwartz</title>
+      <link>/author/roy-schwartz/</link>
+    </image>
+    
+  </channel>
+</rss>

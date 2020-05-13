@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>improved_evaluation | Home</title>
+    <link>/tag/improved_evaluation/</link>
+      <atom:link href="/tag/improved_evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <description>improved_evaluation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>improved_evaluation</title>
+      <link>/tag/improved_evaluation/</link>
+    </image>
+    
+    <item>
+      <title>Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</title>
+      <link>/publication/inoculation/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/inoculation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annotation Artifacts in Natural Language Inference Data</title>
+      <link>/publication/artifacts/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/artifacts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</title>
+      <link>/publication/swag/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/swag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
+      <link>/publication/language_constraint/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/language_constraint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</title>
+      <link>/publication/ned/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/ned/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

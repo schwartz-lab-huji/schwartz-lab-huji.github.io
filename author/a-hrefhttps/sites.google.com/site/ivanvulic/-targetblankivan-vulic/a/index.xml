@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://sites.google.com/site/ivanvulic/&#39; target=&#39;blank&#39;&gt;Ivan Vulić&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/sites.google.com/site/ivanvulic/-targetblankivan-vulic/a/</link>
+      <atom:link href="/author/a-hrefhttps/sites.google.com/site/ivanvulic/-targetblankivan-vulic/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://sites.google.com/site/ivanvulic/&#39; target=&#39;blank&#39;&gt;Ivan Vulić&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://sites.google.com/site/ivanvulic/&#39; target=&#39;blank&#39;&gt;Ivan Vulić&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/sites.google.com/site/ivanvulic/-targetblankivan-vulic/a/</link>
+    </image>
+    
+    <item>
+      <title>Automatic selection of context configurations for improved (and fast) class-specific word representations</title>
+      <link>/publication/context_config/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/context_config/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
