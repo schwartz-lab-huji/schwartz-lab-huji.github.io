@@ -248,6 +248,11 @@
   </url>
   
   <url>
+    <loc>/tag/word_representations/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -434,11 +439,6 @@
   
   <url>
     <loc>/publication/language_constraint/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/word_representations/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
