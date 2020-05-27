@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;a href=&#39;http://www.cs.cmu.edu/~jessed/&#39; target=&#39;blank&#39;&gt;Jesse Dodge&lt;/a&gt;* | Home</title>
+    <title>&lt;a href=&#39;http://www.cs.cmu.edu/~jessed/&#39; target=&#39;blank&#39;&gt;Jesse Dodge&lt;/a&gt; | Home</title>
     <link>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</link>
       <atom:link href="/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/index.xml" rel="self" type="application/rss+xml" />
-    <description>&lt;a href=&#39;http://www.cs.cmu.edu/~jessed/&#39; target=&#39;blank&#39;&gt;Jesse Dodge&lt;/a&gt;*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <description>&lt;a href=&#39;http://www.cs.cmu.edu/~jessed/&#39; target=&#39;blank&#39;&gt;Jesse Dodge&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>&lt;a href=&#39;http://www.cs.cmu.edu/~jessed/&#39; target=&#39;blank&#39;&gt;Jesse Dodge&lt;/a&gt;*</title>
+      <title>&lt;a href=&#39;http://www.cs.cmu.edu/~jessed/&#39; target=&#39;blank&#39;&gt;Jesse Dodge&lt;/a&gt;</title>
       <link>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</link>
     </image>
     
     <item>
-      <title>Green AI</title>
-      <link>/publication/greenai/</link>
+      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
+      <link>/publication/sledgehammer/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sledgehammer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
+      <link>/publication/finetune/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/finetune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN Architecture Learning with Sparse Regularization </title>
+      <link>/publication/sparsifying/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/greenai/</guid>
+      <guid>/publication/sparsifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Show Your Work: Improved Reporting of Experimental Results </title>
+      <link>/publication/showyourwork/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork/</guid>
       <description></description>
     </item>
     
