@@ -108,6 +108,31 @@
   </url>
   
   <url>
+    <loc>/author/a-hrefhttps/aidaamini.github.io/-targetblankaida-amini/a/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/homes.cs.washington.edu/~hannaneh/-targetblankhannaneh-hajishirzi/a/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/david-wadden/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/covid_mechanisms/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tom-hope/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/green_ai/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
@@ -134,11 +159,6 @@
   
   <url>
     <loc>/author/a-hrefhttps/homes.cs.washington.edu/~ali/-targetblankali-farhadi/a/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/homes.cs.washington.edu/~hannaneh/-targetblankhannaneh-hajishirzi/a/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -563,6 +583,10 @@
   </url>
   
   <url>
+    <loc>/author/deborah-wolhandler/</loc>
+  </url>
+  
+  <url>
     <loc>/project/green_nlp/</loc>
   </url>
   
@@ -596,6 +620,10 @@
   
   <url>
     <loc>/author/yarden-tal/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/yonatan-bitton-co-advised-with-a-hrefhttps/gabrielstanovsky.github.io/-target_blankgabriel-stanovsky/a/</loc>
   </url>
   
 </urlset>
