@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9 | Home</title>
+    <link>/publication-type/9/</link>
+      <atom:link href="/publication-type/9/index.xml" rel="self" type="application/rss+xml" />
+    <description>9</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>9</title>
+      <link>/publication-type/9/</link>
+    </image>
+    
+    <item>
+      <title>Extracting a knowledge base of mechanisms from COVID-19 papers</title>
+      <link>/publication/covid_mechanisms/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/covid_mechanisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTMs Exploit Linguistic Attributes of Data</title>
+      <link>/publication/lstm/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story Cloze Task: UW NLP System</title>
+      <link>/publication/lsdsem_uw_nlp/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lsdsem_uw_nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -37,14 +37,6 @@
     </item>
     
     <item>
-      <title>Extracting a knowledge base of mechanisms from COVID-19 papers</title>
-      <link>/publication/covid_mechanisms/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/covid_mechanisms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</title>
       <link>/publication/inoculation/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
@@ -101,14 +93,6 @@
     </item>
     
     <item>
-      <title>LSTMs Exploit Linguistic Attributes of Data</title>
-      <link>/publication/lstm/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/lstm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Rational Recurrences</title>
       <link>/publication/rr/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
@@ -137,14 +121,6 @@
       <link>/publication/context_config/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       <guid>/publication/context_config/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Story Cloze Task: UW NLP System</title>
-      <link>/publication/lsdsem_uw_nlp/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/lsdsem_uw_nlp/</guid>
       <description></description>
     </item>
     
