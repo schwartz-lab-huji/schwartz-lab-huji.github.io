@@ -83,6 +83,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -189,11 +194,6 @@
   
   <url>
     <loc>/author/a-hrefhttp/sameersingh.org-targetblanksameer-singh/a/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttp/samthomson.com/-targetblanksam-thomson/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,6 +313,11 @@
   </url>
   
   <url>
+    <loc>/author/a-hrefhttp/samthomson.com/-targetblanksam-thomson/a/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~dongyeok/-targetblankdongyeop-kang/a/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -395,11 +400,6 @@
   <url>
     <loc>/publication/swag/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
