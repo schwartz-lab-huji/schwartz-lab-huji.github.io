@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
       <link>/publication/finetune/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>

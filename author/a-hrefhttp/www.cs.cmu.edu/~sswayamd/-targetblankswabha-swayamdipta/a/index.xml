@@ -22,5 +22,13 @@
     
   </channel>
 </rss>
-channel>
+<item>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>

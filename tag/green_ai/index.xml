@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>green_ai | Home</title>
+    <link>/tag/green_ai/</link>
+      <atom:link href="/tag/green_ai/index.xml" rel="self" type="application/rss+xml" />
+    <description>green_ai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>green_ai</title>
+      <link>/tag/green_ai/</link>
+    </image>
+    
+    <item>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
