@@ -5,7 +5,7 @@
     <link>/tag/understanding_models/</link>
       <atom:link href="/tag/understanding_models/index.xml" rel="self" type="application/rss+xml" />
     <description>understanding_models</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>understanding_models</title>
@@ -15,7 +15,7 @@
     <item>
       <title>A Formal Hierarchy of RNN Architectures</title>
       <link>/publication/rnn_hierarchy/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/publication/rnn_hierarchy/</guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Rational Recurrences</title>
       <link>/publication/rr/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/publication/rr/</guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
       <link>/publication/sopa/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>/publication/sopa/</guid>
       <description></description>
     </item>

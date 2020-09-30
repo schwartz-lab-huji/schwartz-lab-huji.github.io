@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,26 +13,10 @@
     </image>
     
     <item>
-      <title>A Formal Hierarchy of RNN Architectures</title>
-      <link>/publication/rnn_hierarchy/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rnn_hierarchy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Mixture of &lt;i&gt;h-1&lt;/i&gt; Heads is Better than &lt;i&gt;h&lt;/i&gt; Heads</title>
-      <link>/publication/mae/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/mae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
-      <link>/publication/sledgehammer/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/sledgehammer/</guid>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
       <description></description>
     </item>
     
@@ -45,10 +29,26 @@
     </item>
     
     <item>
-      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
-      <link>/publication/datamaps/</link>
-      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/datamaps/</guid>
+      <title>A Formal Hierarchy of RNN Architectures</title>
+      <link>/publication/rnn_hierarchy/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rnn_hierarchy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mixture of &lt;i&gt;h-1&lt;/i&gt; Heads is Better than &lt;i&gt;h&lt;/i&gt; Heads</title>
+      <link>/publication/mae/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
+      <link>/publication/sledgehammer/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sledgehammer/</guid>
       <description></description>
     </item>
     
@@ -65,14 +65,6 @@
       <link>/publication/greenai/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>/publication/greenai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</title>
-      <link>/publication/inoculation/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/inoculation/</guid>
       <description></description>
     </item>
     
@@ -109,9 +101,49 @@
     </item>
     
     <item>
+      <title>Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</title>
+      <link>/publication/inoculation/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/inoculation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational Recurrences</title>
+      <link>/publication/rr/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</title>
+      <link>/publication/swag/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/swag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTMs Exploit Linguistic Attributes of Data</title>
+      <link>/publication/lstm/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
+      <link>/publication/sopa/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sopa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications</title>
       <link>/publication/peeread/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>/publication/peeread/</guid>
       <description></description>
     </item>
@@ -119,64 +151,32 @@
     <item>
       <title>Annotation Artifacts in Natural Language Inference Data</title>
       <link>/publication/artifacts/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       <guid>/publication/artifacts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LSTMs Exploit Linguistic Attributes of Data</title>
-      <link>/publication/lstm/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/lstm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rational Recurrences</title>
-      <link>/publication/rr/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
-      <link>/publication/sopa/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sopa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</title>
-      <link>/publication/swag/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/swag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic selection of context configurations for improved (and fast) class-specific word representations</title>
       <link>/publication/context_config/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <guid>/publication/context_config/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Story Cloze Task: UW NLP System</title>
-      <link>/publication/lsdsem_uw_nlp/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/lsdsem_uw_nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
       <link>/publication/language_constraint/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       <guid>/publication/language_constraint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story Cloze Task: UW NLP System</title>
+      <link>/publication/lsdsem_uw_nlp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lsdsem_uw_nlp/</guid>
       <description></description>
     </item>
     

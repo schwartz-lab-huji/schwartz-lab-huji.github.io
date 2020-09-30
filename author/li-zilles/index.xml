@@ -5,7 +5,7 @@
     <link>/author/li-zilles/</link>
       <atom:link href="/author/li-zilles/index.xml" rel="self" type="application/rss+xml" />
     <description>Li Zilles</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Li Zilles</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Story Cloze Task: UW NLP System</title>
-      <link>/publication/lsdsem_uw_nlp/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/lsdsem_uw_nlp/</guid>
+      <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
+      <link>/publication/language_constraint/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/language_constraint/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
-      <link>/publication/language_constraint/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/language_constraint/</guid>
+      <title>Story Cloze Task: UW NLP System</title>
+      <link>/publication/lsdsem_uw_nlp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lsdsem_uw_nlp/</guid>
       <description></description>
     </item>
     
