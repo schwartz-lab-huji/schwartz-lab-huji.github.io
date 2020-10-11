@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="The COVID-19 pandemic has sparked an influx of research by scientists worldwide, leading to a rapidly evolving corpus of interdisciplinary papers. At the time of this writing the COVID-19 Open Research Dataset (CORD-19) has amassed over 128K relevant papers, both historical and cutting-edge. In this emergency scenario, there is a need for automatic information extraction (IE) to provide scientists with structured knowledge, and to accelerate exploration and discovery.&lt;br&gt;In this work we extract relations capturing a broad notion of mechanisms in CORD-19 papers &amp;ndash; Spanning a range of mechanisms as diverse as psychological intervention techniques, computational algorithms, and molecular mechanisms of viral cell entry. This unified view of natural and artificial mechanisms can help generalize across the CORD-19 corpus and is designed to help scale the study of the many different types of processes, activities and functions described in the dataset.&lt;br&gt;We collect a set of annotations from domain experts for direct mechanisms (operations and functions explicitly described in the text) and indirect mechanisms (observed effects and interactions without an explicit description of a direct functional relation).  For example, descriptions of the mechanism by which the SARS-CoV-2 virus binds to cells, or of a diagnostic procedure based on computer vision &amp;ndash; are considered direct mechanisms. Conversely, descriptions of indirect mechanisms can for example be of observed links between COVID-19 and certain symptoms, with no explicit mention of the functional process leading from the disease to the symptoms.   This distinction between direct and indirect relations is inspired by a review of biomedical and scientific ontologies (e.g., direct and indirect regulation of proteins by chemicals).&lt;br&gt;We allow annotators to select free-form text spans as the arguments in our mechanism relations; this is in contrast to many existing datasets of annotated scientific relations which are often entity-centric (e.g., protein-chemical interactions). We do so in order to capture the complexity and diversity of the many concepts and ideas described in the corpus, in a scalable approach. To address the challenging nature of the annotation task with multiple &#34;correct&#34; annotations of complex and diverse spans, we conduct a multi-round annotation process with final adjudication by a domain expert experienced in bioNLP annotations.&lt;br&gt;Our annotations are used in combination with existing datasets from different domains to train a relation extraction model, using a mapping schema for previously introduced scientific datasets,selecting only direct and indirect mechanisms (e.g.,DIRECT UP-REGULATION in the chemprot dataset) and unifying relation labels into our typology using a domain expert.  Our results indicate we outperform baselines including openIE and SRL, and also supervised models trained on related science IE datasets in the biomedical and computer science domains. We use a biomedical language model that we fine-tune to capture semantic similarity, build a graph of similar mechanisms and induce concepts by finding cliques.  To support search over our KB, we use the same language model for retrieving relations similar to the query. To help boost community efforts we release our curated data and models as well as a large-scale knowledge graph of extracted mechanisms.">
+  <meta name="description" content="The urgency of mitigating COVID-19 has spawned a large and diverse body of scientific literature that is challenging for researchers to navigate. This explosion of information has stimulated interest in automated tools to help identify useful knowledge. We have pursued the use of methods for extracting diverse forms of mechanism relations from the natural language of scientific papers. We seek to identify concepts in COVID-19 and related literature which represent activities, functions, associations and causal relations, ranging from cellular processes to economic impacts. We formulate a broad, coarse-grained schema targeting mechanism relations between open, free-form entities. Our approach strikes a balance between expressivity and breadth that supports generalization across diverse concepts. We curate a dataset of scientific papers annotated according to our novel schema. Using an information extraction model trained on this new corpus, we construct a knowledge base (KB) of 2M mechanism relations, which we make publicly available. Our model is able to extract relations at an F1 at least twice that of baselines such as open IE or related scientific IE systems. We conduct experiments examining the ability of our system to retrieve relevant information on viral mechanisms of action, and on applications of AI to COVID-19 research. In both cases, our system identifies relevant information from our automatically-constructed knowledge base with high precision.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/covid_mechanisms/">
@@ -227,21 +227,20 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Home">
   <meta property="og:url" content="/publication/covid_mechanisms/">
-  <meta property="og:title" content="Extracting a knowledge base of mechanisms from COVID-19 papers | Home">
-  <meta property="og:description" content="The COVID-19 pandemic has sparked an influx of research by scientists worldwide, leading to a rapidly evolving corpus of interdisciplinary papers. At the time of this writing the COVID-19 Open Research Dataset (CORD-19) has amassed over 128K relevant papers, both historical and cutting-edge. In this emergency scenario, there is a need for automatic information extraction (IE) to provide scientists with structured knowledge, and to accelerate exploration and discovery.&lt;br&gt;In this work we extract relations capturing a broad notion of mechanisms in CORD-19 papers &amp;ndash; Spanning a range of mechanisms as diverse as psychological intervention techniques, computational algorithms, and molecular mechanisms of viral cell entry. This unified view of natural and artificial mechanisms can help generalize across the CORD-19 corpus and is designed to help scale the study of the many different types of processes, activities and functions described in the dataset.&lt;br&gt;We collect a set of annotations from domain experts for direct mechanisms (operations and functions explicitly described in the text) and indirect mechanisms (observed effects and interactions without an explicit description of a direct functional relation).  For example, descriptions of the mechanism by which the SARS-CoV-2 virus binds to cells, or of a diagnostic procedure based on computer vision &amp;ndash; are considered direct mechanisms. Conversely, descriptions of indirect mechanisms can for example be of observed links between COVID-19 and certain symptoms, with no explicit mention of the functional process leading from the disease to the symptoms.   This distinction between direct and indirect relations is inspired by a review of biomedical and scientific ontologies (e.g., direct and indirect regulation of proteins by chemicals).&lt;br&gt;We allow annotators to select free-form text spans as the arguments in our mechanism relations; this is in contrast to many existing datasets of annotated scientific relations which are often entity-centric (e.g., protein-chemical interactions). We do so in order to capture the complexity and diversity of the many concepts and ideas described in the corpus, in a scalable approach. To address the challenging nature of the annotation task with multiple &#34;correct&#34; annotations of complex and diverse spans, we conduct a multi-round annotation process with final adjudication by a domain expert experienced in bioNLP annotations.&lt;br&gt;Our annotations are used in combination with existing datasets from different domains to train a relation extraction model, using a mapping schema for previously introduced scientific datasets,selecting only direct and indirect mechanisms (e.g.,DIRECT UP-REGULATION in the chemprot dataset) and unifying relation labels into our typology using a domain expert.  Our results indicate we outperform baselines including openIE and SRL, and also supervised models trained on related science IE datasets in the biomedical and computer science domains. We use a biomedical language model that we fine-tune to capture semantic similarity, build a graph of similar mechanisms and induce concepts by finding cliques.  To support search over our KB, we use the same language model for retrieving relations similar to the query. To help boost community efforts we release our curated data and models as well as a large-scale knowledge graph of extracted mechanisms."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Extracting a Knowledge Base of Mechanisms from COVID-19 Papers | Home">
+  <meta property="og:description" content="The urgency of mitigating COVID-19 has spawned a large and diverse body of scientific literature that is challenging for researchers to navigate. This explosion of information has stimulated interest in automated tools to help identify useful knowledge. We have pursued the use of methods for extracting diverse forms of mechanism relations from the natural language of scientific papers. We seek to identify concepts in COVID-19 and related literature which represent activities, functions, associations and causal relations, ranging from cellular processes to economic impacts. We formulate a broad, coarse-grained schema targeting mechanism relations between open, free-form entities. Our approach strikes a balance between expressivity and breadth that supports generalization across diverse concepts. We curate a dataset of scientific papers annotated according to our novel schema. Using an information extraction model trained on this new corpus, we construct a knowledge base (KB) of 2M mechanism relations, which we make publicly available. Our model is able to extract relations at an F1 at least twice that of baselines such as open IE or related scientific IE systems. We conduct experiments examining the ability of our system to retrieve relevant information on viral mechanisms of action, and on applications of AI to COVID-19 research. In both cases, our system identifies relevant information from our automatically-constructed knowledge base with high precision."><meta property="og:image" content="/publication/covid_mechanisms/featured.png">
+  <meta property="twitter:image" content="/publication/covid_mechanisms/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-06-19T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-10-08T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-06-19T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-10-09T00:00:00&#43;00:00">
   
 
   
@@ -265,10 +264,14 @@
     "@type": "WebPage",
     "@id": "/publication/covid_mechanisms/"
   },
-  "headline": "Extracting a knowledge base of mechanisms from COVID-19 papers",
+  "headline": "Extracting a Knowledge Base of Mechanisms from COVID-19 Papers",
   
-  "datePublished": "2020-06-19T00:00:00Z",
-  "dateModified": "2020-06-19T00:00:00Z",
+  "image": [
+    "/publication/covid_mechanisms/featured.png"
+  ],
+  
+  "datePublished": "2020-10-08T00:00:00Z",
+  "dateModified": "2020-10-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -283,7 +286,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "The COVID-19 pandemic has sparked an influx of research by scientists worldwide, leading to a rapidly evolving corpus of interdisciplinary papers. At the time of this writing the COVID-19 Open Research Dataset (CORD-19) has amassed over 128K relevant papers, both historical and cutting-edge. In this emergency scenario, there is a need for automatic information extraction (IE) to provide scientists with structured knowledge, and to accelerate exploration and discovery.\u003cbr\u003eIn this work we extract relations capturing a broad notion of mechanisms in CORD-19 papers \u0026ndash; Spanning a range of mechanisms as diverse as psychological intervention techniques, computational algorithms, and molecular mechanisms of viral cell entry. This unified view of natural and artificial mechanisms can help generalize across the CORD-19 corpus and is designed to help scale the study of the many different types of processes, activities and functions described in the dataset.\u003cbr\u003eWe collect a set of annotations from domain experts for direct mechanisms (operations and functions explicitly described in the text) and indirect mechanisms (observed effects and interactions without an explicit description of a direct functional relation).  For example, descriptions of the mechanism by which the SARS-CoV-2 virus binds to cells, or of a diagnostic procedure based on computer vision \u0026ndash; are considered direct mechanisms. Conversely, descriptions of indirect mechanisms can for example be of observed links between COVID-19 and certain symptoms, with no explicit mention of the functional process leading from the disease to the symptoms.   This distinction between direct and indirect relations is inspired by a review of biomedical and scientific ontologies (e.g., direct and indirect regulation of proteins by chemicals).\u003cbr\u003eWe allow annotators to select free-form text spans as the arguments in our mechanism relations; this is in contrast to many existing datasets of annotated scientific relations which are often entity-centric (e.g., protein-chemical interactions). We do so in order to capture the complexity and diversity of the many concepts and ideas described in the corpus, in a scalable approach. To address the challenging nature of the annotation task with multiple \"correct\" annotations of complex and diverse spans, we conduct a multi-round annotation process with final adjudication by a domain expert experienced in bioNLP annotations.\u003cbr\u003eOur annotations are used in combination with existing datasets from different domains to train a relation extraction model, using a mapping schema for previously introduced scientific datasets,selecting only direct and indirect mechanisms (e.g.,DIRECT UP-REGULATION in the chemprot dataset) and unifying relation labels into our typology using a domain expert.  Our results indicate we outperform baselines including openIE and SRL, and also supervised models trained on related science IE datasets in the biomedical and computer science domains. We use a biomedical language model that we fine-tune to capture semantic similarity, build a graph of similar mechanisms and induce concepts by finding cliques.  To support search over our KB, we use the same language model for retrieving relations similar to the query. To help boost community efforts we release our curated data and models as well as a large-scale knowledge graph of extracted mechanisms."
+  "description": "The urgency of mitigating COVID-19 has spawned a large and diverse body of scientific literature that is challenging for researchers to navigate. This explosion of information has stimulated interest in automated tools to help identify useful knowledge. We have pursued the use of methods for extracting diverse forms of mechanism relations from the natural language of scientific papers. We seek to identify concepts in COVID-19 and related literature which represent activities, functions, associations and causal relations, ranging from cellular processes to economic impacts. We formulate a broad, coarse-grained schema targeting mechanism relations between open, free-form entities. Our approach strikes a balance between expressivity and breadth that supports generalization across diverse concepts. We curate a dataset of scientific papers annotated according to our novel schema. Using an information extraction model trained on this new corpus, we construct a knowledge base (KB) of 2M mechanism relations, which we make publicly available. Our model is able to extract relations at an F1 at least twice that of baselines such as open IE or related scientific IE systems. We conduct experiments examining the ability of our system to retrieve relevant information on viral mechanisms of action, and on applications of AI to COVID-19 research. In both cases, our system identifies relevant information from our automatically-constructed knowledge base with high precision."
 }
 </script>
 
@@ -301,7 +304,7 @@
 
 
 
-  <title>Extracting a knowledge base of mechanisms from COVID-19 papers | Home</title>
+  <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers | Home</title>
 
 </head>
 
@@ -636,18 +639,24 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
-  <h1>Extracting a knowledge base of mechanisms from COVID-19 papers</h1>
+  <h1>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -660,7 +669,7 @@
     
 
   
-  <span><a href='https://aidaamini.github.io/' target='blank'>Aida Amini</a>*</span>, <span>Tom Hope*</span>, <span>David Wadden</span>, <span><b>Roy Schwartz</b></span>, <span><a href='https://homes.cs.washington.edu/~hannaneh/' target='blank'>Hannaneh Hajishirzi</a></span>
+  <span><a href='https://aidaamini.github.io/' target='blank'>Aida Amini</a>*</span>, <span>Tom Hope*</span>, <span>David Wadden</span>, <span>Madeleine van Zuylen</span>, <span><a href='http://erichorvitz.com/' target='blank'>Eric Horvitz</a></span>, <span><b>Roy Schwartz</b></span>, <span><a href='https://homes.cs.washington.edu/~hannaneh/' target='blank'>Hannaneh Hajishirzi</a></span>
   </div>
   
   
@@ -671,7 +680,7 @@
     
       
     
-    June 2020
+    October 2020
   </span>
   
 
@@ -688,7 +697,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -721,7 +730,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://scinlp.org/pdfs/extracting-a-knowledge-base-of-mechanisms-from-covid-19-papers.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2010.03824" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -734,21 +743,21 @@
 
 
 
-
-
-
-
-
-
-
-
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=_CDH5Kxht6Q" target="_blank" rel="noopener">
-  Video
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/AidaAmini/DyGIE-COFIE" target="_blank" rel="noopener">
+  Dataset
 </a>
+
+
+
+
+
+
+
+
 
 
 
@@ -757,7 +766,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 378px; max-height: 315px;">
+  <div style="position: relative">
+    <img src="/publication/covid_mechanisms/featured.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -768,7 +784,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" style="text-align:justify">The COVID-19 pandemic has sparked an influx of research by scientists worldwide, leading to a rapidly evolving corpus of interdisciplinary papers. At the time of this writing the COVID-19 Open Research Dataset (CORD-19) has amassed over 128K relevant papers, both historical and cutting-edge. In this emergency scenario, there is a need for automatic information extraction (IE) to provide scientists with structured knowledge, and to accelerate exploration and discovery.<br>In this work we extract relations capturing a broad notion of mechanisms in CORD-19 papers – Spanning a range of mechanisms as diverse as psychological intervention techniques, computational algorithms, and molecular mechanisms of viral cell entry. This unified view of natural and artificial mechanisms can help generalize across the CORD-19 corpus and is designed to help scale the study of the many different types of processes, activities and functions described in the dataset.<br>We collect a set of annotations from domain experts for direct mechanisms (operations and functions explicitly described in the text) and indirect mechanisms (observed effects and interactions without an explicit description of a direct functional relation).  For example, descriptions of the mechanism by which the SARS-CoV-2 virus binds to cells, or of a diagnostic procedure based on computer vision – are considered direct mechanisms. Conversely, descriptions of indirect mechanisms can for example be of observed links between COVID-19 and certain symptoms, with no explicit mention of the functional process leading from the disease to the symptoms.   This distinction between direct and indirect relations is inspired by a review of biomedical and scientific ontologies (e.g., direct and indirect regulation of proteins by chemicals).<br>We allow annotators to select free-form text spans as the arguments in our mechanism relations; this is in contrast to many existing datasets of annotated scientific relations which are often entity-centric (e.g., protein-chemical interactions). We do so in order to capture the complexity and diversity of the many concepts and ideas described in the corpus, in a scalable approach. To address the challenging nature of the annotation task with multiple &ldquo;correct&rdquo; annotations of complex and diverse spans, we conduct a multi-round annotation process with final adjudication by a domain expert experienced in bioNLP annotations.<br>Our annotations are used in combination with existing datasets from different domains to train a relation extraction model, using a mapping schema for previously introduced scientific datasets,selecting only direct and indirect mechanisms (e.g.,DIRECT UP-REGULATION in the chemprot dataset) and unifying relation labels into our typology using a domain expert.  Our results indicate we outperform baselines including openIE and SRL, and also supervised models trained on related science IE datasets in the biomedical and computer science domains. We use a biomedical language model that we fine-tune to capture semantic similarity, build a graph of similar mechanisms and induce concepts by finding cliques.  To support search over our KB, we use the same language model for retrieving relations similar to the query. To help boost community efforts we release our curated data and models as well as a large-scale knowledge graph of extracted mechanisms.</p>
+    <p class="pub-abstract" style="text-align:justify">The urgency of mitigating COVID-19 has spawned a large and diverse body of scientific literature that is challenging for researchers to navigate. This explosion of information has stimulated interest in automated tools to help identify useful knowledge. We have pursued the use of methods for extracting diverse forms of mechanism relations from the natural language of scientific papers. We seek to identify concepts in COVID-19 and related literature which represent activities, functions, associations and causal relations, ranging from cellular processes to economic impacts. We formulate a broad, coarse-grained schema targeting mechanism relations between open, free-form entities. Our approach strikes a balance between expressivity and breadth that supports generalization across diverse concepts. We curate a dataset of scientific papers annotated according to our novel schema. Using an information extraction model trained on this new corpus, we construct a knowledge base (KB) of 2M mechanism relations, which we make publicly available. Our model is able to extract relations at an F1 at least twice that of baselines such as open IE or related scientific IE systems. We conduct experiments examining the ability of our system to retrieve relevant information on viral mechanisms of action, and on applications of AI to COVID-19 research. In both cases, our system identifies relevant information from our automatically-constructed knowledge base with high precision.</p>
     
 
     
@@ -780,8 +796,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#9">
-              Workshop paper
+            <a href="/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -792,18 +808,6 @@
     <div class="d-md-none space-below"></div>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Proc. of SciNLP</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -829,7 +833,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/covid_mechanisms/&amp;text=Extracting%20a%20knowledge%20base%20of%20mechanisms%20from%20COVID-19%20papers" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/covid_mechanisms/&amp;text=Extracting%20a%20Knowledge%20Base%20of%20Mechanisms%20from%20COVID-19%20Papers" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -842,7 +846,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/covid_mechanisms/&amp;t=Extracting%20a%20knowledge%20base%20of%20mechanisms%20from%20COVID-19%20papers" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/covid_mechanisms/&amp;t=Extracting%20a%20Knowledge%20Base%20of%20Mechanisms%20from%20COVID-19%20Papers" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -855,7 +859,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Extracting%20a%20knowledge%20base%20of%20mechanisms%20from%20COVID-19%20papers&amp;body=/publication/covid_mechanisms/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Extracting%20a%20Knowledge%20Base%20of%20Mechanisms%20from%20COVID-19%20Papers&amp;body=/publication/covid_mechanisms/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -868,7 +872,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/covid_mechanisms/&amp;title=Extracting%20a%20knowledge%20base%20of%20mechanisms%20from%20COVID-19%20papers" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/covid_mechanisms/&amp;title=Extracting%20a%20Knowledge%20Base%20of%20Mechanisms%20from%20COVID-19%20Papers" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -881,7 +885,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Extracting%20a%20knowledge%20base%20of%20mechanisms%20from%20COVID-19%20papers%20/publication/covid_mechanisms/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Extracting%20a%20Knowledge%20Base%20of%20Mechanisms%20from%20COVID-19%20Papers%20/publication/covid_mechanisms/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -894,7 +898,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/covid_mechanisms/&amp;title=Extracting%20a%20knowledge%20base%20of%20mechanisms%20from%20COVID-19%20papers" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/covid_mechanisms/&amp;title=Extracting%20a%20Knowledge%20Base%20of%20Mechanisms%20from%20COVID-19%20Papers" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

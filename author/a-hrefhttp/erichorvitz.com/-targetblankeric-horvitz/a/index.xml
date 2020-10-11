@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Home</title>
-    <link>/publication-type/3/</link>
-      <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
-    <description>3</description>
+    <title>&lt;a href=&#39;http://erichorvitz.com/&#39; target=&#39;blank&#39;&gt;Eric Horvitz&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttp/erichorvitz.com/-targetblankeric-horvitz/a/</link>
+      <atom:link href="/author/a-hrefhttp/erichorvitz.com/-targetblankeric-horvitz/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;http://erichorvitz.com/&#39; target=&#39;blank&#39;&gt;Eric Horvitz&lt;/a&gt;</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>3</title>
-      <link>/publication-type/3/</link>
+      <title>&lt;a href=&#39;http://erichorvitz.com/&#39; target=&#39;blank&#39;&gt;Eric Horvitz&lt;/a&gt;</title>
+      <link>/author/a-hrefhttp/erichorvitz.com/-targetblankeric-horvitz/a/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/covid_mechanisms/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/publication/covid_mechanisms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
-      <link>/publication/finetune/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/finetune/</guid>
       <description></description>
     </item>
     

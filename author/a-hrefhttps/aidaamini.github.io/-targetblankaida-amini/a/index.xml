@@ -5,7 +5,7 @@
     <link>/author/a-hrefhttps/aidaamini.github.io/-targetblankaida-amini/a/</link>
       <atom:link href="/author/a-hrefhttps/aidaamini.github.io/-targetblankaida-amini/a/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;a href=&#39;https://aidaamini.github.io/&#39; target=&#39;blank&#39;&gt;Aida Amini&lt;/a&gt;*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;a href=&#39;https://aidaamini.github.io/&#39; target=&#39;blank&#39;&gt;Aida Amini&lt;/a&gt;*</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Extracting a knowledge base of mechanisms from COVID-19 papers</title>
+      <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</title>
       <link>/publication/covid_mechanisms/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/publication/covid_mechanisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extracting a knowledge base of mechanisms from COVID-19 papers</title>
+      <link>/publication/covid_mechanisms_ws/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/covid_mechanisms_ws/</guid>
       <description></description>
     </item>
     
