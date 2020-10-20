@@ -5,12 +5,20 @@
     <link>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</link>
       <atom:link href="/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#39;blank&#39;&gt;Noah A. Smith&lt;/a&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#39;blank&#39;&gt;Noah A. Smith&lt;/a&gt;</title>
       <link>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</link>
     </image>
+    
+    <item>
+      <title>Parameter Norm Growth During Training of Transformers</title>
+      <link>/publication/norm_growth/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/norm_growth/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>

@@ -5,12 +5,20 @@
     <link>/tag/understanding_models/</link>
       <atom:link href="/tag/understanding_models/index.xml" rel="self" type="application/rss+xml" />
     <description>understanding_models</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>understanding_models</title>
       <link>/tag/understanding_models/</link>
     </image>
+    
+    <item>
+      <title>Parameter Norm Growth During Training of Transformers</title>
+      <link>/publication/norm_growth/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/norm_growth/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Formal Hierarchy of RNN Architectures</title>

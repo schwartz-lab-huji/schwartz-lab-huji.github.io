@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="The capacity of neural networks like the widely adopted transformer is known to be very high. Evidence is emerging that they learn successfully due to inductive bias in the training routine, typically some variant of gradient descent (GD). To better understand this bias, we study the tendency of transformer parameters to grow in magnitude during training.  We find, both theoretically and empirically, that, in certain contexts, GD increases the parameter L2 norm up to a threshold that itself increases with training-set accuracy. This means increasing training accuracy over time enables the norm to increase. Empirically, we show that the norm grows continuously over pretraining for T5 (Raffel et al., 2019). We show that pretrained T5 approximates a semi-discretized network with saturated activation functions. Such &#34;saturated&#34; networks are known to have a reduced capacity compared to the original network family that can be described in automata-theoretic terms. This suggests saturation is a new characterization of an inductive bias implicit in GD that is of particular interest for NLP. While our experiments focus on transformers, our theoretical analysis extends to other architectures with similar formal properties, such as feedforward ReLU networks.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/author/broy-schwartz/b/">
+  <link rel="alternate" hreflang="en-us" href="/publication/norm_growth/">
 
   
 
@@ -212,14 +212,12 @@
   
 
   
-  <link rel="alternate" href="/author/broy-schwartz/b/index.xml" type="application/rss+xml" title="Home">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/author/broy-schwartz/b/">
+  <link rel="canonical" href="/publication/norm_growth/">
 
   
   
@@ -235,18 +233,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Home">
-  <meta property="og:url" content="/author/broy-schwartz/b/">
-  <meta property="og:title" content="&lt;b&gt;Roy Schwartz&lt;/b&gt; | Home">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/norm_growth/">
+  <meta property="og:title" content="Parameter Norm Growth During Training of Transformers | Home">
+  <meta property="og:description" content="The capacity of neural networks like the widely adopted transformer is known to be very high. Evidence is emerging that they learn successfully due to inductive bias in the training routine, typically some variant of gradient descent (GD). To better understand this bias, we study the tendency of transformer parameters to grow in magnitude during training.  We find, both theoretically and empirically, that, in certain contexts, GD increases the parameter L2 norm up to a threshold that itself increases with training-set accuracy. This means increasing training accuracy over time enables the norm to increase. Empirically, we show that the norm grows continuously over pretraining for T5 (Raffel et al., 2019). We show that pretrained T5 approximates a semi-discretized network with saturated activation functions. Such &#34;saturated&#34; networks are known to have a reduced capacity compared to the original network family that can be described in automata-theoretic terms. This suggests saturation is a new characterization of an inductive bias implicit in GD that is of particular interest for NLP. While our experiments focus on transformers, our theoretical analysis extends to other architectures with similar formal properties, such as feedforward ReLU networks."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-10-20T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2020-10-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-10-20T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/norm_growth/"
+  },
+  "headline": "Parameter Norm Growth During Training of Transformers",
+  
+  "datePublished": "2020-10-20T00:00:00Z",
+  "dateModified": "2020-10-20T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "\u003ca href='https://lambdaviking.com' target='blank'\u003eWill Merrill\u003c/a\u003e"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Home",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "The capacity of neural networks like the widely adopted transformer is known to be very high. Evidence is emerging that they learn successfully due to inductive bias in the training routine, typically some variant of gradient descent (GD). To better understand this bias, we study the tendency of transformer parameters to grow in magnitude during training.  We find, both theoretically and empirically, that, in certain contexts, GD increases the parameter L2 norm up to a threshold that itself increases with training-set accuracy. This means increasing training accuracy over time enables the norm to increase. Empirically, we show that the norm grows continuously over pretraining for T5 (Raffel et al., 2019). We show that pretrained T5 approximates a semi-discretized network with saturated activation functions. Such \"saturated\" networks are known to have a reduced capacity compared to the original network family that can be described in automata-theoretic terms. This suggests saturation is a new characterization of an inductive bias implicit in GD that is of particular interest for NLP. While our experiments focus on transformers, our theoretical analysis extends to other architectures with similar formal properties, such as feedforward ReLU networks."
+}
+</script>
+
+  
 
   
 
@@ -254,10 +295,13 @@
   
 
 
+  
 
 
 
-  <title>&lt;b&gt;Roy Schwartz&lt;/b&gt; | Home</title>
+
+
+  <title>Parameter Norm Growth During Training of Transformers | Home</title>
 
 </head>
 
@@ -577,22 +621,7 @@
 </nav>
 
 
-  
-
-
-
-
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
-      
-      
-      
-      
-
-
-
+  <div class="pub">
 
   
 
@@ -605,172 +634,291 @@
 
 
 
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
 
-      
 
-      <div class="portrait-title">
-        <h2>&lt;b&gt;Roy Schwartz&lt;/b&gt;</h2>
-        
+  
 
-        
-      </div>
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Parameter Norm Growth During Training of Transformers</h1>
 
-      <ul class="network-icon" aria-hidden="true">
-        
-      </ul>
+  
 
-    </div>
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href='https://lambdaviking.com' target='blank'>Will Merrill</a></span>, <span><a href='https://vkramanuj.github.io/' target='blank'>Vivek Ramanujan</a></span>, <span><a href='https://u.cs.biu.ac.il/~yogo/' target='blank'>Yoav Goldberg</a></span>, <span><b>Roy Schwartz</b></span>, <span><a href='http://homes.cs.washington.edu/~nasmith/' target='blank'>Noah A. Smith</a></span>
   </div>
-  <div class="col-12 col-lg-8">
+  
+  
 
+  
+  <span class="article-date">
     
     
-
-    
-
-    <div class="row">
-
       
+    
+    October 2020
+  </span>
+  
 
-      
+  
 
-    </div>
-  </div>
+  
+
+  
+  
+  
+
+  
+  
+
 </div>
 
     
 
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
     
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2010.09697" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/norm_growth/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+
     
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/norm_growth/">Parameter Norm Growth During Training of Transformers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/covid_mechanisms/">Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/datamaps/">Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</a>
-        </li>
-        
-        <li>
-          <a href="/publication/covid_mechanisms_ws/">Extracting a knowledge base of mechanisms from COVID-19 papers</a>
-        </li>
-        
-        <li>
-          <a href="/publication/rnn_hierarchy/">A Formal Hierarchy of RNN Architectures</a>
-        </li>
-        
-        <li>
-          <a href="/publication/mae/">A Mixture of &lt;i&gt;h-1&lt;/i&gt; Heads is Better than &lt;i&gt;h&lt;/i&gt; Heads</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sledgehammer/">The Right Tool for the Job: Matching Model and Instance Complexities</a>
-        </li>
-        
-        <li>
-          <a href="/publication/finetune/">Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</a>
-        </li>
-        
-        <li>
-          <a href="/publication/kermit/">Knowledge Enhanced Contextual Word Representations</a>
-        </li>
-        
-        <li>
-          <a href="/publication/palm/">PaLM: A Hybrid Parser and Language Model</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sparsifying/">RNN Architecture Learning with Sparse Regularization </a>
-        </li>
-        
-        <li>
-          <a href="/publication/showyourwork/">Show Your Work: Improved Reporting of Experimental Results </a>
-        </li>
-        
-        <li>
-          <a href="/publication/inoculation/">Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</a>
-        </li>
-        
-        <li>
-          <a href="/publication/rr/">Rational Recurrences</a>
-        </li>
-        
-        <li>
-          <a href="/publication/swag/">SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</a>
-        </li>
-        
-        <li>
-          <a href="/publication/lstm/">LSTMs Exploit Linguistic Attributes of Data</a>
-        </li>
-        
-        <li>
-          <a href="/publication/peeread/">A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications</a>
-        </li>
-        
-        <li>
-          <a href="/publication/artifacts/">Annotation Artifacts in Natural Language Inference Data</a>
-        </li>
-        
-        <li>
-          <a href="/publication/context_config/">Automatic selection of context configurations for improved (and fast) class-specific word representations</a>
-        </li>
-        
-        <li>
-          <a href="/publication/language_constraint/">The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</a>
-        </li>
-        
-        <li>
-          <a href="/publication/lsdsem_uw_nlp/">Story Cloze Task: UW NLP System</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sp_sg/">Symmetric Patterns and Coordinations: Fast and Enhanced Representations of Verbs and Adjectives</a>
-        </li>
-        
-        <li>
-          <a href="/publication/thesis/">Pattern-based methods for Improved Lexical Semantics and Word Embeddings</a>
-        </li>
-        
-        <li>
-          <a href="/publication/semantics_from_text/">How Well Do Distributional Models Capture Different Types of Semantic Knowledge?</a>
-        </li>
-        
-        <li>
-          <a href="/publication/sp_embeddings/">Symmetric Pattern Based Word Embeddings for Improved Word Similarity Prediction</a>
-        </li>
-        
-        <li>
-          <a href="/publication/coarse_grained/">Minimally Supervised Classification to Semantic Categories using Automatically Acquired Symmetric Patterns</a>
-        </li>
-        
-        <li>
-          <a href="/publication/twitter_authorship/">Authorship Attribution of Micro-Messages</a>
-        </li>
-        
-        <li>
-          <a href="/publication/learnable/">Learnability-based Syntactic Annotation Design</a>
-        </li>
-        
-        <li>
-          <a href="/publication/ned/">Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</a>
-        </li>
-        
-      </ul>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" style="text-align:justify">The capacity of neural networks like the widely adopted transformer is known to be very high. Evidence is emerging that they learn successfully due to inductive bias in the training routine, typically some variant of gradient descent (GD). To better understand this bias, we study the tendency of transformer parameters to grow in magnitude during training.  We find, both theoretically and empirically, that, in certain contexts, GD increases the parameter L2 norm up to a threshold that itself increases with training-set accuracy. This means increasing training accuracy over time enables the norm to increase. Empirically, we show that the norm grows continuously over pretraining for T5 (Raffel et al., 2019). We show that pretrained T5 approximates a semi-discretized network with saturated activation functions. Such &ldquo;saturated&rdquo; networks are known to have a reduced capacity compared to the original network family that can be described in automata-theoretic terms. This suggests saturation is a new characterization of an inductive bias implicit in GD that is of particular interest for NLP. While our experiments focus on transformers, our theoretical analysis extends to other architectures with similar formal properties, such as feedforward ReLU networks.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/understanding_models/">understanding_models</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/norm_growth/&amp;text=Parameter%20Norm%20Growth%20During%20Training%20of%20Transformers" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/norm_growth/&amp;t=Parameter%20Norm%20Growth%20During%20Training%20of%20Transformers" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Parameter%20Norm%20Growth%20During%20Training%20of%20Transformers&amp;body=/publication/norm_growth/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/norm_growth/&amp;title=Parameter%20Norm%20Growth%20During%20Training%20of%20Transformers" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Parameter%20Norm%20Growth%20During%20Training%20of%20Transformers%20/publication/norm_growth/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/norm_growth/&amp;title=Parameter%20Norm%20Growth%20During%20Training%20of%20Transformers" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/rnn_hierarchy/">A Formal Hierarchy of RNN Architectures</a></li>
+      
+      <li><a href="/publication/palm/">PaLM: A Hybrid Parser and Language Model</a></li>
+      
+      <li><a href="/publication/sparsifying/">RNN Architecture Learning with Sparse Regularization </a></li>
+      
+      <li><a href="/publication/rr/">Rational Recurrences</a></li>
+      
+      <li><a href="/publication/sopa/">SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</a></li>
+      
+    </ul>
   </div>
-</section>
+  
+
+
+
+  </div>
+</div>
 
       
 
