@@ -5,12 +5,20 @@
     <link>/tag/greenai/</link>
       <atom:link href="/tag/greenai/index.xml" rel="self" type="application/rss+xml" />
     <description>greenai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>greenai</title>
       <link>/tag/greenai/</link>
     </image>
+    
+    <item>
+      <title>Random Feature Attention</title>
+      <link>/publication/rfa/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rfa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
