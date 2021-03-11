@@ -4,7 +4,62 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-targetblankgabi-stanovsky/a/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/www.cs.bgu.ac.il/~elhadad/-targetblankmihchael-elhadad/a/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/contrast_sets/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/understanding_models/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yonatan-bitton/</loc>
+    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,47 +88,12 @@
   </url>
   
   <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/greenai/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/rfa/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/understanding_models/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,6 +138,11 @@
   </url>
   
   <url>
+    <loc>/author/a-hrefhttps/www.cs.washington.edu/people/faculty/weld-targetblankdan-weld/a/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/david-wadden/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -129,6 +154,11 @@
   
   <url>
     <loc>/author/madeleine-van-zuylen/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/sravanthi-parasa/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -184,11 +214,6 @@
   
   <url>
     <loc>/author/a-hrefhttp/www.cs.technion.ac.il/~yahave/-targetblankeran-yahav/a/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-targetblankgabi-stanovsky/a/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -627,6 +652,10 @@
   </url>
   
   <url>
+    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-targetblankhao-peng/a/</loc>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.huji.ac.il/~roys02/-targetblank/a/</loc>
   </url>
   
@@ -684,10 +713,6 @@
   
   <url>
     <loc>/author/yarden-tal/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/yonatan-bitton-co-advised-with-a-hrefhttps/gabrielstanovsky.github.io/-target_blankgabriel-stanovsky/a/</loc>
   </url>
   
   <url>

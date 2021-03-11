@@ -21,14 +21,6 @@
     </item>
     
     <item>
-      <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</title>
-      <link>/publication/covid_mechanisms/</link>
-      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/covid_mechanisms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
       <link>/publication/finetune/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>

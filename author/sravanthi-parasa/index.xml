@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sravanthi Parasa | Home</title>
+    <link>/author/sravanthi-parasa/</link>
+      <atom:link href="/author/sravanthi-parasa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sravanthi Parasa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sravanthi Parasa</title>
+      <link>/author/sravanthi-parasa/</link>
+    </image>
+    
+    <item>
+      <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</title>
+      <link>/publication/covid_mechanisms/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/covid_mechanisms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
