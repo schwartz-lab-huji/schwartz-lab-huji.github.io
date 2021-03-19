@@ -5,12 +5,20 @@
     <link>/author/broy-schwartz/b/</link>
       <atom:link href="/author/broy-schwartz/b/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;</title>
       <link>/author/broy-schwartz/b/</link>
     </image>
+    
+    <item>
+      <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</title>
+      <link>/publication/covid_mechanisms/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/covid_mechanisms/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automatic Generation of Contrast Sets from Scene Graphs: Probing the Compositional Consistency of GQA</title>
@@ -33,14 +41,6 @@
       <link>/publication/norm_growth/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/publication/norm_growth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</title>
-      <link>/publication/covid_mechanisms/</link>
-      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/covid_mechanisms/</guid>
       <description></description>
     </item>
     
