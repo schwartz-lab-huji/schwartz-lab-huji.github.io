@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/lambdaviking.com-targetblankwill-merrill/a/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/gpt300/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/understanding_models/</loc>
+    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -28,16 +88,6 @@
   </url>
   
   <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/david-wadden/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -48,22 +98,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/madeleine-van-zuylen/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,12 +128,7 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/understanding_models/</loc>
+    <loc>/tag/improved_evaluation/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -109,11 +139,6 @@
   
   <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-targetblankhao-peng/a/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,16 +173,6 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttps/lambdaviking.com-targetblankwill-merrill/a/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a-hrefhttps/vkramanuj.github.io/-targetblankvivek-ramanujan/a/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
@@ -184,11 +199,6 @@
   
   <url>
     <loc>/publication/datamaps/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/improved_evaluation/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -270,11 +280,6 @@
   <url>
     <loc>/publication/finetune/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

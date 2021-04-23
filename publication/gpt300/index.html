@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Language models trained on billions of tokens have recently led to unprecedented results on many NLP tasks. This success raises the question of whether, in principle, a system can ever &#34;understand&#34; raw text without access to some form of grounding. We formally investigate the abilities of ungrounded systems to acquire meaning. Our analysis focuses on the role of &#34;assertions&#34;: contexts within raw text that provide indirect clues about underlying semantics. We study whether assertions enable a system to emulate representations preserving semantic relations like equivalence. We find that assertions enable semantic emulation if all expressions in the language are referentially transparent. However, if the language uses non-transparent patterns like variable binding, we show that emulation can become an uncomputable problem. Finally, we discuss differences between our formal model and natural language, exploring how our results generalize to a modal setting and other semantic relations. Together, our results suggest that assertions in code or language do not provide sufficient signal to fully emulate semantic representations. We formalize ways in which ungrounded language models appear to be fundamentally limited in their ability to &#34;understand&#34;.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/tag/improved_evaluation/">
+  <link rel="alternate" hreflang="en-us" href="/publication/gpt300/">
 
   
 
@@ -212,14 +212,12 @@
   
 
   
-  <link rel="alternate" href="/tag/improved_evaluation/index.xml" type="application/rss+xml" title="Home">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/tag/improved_evaluation/">
+  <link rel="canonical" href="/publication/gpt300/">
 
   
   
@@ -235,18 +233,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Home">
-  <meta property="og:url" content="/tag/improved_evaluation/">
-  <meta property="og:title" content="improved_evaluation | Home">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/gpt300/">
+  <meta property="og:title" content="Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand? | Home">
+  <meta property="og:description" content="Language models trained on billions of tokens have recently led to unprecedented results on many NLP tasks. This success raises the question of whether, in principle, a system can ever &#34;understand&#34; raw text without access to some form of grounding. We formally investigate the abilities of ungrounded systems to acquire meaning. Our analysis focuses on the role of &#34;assertions&#34;: contexts within raw text that provide indirect clues about underlying semantics. We study whether assertions enable a system to emulate representations preserving semantic relations like equivalence. We find that assertions enable semantic emulation if all expressions in the language are referentially transparent. However, if the language uses non-transparent patterns like variable binding, we show that emulation can become an uncomputable problem. Finally, we discuss differences between our formal model and natural language, exploring how our results generalize to a modal setting and other semantic relations. Together, our results suggest that assertions in code or language do not provide sufficient signal to fully emulate semantic representations. We formalize ways in which ungrounded language models appear to be fundamentally limited in their ability to &#34;understand&#34;."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-03-10T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2021-04-22T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-04-22T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/gpt300/"
+  },
+  "headline": "Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?",
+  
+  "datePublished": "2021-04-22T00:00:00Z",
+  "dateModified": "2021-04-22T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "\u003ca href='https://lambdaviking.com' target='blank'\u003eWill Merrill\u003c/a\u003e"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Home",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Language models trained on billions of tokens have recently led to unprecedented results on many NLP tasks. This success raises the question of whether, in principle, a system can ever \"understand\" raw text without access to some form of grounding. We formally investigate the abilities of ungrounded systems to acquire meaning. Our analysis focuses on the role of \"assertions\": contexts within raw text that provide indirect clues about underlying semantics. We study whether assertions enable a system to emulate representations preserving semantic relations like equivalence. We find that assertions enable semantic emulation if all expressions in the language are referentially transparent. However, if the language uses non-transparent patterns like variable binding, we show that emulation can become an uncomputable problem. Finally, we discuss differences between our formal model and natural language, exploring how our results generalize to a modal setting and other semantic relations. Together, our results suggest that assertions in code or language do not provide sufficient signal to fully emulate semantic representations. We formalize ways in which ungrounded language models appear to be fundamentally limited in their ability to \"understand\"."
+}
+</script>
+
+  
 
   
 
@@ -254,10 +295,13 @@
   
 
 
+  
 
 
 
-  <title>improved_evaluation | Home</title>
+
+
+  <title>Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand? | Home</title>
 
 </head>
 
@@ -577,6 +621,91 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href='https://lambdaviking.com' target='blank'>Will Merrill</a></span>, <span><a href='https://u.cs.biu.ac.il/~yogo/' target='blank'>Yoav Goldberg</a></span>, <span><b>Roy Schwartz</b></span>, <span><a href='http://homes.cs.washington.edu/~nasmith/' target='blank'>Noah A. Smith</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    April 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -586,119 +715,221 @@
 
 
 
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>improved_evaluation</h1>
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2104.10809" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/gpt300/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" style="text-align:justify">Language models trained on billions of tokens have recently led to unprecedented results on many NLP tasks. This success raises the question of whether, in principle, a system can ever &ldquo;understand&rdquo; raw text without access to some form of grounding. We formally investigate the abilities of ungrounded systems to acquire meaning. Our analysis focuses on the role of &ldquo;assertions&rdquo;: contexts within raw text that provide indirect clues about underlying semantics. We study whether assertions enable a system to emulate representations preserving semantic relations like equivalence. We find that assertions enable semantic emulation if all expressions in the language are referentially transparent. However, if the language uses non-transparent patterns like variable binding, we show that emulation can become an uncomputable problem. Finally, we discuss differences between our formal model and natural language, exploring how our results generalize to a modal setting and other semantic relations. Together, our results suggest that assertions in code or language do not provide sufficient signal to fully emulate semantic representations. We formalize ways in which ungrounded language models appear to be fundamentally limited in their ability to &ldquo;understand&rdquo;.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>TACL 2021</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/understanding_models/">understanding_models</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/gpt300/&amp;text=Provable%20Limitations%20of%20Acquiring%20Meaning%20from%20Ungrounded%20Form:%20What%20will%20Future%20Language%20Models%20Understand?" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/gpt300/&amp;t=Provable%20Limitations%20of%20Acquiring%20Meaning%20from%20Ungrounded%20Form:%20What%20will%20Future%20Language%20Models%20Understand?" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Provable%20Limitations%20of%20Acquiring%20Meaning%20from%20Ungrounded%20Form:%20What%20will%20Future%20Language%20Models%20Understand?&amp;body=/publication/gpt300/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/gpt300/&amp;title=Provable%20Limitations%20of%20Acquiring%20Meaning%20from%20Ungrounded%20Form:%20What%20will%20Future%20Language%20Models%20Understand?" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Provable%20Limitations%20of%20Acquiring%20Meaning%20from%20Ungrounded%20Form:%20What%20will%20Future%20Language%20Models%20Understand?%20/publication/gpt300/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/gpt300/&amp;title=Provable%20Limitations%20of%20Acquiring%20Meaning%20from%20Ungrounded%20Form:%20What%20will%20Future%20Language%20Models%20Understand?" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
 
   
   
-    
-    
-    
-    <div>
-      <h2><a href="/publication/contrast_sets/" >Automatic Generation of Contrast Sets from Scene Graphs: Probing the Compositional Consistency of GQA</a></h2>
-      <div class="article-style">
-        
-          Recent works have shown that supervised models often exploit data artifacts to achieve good test scores while their performance severely degrades on samples outside their training distribution. Contrast sets (Gardneret al., 2020) quantify this …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/datamaps/" >Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</a></h2>
-      <div class="article-style">
-        
-          Large datasets have become commonplace in NLP research. However, the increased emphasis on data quantity has made it challenging to assess the quality of data. We introduce "Data Maps"---a model-based tool to characterize and diagnose datasets. We …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/inoculation/" >Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</a></h2>
-      <div class="article-style">
-        
-          Several datasets have recently been constructed to expose brittleness in models trained on existing benchmarks. While model performance on these challenge datasets is significantly lower compared to the original benchmark, it is unclear what …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/swag/" >SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</a></h2>
-      <div class="article-style">
-        
-          Given a partial description like 'she opened the hood of the car', humans can reason about the situation and anticipate what might come next ('then, she examined the engine'). In this paper, we introduce the task of grounded commonsense inference, …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/artifacts/" >Annotation Artifacts in Natural Language Inference Data</a></h2>
-      <div class="article-style">
-        
-          Large-scale datasets for natural language inference are created by presenting crowd workers with a sentence (premise), and asking them to generate three new sentences (hypotheses) that it entails, contradicts, or is logically neutral with respect to. …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/language_constraint/" >The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</a></h2>
-      <div class="article-style">
-        
-          A writer's style depends not just on personal traits but also on her intent and mental state. In this paper, we show how variants of the same writing task can lead to measurable differences in writing style. We present a case study based on the story …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/ned/" >Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</a></h2>
-      <div class="article-style">
-        
-          Dependency parsing is a central NLP task. In this paper we show that the common evaluation for unsupervised dependency parsing is highly sensitive to problematic annotations. We show that for three leading unsupervised parsers (Klein and Manning, …
-        
-      </div>
-    </div>
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/rfa/">Random Feature Attention</a></li>
+      
+      <li><a href="/publication/norm_growth/">Parameter Norm Growth During Training of Transformers</a></li>
+      
+      <li><a href="/publication/rnn_hierarchy/">A Formal Hierarchy of RNN Architectures</a></li>
+      
+      <li><a href="/publication/palm/">PaLM: A Hybrid Parser and Language Model</a></li>
+      
+      <li><a href="/publication/sparsifying/">RNN Architecture Learning with Sparse Regularization </a></li>
+      
+    </ul>
+  </div>
   
 
-  
 
+
+  </div>
 </div>
 
       
