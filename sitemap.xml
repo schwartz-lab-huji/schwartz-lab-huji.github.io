@@ -1,437 +1,743 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/lambdaviking.com-targetblankwill-merrill/a/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/broy-schwartz/b/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/gpt300/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tag/understanding_models/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/erichorvitz.com/-targetblankeric-horvitz/a/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/aidaamini.github.io/-targetblankaida-amini/a/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/homes.cs.washington.edu/~hannaneh/-targetblankhannaneh-hajishirzi/a/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/www.cs.washington.edu/people/faculty/weld-targetblankdan-weld/a/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/david-wadden/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/covid_mechanisms/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/madeleine-van-zuylen/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/sravanthi-parasa/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/tom-hope/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-targetblankgabi-stanovsky/a/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/www.cs.bgu.ac.il/~elhadad/-targetblankmihchael-elhadad/a/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/contrast_sets/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tag/improved_evaluation/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/yonatan-bitton/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-targetblankhao-peng/a/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/dyogatama.github.io/-targetblankdani-yogatama/a/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/ikekonglp.github.io/-targetblanklingpeng-kong/a/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/nik0spapp.github.io/-targetblanknikolaos-pappas/a/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tag/greenai/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/rfa/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication-type/3/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/vkramanuj.github.io/-targetblankvivek-ramanujan/a/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/norm_growth/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~yejin/-targetblankyejin-choi/a/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/yizhong-wang.com/-targetblankyizhong-wang/a/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/datamaps/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/nicholas-lourie/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication-type/9/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/covid_mechanisms_ws/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.technion.ac.il/~yahave/-targetblankeran-yahav/a/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/sgailw.cswp.cs.technion.ac.il-targetblankgail-weiss/a/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/rnn_hierarchy/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/mae/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/dianqi-li/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/green_ai/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/sledgehammer/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/green_nlp/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/gabrielilharco.com-targetblankgabriel-ilharco/a/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/homes.cs.washington.edu/~ali/-targetblankali-farhadi/a/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/finetune/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/allenai.org/team/orene/-targetblankoren-etzioni/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/markneumann.xyz-targetblankmark-neumann/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/sameersingh.org-targetblanksameer-singh/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/web.stanford.edu/~dcard/-targetblankdallas-card/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/rloganiv.github.io-targetblankrobert-logan/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/scholar.google.com/citationsuserk5ncpzwaaaajhttps/gabrielstanovsky.github.io/hl-targetblankmatthew-e.-peters/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/scholar.google.com/citationsusernobf_heaaaaj-targetblankvidur-joshi/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/broy-schwartz/b/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/greenai/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/kermit/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/palm/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/sparsifying/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/showyourwork/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tag/word_representations/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/cs.stanford.edu/~nfliu/-targetblanknelson-f.-liu/a/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/inoculation/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/towards_interpretable/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/rowanzellers.com/-targetblankrowan-zellers/a/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/samthomson.com/-targetblanksam-thomson/a/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/yonatanbisk.com/-targetblankyonatan-bisk/a/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/rr/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/swag/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/teaching/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/samthomson.com/-targetblanksam-thomson/a/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/chenhaot.com/-targetblankchenhao-tan/a/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/levyomer.wordpress.com/-targetblankomer-levy/a/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/lstm/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/sopa/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/allenai.org/team/bhavanad/-targetblankbhavana-dalvi/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~dongyeok/-targetblankdongyeop-kang/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~hovy/-targetblankeduard-hovy/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/wammar.github.io/-targetblankwaleed-ammar/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/www.nyu.edu/projects/bowman/-targetblanksam-bowman/a/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/peeread/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/artifacts/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/sebastian-kohlmeier/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/inductive_bias/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~msap/-targetblankmaarten-sap/a/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/ie.technion.ac.il/~roiri/-targetblankroi-reichart/a/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cl.cam.ac.uk/~alk23/-targetblankanna-korhonen/a/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.huji.ac.il/~arir/-targetblankari-rappoport/a/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.ikonstas.net/-targetblankyannis-konstas/a/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/sites.google.com/site/ivanvulic/-targetblankivan-vulic/a/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/context_config/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/li-zilles/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/language_constraint/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/lsdsem_uw_nlp/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/sp_sg/</loc>
     <lastmod>2016-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication-type/7/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/thesis/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/pattern-based_solutions/</loc>
     <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/word_similarity/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/dana-rubinstein/</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/effi-levi/</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/semantics_from_text/</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/sp_embeddings/</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/semantic_knowledge/</loc>
     <lastmod>2015-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/acquiring_semantic/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/coarse_grained/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/identifying_authorships/</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/semantic_representation/</loc>
     <lastmod>2013-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/u.cs.biu.ac.il/~koppel/-targetblankmoshe-koppel/a/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.ise.bgu.ac.il/orentsur/-targetblankoren-tsur/a/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/twitter_authorship/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.huji.ac.il/~oabend/-targetblankomri-abend/a/</loc>
     <lastmod>2012-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/learnable/</loc>
     <lastmod>2012-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/publication/ned/</loc>
     <lastmod>2011-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/talk/neutralizing_linguistically/</loc>
     <lastmod>2011-06-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/hebrew/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-targetblankhao-peng/a/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttp/www.cs.huji.ac.il/~roys02/-targetblank/a/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/gabrielstanovsky.github.io/-targetblankgabi-stanovsky/a/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/project/biases/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/boaz-beldinger/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/deborah-wolhandler/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/project/green_nlp/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/inbal-magar/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/joinus/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>/author/michael-hassid/</loc>
+  </url>
+  
+  <url>
     <loc>/people/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/project/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/roy-schwartz/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/teachinga/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/project/understanding_nlp/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/yarden-tal/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/yuval-reif/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/author/%D7%A8%D7%95%D7%A2%D7%99-%D7%A9%D7%95%D7%95%D7%A8%D7%A5/</loc>
   </url>
+  
 </urlset>
