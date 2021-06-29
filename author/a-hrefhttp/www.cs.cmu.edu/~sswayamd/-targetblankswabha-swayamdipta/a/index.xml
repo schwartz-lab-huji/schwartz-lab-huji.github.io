@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;* | Home</title>
+    <title>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt; | Home</title>
     <link>/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/</link>
       <atom:link href="/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/index.xml" rel="self" type="application/rss+xml" />
-    <description>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <description>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;*</title>
+      <title>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;</title>
       <link>/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/</link>
     </image>
     
     <item>
-      <title>Annotation Artifacts in Natural Language Inference Data</title>
-      <link>/publication/artifacts/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/artifacts/</guid>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
       <description></description>
     </item>
     
-  </channel>
-</rss>
-item>
+    <item>
       <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
       <link>/publication/sledgehammer/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
