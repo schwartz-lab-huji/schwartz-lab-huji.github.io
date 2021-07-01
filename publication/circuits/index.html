@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Transformers have become a standard architecture for many NLP problems. This has motivated theoretically analyzing their capabilities as models of language, in order to understand what makes them successful, and what their potential weaknesses might be. Recent work has shown that transformers with hard attention are quite limited in capacity, and in fact can be simulated by constant-depth circuits. However, hard attention is a restrictive assumption, which may complicate the relevance of these results for practical transformers. In this work, we analyze the circuit complexity of transformers with saturated attention: a generalization of hard attention that more closely captures the attention patterns learnable in practical transformers. We show that saturated transformers transcend the limitations of hard-attention transformers. With some minor assumptions, we prove that the number of bits needed to represent a saturated transformer memory vector is O(logn), which implies saturated transformers can be simulated by log-depth circuits. Thus, the jump from hard to saturated attention can be understood as increasing the transformer&#39;s effective circuit depth by a factor of O(logn).">
 
   
-  <link rel="alternate" hreflang="en-us" href="/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/">
+  <link rel="alternate" hreflang="en-us" href="/publication/circuits/">
 
   
 
@@ -212,14 +212,12 @@
   
 
   
-  <link rel="alternate" href="/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/index.xml" type="application/rss+xml" title="Home">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/">
+  <link rel="canonical" href="/publication/circuits/">
 
   
   
@@ -229,35 +227,84 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Home">
-  <meta property="og:url" content="/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-targetblankswabha-swayamdipta/a/">
-  <meta property="og:title" content="&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;* | Home">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/publication/circuits/">
+  <meta property="og:title" content="On the Power of Saturated Transformers: A View from Circuit Complexity | Home">
+  <meta property="og:description" content="Transformers have become a standard architecture for many NLP problems. This has motivated theoretically analyzing their capabilities as models of language, in order to understand what makes them successful, and what their potential weaknesses might be. Recent work has shown that transformers with hard attention are quite limited in capacity, and in fact can be simulated by constant-depth circuits. However, hard attention is a restrictive assumption, which may complicate the relevance of these results for practical transformers. In this work, we analyze the circuit complexity of transformers with saturated attention: a generalization of hard attention that more closely captures the attention patterns learnable in practical transformers. We show that saturated transformers transcend the limitations of hard-attention transformers. With some minor assumptions, we prove that the number of bits needed to represent a saturated transformer memory vector is O(logn), which implies saturated transformers can be simulated by log-depth circuits. Thus, the jump from hard to saturated attention can be understood as increasing the transformer&#39;s effective circuit depth by a factor of O(logn)."><meta property="og:image" content="/publication/circuits/featured.png">
+  <meta property="twitter:image" content="/publication/circuits/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2018-04-01T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2021-07-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-07-01T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/circuits/"
+  },
+  "headline": "On the Power of Saturated Transformers: A View from Circuit Complexity",
+  
+  "image": [
+    "/publication/circuits/featured.png"
+  ],
+  
+  "datePublished": "2021-07-01T00:00:00Z",
+  "dateModified": "2021-07-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "\u003ca href='https://lambdaviking.com' target='blank'\u003eWill Merrill\u003c/a\u003e"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Home",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Transformers have become a standard architecture for many NLP problems. This has motivated theoretically analyzing their capabilities as models of language, in order to understand what makes them successful, and what their potential weaknesses might be. Recent work has shown that transformers with hard attention are quite limited in capacity, and in fact can be simulated by constant-depth circuits. However, hard attention is a restrictive assumption, which may complicate the relevance of these results for practical transformers. In this work, we analyze the circuit complexity of transformers with saturated attention: a generalization of hard attention that more closely captures the attention patterns learnable in practical transformers. We show that saturated transformers transcend the limitations of hard-attention transformers. With some minor assumptions, we prove that the number of bits needed to represent a saturated transformer memory vector is O(logn), which implies saturated transformers can be simulated by log-depth circuits. Thus, the jump from hard to saturated attention can be understood as increasing the transformer's effective circuit depth by a factor of O(logn)."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;* | Home</title>
+  <title>On the Power of Saturated Transformers: A View from Circuit Complexity | Home</title>
 
 </head>
 
@@ -599,22 +646,7 @@
 </nav>
 
 
-  
-
-
-
-
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
-      
-      
-      
-      
-
-
-
+  <div class="pub">
 
   
 
@@ -627,77 +659,304 @@
 
 
 
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
 
-      
 
-      <div class="portrait-title">
-        <h2>&lt;a href=&#39;http://www.cs.cmu.edu/~sswayamd/&#39; target=&#39;blank&#39;&gt;Swabha Swayamdipta&lt;/a&gt;*</h2>
-        
 
-        
-      </div>
 
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="http://www.cs.cmu.edu/~sswayamd/" target="_blank" rel="noopener">
-            <i class="fas fa-home big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
 
-    </div>
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>On the Power of Saturated Transformers: A View from Circuit Complexity</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href='https://lambdaviking.com' target='blank'>Will Merrill</a></span>, <span><a href='https://u.cs.biu.ac.il/~yogo/' target='blank'>Yoav Goldberg</a></span>, <span><b>Roy Schwartz</b></span>, <span><a href='http://homes.cs.washington.edu/~nasmith/' target='blank'>Noah A. Smith</a></span>
   </div>
-  <div class="col-12 col-lg-8">
+  
+  
 
+  
+  <span class="article-date">
     
     
-
-    
-
-    <div class="row">
-
       
+    
+    July 2021
+  </span>
+  
 
-      
+  
 
-    </div>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2106.16213" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/circuits/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 316px; max-height: 259px;">
+  <div style="position: relative">
+    <img src="/publication/circuits/featured.png" alt="" class="featured-image">
+    
   </div>
 </div>
 
+
+
+  <div class="article-container">
+
     
 
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" style="text-align:justify">Transformers have become a standard architecture for many NLP problems. This has motivated theoretically analyzing their capabilities as models of language, in order to understand what makes them successful, and what their potential weaknesses might be. Recent work has shown that transformers with hard attention are quite limited in capacity, and in fact can be simulated by constant-depth circuits. However, hard attention is a restrictive assumption, which may complicate the relevance of these results for practical transformers. In this work, we analyze the circuit complexity of transformers with saturated attention: a generalization of hard attention that more closely captures the attention patterns learnable in practical transformers. We show that saturated transformers transcend the limitations of hard-attention transformers. With some minor assumptions, we prove that the number of bits needed to represent a saturated transformer memory vector is O(logn), which implies saturated transformers can be simulated by log-depth circuits. Thus, the jump from hard to saturated attention can be understood as increasing the transformer&rsquo;s effective circuit depth by a factor of O(logn).</p>
     
+
     
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/artifacts/">Annotation Artifacts in Natural Language Inference Data</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/understanding_models/">understanding_models</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/circuits/&amp;text=On%20the%20Power%20of%20Saturated%20Transformers:%20A%20View%20from%20Circuit%20Complexity" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/circuits/&amp;t=On%20the%20Power%20of%20Saturated%20Transformers:%20A%20View%20from%20Circuit%20Complexity" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=On%20the%20Power%20of%20Saturated%20Transformers:%20A%20View%20from%20Circuit%20Complexity&amp;body=/publication/circuits/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/circuits/&amp;title=On%20the%20Power%20of%20Saturated%20Transformers:%20A%20View%20from%20Circuit%20Complexity" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=On%20the%20Power%20of%20Saturated%20Transformers:%20A%20View%20from%20Circuit%20Complexity%20/publication/circuits/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/circuits/&amp;title=On%20the%20Power%20of%20Saturated%20Transformers:%20A%20View%20from%20Circuit%20Complexity" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/gpt300/">Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?</a></li>
+      
+      <li><a href="/publication/rfa/">Random Feature Attention</a></li>
+      
+      <li><a href="/publication/norm_growth/">Parameter Norm Growth During Training of Transformers</a></li>
+      
+      <li><a href="/publication/rnn_hierarchy/">A Formal Hierarchy of RNN Architectures</a></li>
+      
+      <li><a href="/publication/palm/">PaLM: A Hybrid Parser and Language Model</a></li>
+      
+    </ul>
   </div>
-</section>
+  
+
+
+
+  </div>
+</div>
 
       
 
