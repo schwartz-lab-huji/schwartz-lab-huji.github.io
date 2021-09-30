@@ -5,12 +5,36 @@
     <link>/author/broy-schwartz/b/</link>
       <atom:link href="/author/broy-schwartz/b/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;</title>
       <link>/author/broy-schwartz/b/</link>
     </image>
+    
+    <item>
+      <title>Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent</title>
+      <link>/publication/norm_growth/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/norm_growth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expected Validation Performanceand Estimation of a Random Variable&#39;s Maximum</title>
+      <link>/publication/showyourwork2/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Efficient Masked Language Modeling for Vision and Language</title>
+      <link>/publication/vl_mlm/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/vl_mlm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the Power of Saturated Transformers: A View from Circuit Complexity</title>
@@ -49,14 +73,6 @@
       <link>/publication/rfa/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/publication/rfa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parameter Norm Growth During Training of Transformers</title>
-      <link>/publication/norm_growth/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/norm_growth/</guid>
       <description></description>
     </item>
     

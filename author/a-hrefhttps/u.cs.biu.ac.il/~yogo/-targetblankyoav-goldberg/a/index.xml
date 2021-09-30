@@ -5,12 +5,20 @@
     <link>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</link>
       <atom:link href="/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;a href=&#39;https://u.cs.biu.ac.il/~yogo/&#39; target=&#39;blank&#39;&gt;Yoav Goldberg&lt;/a&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;a href=&#39;https://u.cs.biu.ac.il/~yogo/&#39; target=&#39;blank&#39;&gt;Yoav Goldberg&lt;/a&gt;</title>
       <link>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</link>
     </image>
+    
+    <item>
+      <title>Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent</title>
+      <link>/publication/norm_growth/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/norm_growth/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On the Power of Saturated Transformers: A View from Circuit Complexity</title>
@@ -25,14 +33,6 @@
       <link>/publication/gpt300/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       <guid>/publication/gpt300/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parameter Norm Growth During Training of Transformers</title>
-      <link>/publication/norm_growth/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/norm_growth/</guid>
       <description></description>
     </item>
     

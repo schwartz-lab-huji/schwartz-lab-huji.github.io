@@ -3,62 +3,122 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/web.stanford.edu/~dcard/-targetblankdallas-card/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/lambdaviking.com-targetblankwill-merrill/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/vkramanuj.github.io/-targetblankvivek-ramanujan/a/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/norm_growth/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/showyourwork2/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/greenai/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/understanding_models/</loc>
+    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-targetblankgabi-stanovsky/a/</loc>
+    <lastmod>2021-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/www.cs.bgu.ac.il/~elhadad/-targetblankmihchael-elhadad/a/</loc>
+    <lastmod>2021-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/yonatanbitton.github.io/-targetblankyonatan-bitton/a/</loc>
+    <lastmod>2021-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/vl_mlm/</loc>
+    <lastmod>2021-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication-type/3/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/lambdaviking.com-targetblankwill-merrill/a/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/u.cs.biu.ac.il/~yogo/-targetblankyoav-goldberg/a/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/circuits/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/understanding_models/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -70,11 +130,6 @@
   <url>
     <loc>/publication/gpt300/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -123,27 +178,12 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-targetblankgabi-stanovsky/a/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/www.cs.bgu.ac.il/~elhadad/-targetblankmihchael-elhadad/a/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/contrast_sets/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/improved_evaluation/</loc>
-    <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yonatan-bitton/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,23 +208,8 @@
   </url>
   
   <url>
-    <loc>/tag/greenai/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/rfa/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/vkramanuj.github.io/-targetblankvivek-ramanujan/a/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/norm_growth/</loc>
-    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -220,11 +245,6 @@
   <url>
     <loc>/publication/covid_mechanisms_ws/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -303,11 +323,6 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttp/web.stanford.edu/~dcard/-targetblankdallas-card/a/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-targetblankjesse-dodge/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -324,11 +339,6 @@
   
   <url>
     <loc>/author/a-hrefhttps/scholar.google.com/citationsusernobf_heaaaaj-targetblankvidur-joshi/a/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
