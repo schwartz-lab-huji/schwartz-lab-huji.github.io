@@ -3,12 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-targetblankhao-peng/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-targetblanknoah-a.-smith/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/dyogatama.github.io/-targetblankdani-yogatama/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/homes.cs.washington.edu/~jkasai/-targetblankjungo-kasai/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/ikekonglp.github.io/-targetblanklingpeng-kong/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/nik0spapp.github.io/-targetblanknikolaos-pappas/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/zhaofengwu.github.io/-targetblankzhaofeng-wu/a/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/abc/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/greenai/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/understanding_models/</loc>
+    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/1/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,52 +123,12 @@
   </url>
   
   <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/norm_growth/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/showyourwork2/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/greenai/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/understanding_models/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -110,11 +150,6 @@
   <url>
     <loc>/publication/vl_mlm/</loc>
     <lastmod>2021-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -185,26 +220,6 @@
   <url>
     <loc>/tag/improved_evaluation/</loc>
     <lastmod>2021-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-targetblankhao-peng/a/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/dyogatama.github.io/-targetblankdani-yogatama/a/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/ikekonglp.github.io/-targetblanklingpeng-kong/a/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/nik0spapp.github.io/-targetblanknikolaos-pappas/a/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
