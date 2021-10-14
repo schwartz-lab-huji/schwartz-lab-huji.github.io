@@ -21,14 +21,6 @@
     </item>
     
     <item>
-      <title>On the Power of Saturated Transformers: A View from Circuit Complexity</title>
-      <link>/publication/circuits/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/circuits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
       <link>/publication/finetune/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
