@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;a href=&#39;https://suchin.io/&#39; target=&#39;blank&#39;&gt;Suchin Gururangan&lt;/a&gt; | Home</title>
+    <title>&lt;a href=&#39;https://suchin.io/&#39; target=&#39;blank&#39;&gt;Suchin Gururangan&lt;/a&gt;* | Home</title>
     <link>/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/</link>
       <atom:link href="/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/index.xml" rel="self" type="application/rss+xml" />
-    <description>&lt;a href=&#39;https://suchin.io/&#39; target=&#39;blank&#39;&gt;Suchin Gururangan&lt;/a&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <description>&lt;a href=&#39;https://suchin.io/&#39; target=&#39;blank&#39;&gt;Suchin Gururangan&lt;/a&gt;*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>&lt;a href=&#39;https://suchin.io/&#39; target=&#39;blank&#39;&gt;Suchin Gururangan&lt;/a&gt;</title>
+      <title>&lt;a href=&#39;https://suchin.io/&#39; target=&#39;blank&#39;&gt;Suchin Gururangan&lt;/a&gt;*</title>
       <link>/author/a-hrefhttps/suchin.io/-targetblanksuchin-gururangan/a/</link>
     </image>
     
     <item>
-      <title>Expected Validation Performanceand Estimation of a Random Variable&#39;s Maximum</title>
-      <link>/publication/showyourwork2/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/showyourwork2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Show Your Work: Improved Reporting of Experimental Results </title>
-      <link>/publication/showyourwork/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/showyourwork/</guid>
+      <title>Annotation Artifacts in Natural Language Inference Data</title>
+      <link>/publication/artifacts/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/artifacts/</guid>
       <description></description>
     </item>
     
