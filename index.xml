@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Home</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Not all Textual Instances are Alike: Efficient NLP by Better Understanding of our Data</title>
+      <link>/talk/efficient_data/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/efficient_data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ABC: Attention with Bounded-memory Control</title>
@@ -41,6 +49,14 @@
       <link>/publication/vl_mlm/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
       <guid>/publication/vl_mlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Green AI</title>
+      <link>/talk/green_ai/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/green_ai/</guid>
       <description></description>
     </item>
     
@@ -77,6 +93,14 @@
     </item>
     
     <item>
+      <title>Green NLP</title>
+      <link>/talk/green_nlp/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/talk/green_nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
       <link>/publication/datamaps/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
@@ -109,26 +133,10 @@
     </item>
     
     <item>
-      <title>Green AI</title>
-      <link>/talk/green_ai/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/talk/green_ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
       <link>/publication/sledgehammer/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>/publication/sledgehammer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Green NLP</title>
-      <link>/talk/green_nlp/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/talk/green_nlp/</guid>
       <description></description>
     </item>
     
