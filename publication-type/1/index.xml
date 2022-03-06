@@ -5,12 +5,28 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Data Contamination: From Memorization to Exploitation</title>
+      <link>/publication/contamination/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/contamination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABC: Attention with Bounded-memory Control</title>
+      <link>/publication/abc/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/abc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent</title>
