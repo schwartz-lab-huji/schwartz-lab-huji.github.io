@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://strubell.github.io/&#39; target=&#39;blank&#39;&gt;Emma Strubell&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/strubell.github.io/-targetblankemma-strubell/a/</link>
+      <atom:link href="/author/a-hrefhttps/strubell.github.io/-targetblankemma-strubell/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://strubell.github.io/&#39; target=&#39;blank&#39;&gt;Emma Strubell&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://strubell.github.io/&#39; target=&#39;blank&#39;&gt;Emma Strubell&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/strubell.github.io/-targetblankemma-strubell/a/</link>
+    </image>
+    
+    <item>
+      <title>Carbon-Aware Machine Learning</title>
+      <link>/publication/carbon/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/carbon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

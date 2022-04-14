@@ -5,12 +5,36 @@
     <link>/author/broy-schwartz/b/</link>
       <atom:link href="/author/broy-schwartz/b/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;</title>
       <link>/author/broy-schwartz/b/</link>
     </image>
+    
+    <item>
+      <title>TangoBERT: Reducing Inference Cost by using Cascaded Architecture</title>
+      <link>/publication/tangobert/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/tangobert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</title>
+      <link>/publication/dont_balance/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/dont_balance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carbon-Aware Machine Learning</title>
+      <link>/publication/carbon/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/carbon/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Contamination: From Memorization to Exploitation</title>

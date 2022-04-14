@@ -5,12 +5,20 @@
     <link>/tag/improved_evaluation/</link>
       <atom:link href="/tag/improved_evaluation/index.xml" rel="self" type="application/rss+xml" />
     <description>improved_evaluation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>improved_evaluation</title>
       <link>/tag/improved_evaluation/</link>
     </image>
+    
+    <item>
+      <title>On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</title>
+      <link>/publication/dont_balance/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/dont_balance/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Contamination: From Memorization to Exploitation</title>
