@@ -78,7 +78,17 @@
   </url>
   
   <url>
+    <loc>/talk/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/dont_balance/</loc>
+    <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/dont_balance/</loc>
     <lastmod>2022-04-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -140,11 +150,6 @@
   <url>
     <loc>/author/inbal-magar/</loc>
     <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
