@@ -5,12 +5,20 @@
     <link>/publication-type/9/</link>
       <atom:link href="/publication-type/9/index.xml" rel="self" type="application/rss+xml" />
     <description>9</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>9</title>
       <link>/publication-type/9/</link>
     </image>
+    
+    <item>
+      <title>Fewer Errors, but More Stereotypes? The Effect of Model Size on Gender Bias</title>
+      <link>/publication/size_bias/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/size_bias/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Extracting a knowledge base of mechanisms from COVID-19 papers</title>
