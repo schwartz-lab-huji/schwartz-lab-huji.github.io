@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Home</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
+      <link>/publication/winogavil/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/winogavil/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fewer Errors, but More Stereotypes? The Effect of Model Size on Gender Bias</title>

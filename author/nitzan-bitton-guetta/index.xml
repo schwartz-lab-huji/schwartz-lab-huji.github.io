@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nitzan Bitton Guetta | Home</title>
+    <link>/author/nitzan-bitton-guetta/</link>
+      <atom:link href="/author/nitzan-bitton-guetta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nitzan Bitton Guetta</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Nitzan Bitton Guetta</title>
+      <link>/author/nitzan-bitton-guetta/</link>
+    </image>
+    
+    <item>
+      <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
+      <link>/publication/winogavil/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/winogavil/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
