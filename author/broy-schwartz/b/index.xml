@@ -5,12 +5,20 @@
     <link>/author/broy-schwartz/b/</link>
       <atom:link href="/author/broy-schwartz/b/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;</title>
       <link>/author/broy-schwartz/b/</link>
     </image>
+    
+    <item>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
