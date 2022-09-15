@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://zhaofengwu.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Zhaofeng Wu&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/zhaofengwu.github.io/-target_blank-relnoopener-noreferrerzhaofeng-wu/a/</link>
+      <atom:link href="/author/a-hrefhttps/zhaofengwu.github.io/-target_blank-relnoopener-noreferrerzhaofeng-wu/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://zhaofengwu.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Zhaofeng Wu&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://zhaofengwu.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Zhaofeng Wu&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/zhaofengwu.github.io/-target_blank-relnoopener-noreferrerzhaofeng-wu/a/</link>
+    </image>
+    
+    <item>
+      <title>ABC: Attention with Bounded-memory Control</title>
+      <link>/publication/abc/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/abc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -424,15 +424,15 @@ Three
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       <guid>/teaching/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Guest talk on distributional semantics at UW NLP course (spring 2017, &lt;a href=&#34;http://courses.cs.washington.edu/courses/csep517/17sp/slides/lecture8a.pdf&#34; target=&#34;_blank&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=cF6n_Gm05os&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Guest talk on distributional semantics at UW NLP course (spring 2017, &lt;a href=&#34;http://courses.cs.washington.edu/courses/csep517/17sp/slides/lecture8a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=cF6n_Gm05os&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;video&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;UW-NLP RNN Reading Group (spring 2017)&lt;/li&gt;
 &lt;li&gt;UW-NLP Discourse Reading Group (winter 2017)&lt;/li&gt;
 &lt;li&gt;Lecturer of the &lt;b&gt;huji coursera&lt;/b&gt; online version of Introduction to Object Oriented Programming&lt;/li&gt;
-&lt;li&gt;Lecturer of Introduction to Object Oriented Programming (&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs13/course/view.php?id=67125&#34; target=&#34;_blank&#34;&gt;13/14&lt;/a&gt;, &lt;a href=&#34;http://moodle.cs.huji.ac.il/cs11/course/view.php?id=67125&#34; target=&#34;_blank&#34;&gt;11/12&lt;/a&gt; &lt;font color=&#39;red&#39;&gt;&lt;b&gt;[Ranked #1 in student survey!]&lt;/b&gt;&lt;/font&gt;,
-&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs10/course/view.php?id=67125&#34; target=&#34;_blank&#34;&gt;10/11&lt;/a&gt;,
-&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs09/course/view.php?id=67125&#34; target=&#34;_blank&#34;&gt;09/10&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Lecturer of Computer Laboratory in Data Structures (&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs12/course/view.php?id=67125&#34; target=&#34;_blank&#34;&gt;12/13&lt;/a&gt;) &lt;/li&gt;&lt;/li&gt;
-&lt;li&gt;Lecturer of Introduction to Programming in the Perl Language (&lt;a href=&#34;http://moodle.cs.huji.ac.il/old/course/view.php?id=105&#34; target=&#34;_blank&#34;&gt;07/08&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Lecturer of Introduction to Object Oriented Programming (&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs13/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;13/14&lt;/a&gt;, &lt;a href=&#34;http://moodle.cs.huji.ac.il/cs11/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;11/12&lt;/a&gt; &lt;font color=&#39;red&#39;&gt;&lt;b&gt;[Ranked #1 in student survey!]&lt;/b&gt;&lt;/font&gt;,
+&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs10/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;10/11&lt;/a&gt;,
+&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs09/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;09/10&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Lecturer of Computer Laboratory in Data Structures (&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs12/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;12/13&lt;/a&gt;) &lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;Lecturer of Introduction to Programming in the Perl Language (&lt;a href=&#34;http://moodle.cs.huji.ac.il/old/course/view.php?id=105&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;07/08&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -639,9 +639,9 @@ Three
 &lt;div style=&#34;text-align:justify&#34; dir=&#34;rtl&#34;&gt;
 &lt;h2&gt;מן העיתונות&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.haaretz.co.il/captain/software/.premium-1.8194763&#34; target=&#39;_blank&#39;&gt;עיתון הארץ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ynet.co.il/articles/0,7340,L-5567808,00.html&#34; target=&#39;_blank&#39;&gt;ראיון ב-Ynet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cs.huji.ac.il/he/page/5734&#34; target=&#39;_blank&#39;&gt;כתבת פרופיל באתר ביה״ס למדעי המחשב&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.haaretz.co.il/captain/software/.premium-1.8194763&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;עיתון הארץ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ynet.co.il/articles/0,7340,L-5567808,00.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;ראיון ב-Ynet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.huji.ac.il/he/page/5734&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;כתבת פרופיל באתר ביה״ס למדעי המחשב&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

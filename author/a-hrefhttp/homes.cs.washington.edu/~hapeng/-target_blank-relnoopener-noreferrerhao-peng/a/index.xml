@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;http://homes.cs.washington.edu/~hapeng/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Hao Peng&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-target_blank-relnoopener-noreferrerhao-peng/a/</link>
+      <atom:link href="/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-target_blank-relnoopener-noreferrerhao-peng/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;http://homes.cs.washington.edu/~hapeng/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Hao Peng&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;http://homes.cs.washington.edu/~hapeng/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Hao Peng&lt;/a&gt;</title>
+      <link>/author/a-hrefhttp/homes.cs.washington.edu/~hapeng/-target_blank-relnoopener-noreferrerhao-peng/a/</link>
+    </image>
+    
+    <item>
+      <title>ABC: Attention with Bounded-memory Control</title>
+      <link>/publication/abc/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/abc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random Feature Attention</title>
+      <link>/publication/rfa/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mixture of &lt;i&gt;h-1&lt;/i&gt; Heads is Better than &lt;i&gt;h&lt;/i&gt; Heads</title>
+      <link>/publication/mae/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PaLM: A Hybrid Parser and Language Model</title>
+      <link>/publication/palm/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/palm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN Architecture Learning with Sparse Regularization </title>
+      <link>/publication/sparsifying/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sparsifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational Recurrences</title>
+      <link>/publication/rr/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

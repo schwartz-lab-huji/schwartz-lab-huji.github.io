@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://yonatanbitton.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Yonatan Bitton&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</link>
+      <atom:link href="/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://yonatanbitton.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Yonatan Bitton&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://yonatanbitton.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Yonatan Bitton&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</link>
+    </image>
+    
+    <item>
+      <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
+      <link>/publication/winogavil/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/winogavil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Efficient Masked Language Modeling for Vision and Language</title>
+      <link>/publication/vl_mlm/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/vl_mlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Generation of Contrast Sets from Scene Graphs: Probing the Compositional Consistency of GQA</title>
+      <link>/publication/contrast_sets/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/contrast_sets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://chenhaot.com/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Chenhao Tan&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/chenhaot.com/-target_blank-relnoopener-noreferrerchenhao-tan/a/</link>
+      <atom:link href="/author/a-hrefhttps/chenhaot.com/-target_blank-relnoopener-noreferrerchenhao-tan/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://chenhaot.com/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Chenhao Tan&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://chenhaot.com/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Chenhao Tan&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/chenhaot.com/-target_blank-relnoopener-noreferrerchenhao-tan/a/</link>
+    </image>
+    
+    <item>
+      <title>LSTMs Exploit Linguistic Attributes of Data</title>
+      <link>/publication/lstm/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/lstm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

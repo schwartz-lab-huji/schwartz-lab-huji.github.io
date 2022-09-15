@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;http://ie.technion.ac.il/~roiri/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Roi Reichart&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttp/ie.technion.ac.il/~roiri/-target_blank-relnoopener-noreferrerroi-reichart/a/</link>
+      <atom:link href="/author/a-hrefhttp/ie.technion.ac.il/~roiri/-target_blank-relnoopener-noreferrerroi-reichart/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;http://ie.technion.ac.il/~roiri/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Roi Reichart&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;http://ie.technion.ac.il/~roiri/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Roi Reichart&lt;/a&gt;</title>
+      <link>/author/a-hrefhttp/ie.technion.ac.il/~roiri/-target_blank-relnoopener-noreferrerroi-reichart/a/</link>
+    </image>
+    
+    <item>
+      <title>Automatic selection of context configurations for improved (and fast) class-specific word representations</title>
+      <link>/publication/context_config/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/context_config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Patterns and Coordinations: Fast and Enhanced Representations of Verbs and Adjectives</title>
+      <link>/publication/sp_sg/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/sp_sg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Pattern Based Word Embeddings for Improved Word Similarity Prediction</title>
+      <link>/publication/sp_embeddings/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/sp_embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimally Supervised Classification to Semantic Categories using Automatically Acquired Symmetric Patterns</title>
+      <link>/publication/coarse_grained/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/coarse_grained/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</title>
+      <link>/publication/ned/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/ned/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
