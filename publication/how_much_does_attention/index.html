@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="The attention mechanism is considered the backbone of the widely-used Transformer architecture. It contextualizes the input by computing input-specific attention matrices. We find that this mechanism, while powerful and elegant, is not as important as typically thought for pretrained language models. We introduce PAPA, a new probing method that replaces the input-dependent attention matrices with constant ones&amp;#8212;the average attention weights over multiple inputs. We use PAPA to analyze several established pretrained Transformers on six downstream tasks. We find that without any input-dependent attention, all models achieve competitive performance&amp;#8212;an average relative drop of only 8% from the probing baseline. Further, little or no performance drop is observed when replacing half of the input-dependent attention matrices with constant (input-&lt;i&gt;independent&lt;/i&gt;) ones. Interestingly, we show that better-performing models lose more from applying our method than weaker models, suggesting that the utilization of the input-dependent attention mechanism might be a factor in their success. Our results motivate research on simpler alternatives to input-dependent attention, as well as on methods for better utilization of this mechanism in the Transformer architecture.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication-type/1/">
+  <link rel="alternate" hreflang="en-us" href="/publication/how_much_does_attention/">
 
   
 
@@ -212,14 +212,12 @@
   
 
   
-  <link rel="alternate" href="/publication-type/1/index.xml" type="application/rss+xml" title="Home">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication-type/1/">
+  <link rel="canonical" href="/publication/how_much_does_attention/">
 
   
   
@@ -229,35 +227,84 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Home">
-  <meta property="og:url" content="/publication-type/1/">
-  <meta property="og:title" content="1 | Home">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/publication/how_much_does_attention/">
+  <meta property="og:title" content="How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers | Home">
+  <meta property="og:description" content="The attention mechanism is considered the backbone of the widely-used Transformer architecture. It contextualizes the input by computing input-specific attention matrices. We find that this mechanism, while powerful and elegant, is not as important as typically thought for pretrained language models. We introduce PAPA, a new probing method that replaces the input-dependent attention matrices with constant ones&amp;#8212;the average attention weights over multiple inputs. We use PAPA to analyze several established pretrained Transformers on six downstream tasks. We find that without any input-dependent attention, all models achieve competitive performance&amp;#8212;an average relative drop of only 8% from the probing baseline. Further, little or no performance drop is observed when replacing half of the input-dependent attention matrices with constant (input-&lt;i&gt;independent&lt;/i&gt;) ones. Interestingly, we show that better-performing models lose more from applying our method than weaker models, suggesting that the utilization of the input-dependent attention mechanism might be a factor in their success. Our results motivate research on simpler alternatives to input-dependent attention, as well as on methods for better utilization of this mechanism in the Transformer architecture."><meta property="og:image" content="/publication/how_much_does_attention/featured.png">
+  <meta property="twitter:image" content="/publication/how_much_does_attention/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-10-06T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2022-10-06T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-10-06T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/how_much_does_attention/"
+  },
+  "headline": "How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers",
+  
+  "image": [
+    "/publication/how_much_does_attention/featured.png"
+  ],
+  
+  "datePublished": "2022-10-06T00:00:00Z",
+  "dateModified": "2022-10-06T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Michael Hassid"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Home",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "The attention mechanism is considered the backbone of the widely-used Transformer architecture. It contextualizes the input by computing input-specific attention matrices. We find that this mechanism, while powerful and elegant, is not as important as typically thought for pretrained language models. We introduce PAPA, a new probing method that replaces the input-dependent attention matrices with constant ones\u0026#8212;the average attention weights over multiple inputs. We use PAPA to analyze several established pretrained Transformers on six downstream tasks. We find that without any input-dependent attention, all models achieve competitive performance\u0026#8212;an average relative drop of only 8% from the probing baseline. Further, little or no performance drop is observed when replacing half of the input-dependent attention matrices with constant (input-\u003ci\u003eindependent\u003c/i\u003e) ones. Interestingly, we show that better-performing models lose more from applying our method than weaker models, suggesting that the utilization of the input-dependent attention mechanism might be a factor in their success. Our results motivate research on simpler alternatives to input-dependent attention, as well as on methods for better utilization of this mechanism in the Transformer architecture."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>1 | Home</title>
+  <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers | Home</title>
 
 </head>
 
@@ -599,173 +646,322 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
   
   
   
+  
+  <div>
     
+
   
-<div class="universal-wrapper pt-3">
-  <h1>1</h1>
+  <span>Michael Hassid</span>, <span><a href='http://homes.cs.washington.edu/~hapeng/' target="_blank" rel="noopener noreferrer">Hao Peng</a></span>, <span>Daniel Rotem</span>, <span><a href='https://homes.cs.washington.edu/~jkasai/' target="_blank" rel="noopener noreferrer">Jungo Kasai</a></span>, <span>Ivan Montero</span>, <span><a href='http://homes.cs.washington.edu/~nasmith/' target="_blank" rel="noopener noreferrer">Noah A. Smith</a></span>, <span><b>Roy Schwartz</b></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October 2022
+  </span>
+  
 
   
 
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/how_much_does_attention/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 383px;">
+  <div style="position: relative">
+    <img src="/publication/how_much_does_attention/featured.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" style="text-align:justify">The attention mechanism is considered the backbone of the widely-used Transformer architecture. It contextualizes the input by computing input-specific attention matrices. We find that this mechanism, while powerful and elegant, is not as important as typically thought for pretrained language models. We introduce PAPA, a new probing method that replaces the input-dependent attention matrices with constant ones—the average attention weights over multiple inputs. We use PAPA to analyze several established pretrained Transformers on six downstream tasks. We find that without any input-dependent attention, all models achieve competitive performance—an average relative drop of only 8% from the probing baseline. Further, little or no performance drop is observed when replacing half of the input-dependent attention matrices with constant (input-<i>independent</i>) ones. Interestingly, we show that better-performing models lose more from applying our method than weaker models, suggesting that the utilization of the input-dependent attention mechanism might be a factor in their success. Our results motivate research on simpler alternatives to input-dependent attention, as well as on methods for better utilization of this mechanism in the Transformer architecture.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Findings of EMNLP 2022</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/understanding_models/">understanding_models</a>
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
-
-  
-  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-    
-    
-    <div>
-      <h2><a href="/publication/how_much_does_attention/" >How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</a></h2>
-      <div class="article-style">
+      
+      
+      
         
-          The attention mechanism is considered the backbone of the widely-used Transformer architecture. It contextualizes the input by computing input-specific attention matrices. We find that this mechanism, while powerful and elegant, is not as important …
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/how_much_does_attention/&amp;text=How%20Much%20Does%20Attention%20Actually%20Attend?%20Questioning%20the%20Importance%20of%20Attention%20in%20Pretrained%20Transformers" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
         
-      </div>
-    </div>
-  
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/how_much_does_attention/&amp;t=How%20Much%20Does%20Attention%20Actually%20Attend?%20Questioning%20the%20Importance%20of%20Attention%20in%20Pretrained%20Transformers" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
-    
-    
-    <div>
-      <h2><a href="/publication/winogavil/" >WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</a></h2>
-      <div class="article-style">
+      
+      
+      
         
-          While vision-and-language models perform well on tasks such as visual question answering, they struggle when it comes to basic human commonsense reasoning skills. In this work, we introduce WinoGAViL: an online game to collect vision-and-language …
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20Much%20Does%20Attention%20Actually%20Attend?%20Questioning%20the%20Importance%20of%20Attention%20in%20Pretrained%20Transformers&amp;body=/publication/how_much_does_attention/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
         
-      </div>
-    </div>
-  
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/how_much_does_attention/&amp;title=How%20Much%20Does%20Attention%20Actually%20Attend?%20Questioning%20the%20Importance%20of%20Attention%20in%20Pretrained%20Transformers" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
     
-    
-    
-    <div>
-      <h2><a href="/publication/dont_balance/" >On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</a></h2>
-      <div class="article-style">
+      
+      
+      
         
-          Recent work has shown that deep learning models in NLP are highly sensitive to low-level correlations between simple features and specific output labels, leading to overfitting and lack of generalization. To mitigate this problem, a common practice …
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=How%20Much%20Does%20Attention%20Actually%20Attend?%20Questioning%20the%20Importance%20of%20Attention%20in%20Pretrained%20Transformers%20/publication/how_much_does_attention/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
         
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/carbon/" >Measuring the Carbon Intensity of AI in Cloud instances</a></h2>
-      <div class="article-style">
-        
-          The advent of cloud computing has provided people around the world with unprecedented access to computational power and enabled rapid growth in technologies such as machine learning, the computational demands of which come with a high energy cost and …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/contamination/" >Data Contamination: From Memorization to Exploitation</a></h2>
-      <div class="article-style">
-        
-          Pretrained language models are typically trained on massive web-based datasets, which are often “contaminated” with downstream test sets. It is not clear to what extent models exploit the contaminated data for downstream tasks. We present a …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/abc/" >ABC: Attention with Bounded-memory Control</a></h2>
-      <div class="article-style">
-        
-          Transformer architectures have achieved stateof-the-art results on a variety of natural language processing (NLP) tasks. However, their attention mechanism comes with a quadratic complexity in sequence lengths, making the computational overhead …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/norm_growth/" >Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent</a></h2>
-      <div class="article-style">
-        
-          The capacity of neural networks like the widely adopted transformer is known to be very high. Evidence is emerging that they learn successfully due to inductive bias in the training routine, typically a variant of gradient descent (GD). To better …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/showyourwork2/" >Expected Validation Performanceand Estimation of a Random Variable&#39;s Maximum</a></h2>
-      <div class="article-style">
-        
-          NLP is often supported by experimental results, and improved reporting of such results can lead to better understanding and more reproducible science. In this paper we analyze three statistical estimators for expected validation performance, a tool …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/vl_mlm/" >Data Efficient Masked Language Modeling for Vision and Language</a></h2>
-      <div class="article-style">
-        
-          Masked language modeling (MLM) is one of the key sub-tasks in vision-language pretraining. In the cross-modal setting, tokens in the sentence are masked at random, and the model predicts the masked tokens given the image and the text. In this paper, …
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/covid_mechanisms/" >Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</a></h2>
-      <div class="article-style">
-        
-          The urgency of mitigating COVID-19 has spawned a large and diverse body of scientific literature that is challenging for researchers to navigate. This explosion of information has stimulated interest in automated tools to help identify useful …
-        
-      </div>
-    </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/publication-type/1/page/2/">&raquo;</a></li>
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/how_much_does_attention/&amp;title=How%20Much%20Does%20Attention%20Actually%20Attend?%20Questioning%20the%20Importance%20of%20Attention%20in%20Pretrained%20Transformers" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
+</div>
 
 
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/abc/">ABC: Attention with Bounded-memory Control</a></li>
+      
+      <li><a href="/publication/norm_growth/">Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent</a></li>
+      
+      <li><a href="/publication/gpt300/">Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?</a></li>
+      
+      <li><a href="/publication/rnn_hierarchy/">A Formal Hierarchy of RNN Architectures</a></li>
+      
+      <li><a href="/publication/rfa/">Random Feature Attention</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
 </div>
 
       
