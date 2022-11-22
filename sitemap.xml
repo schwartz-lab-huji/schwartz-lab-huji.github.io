@@ -4,7 +4,62 @@
   
   <url>
     <loc>/publication-type/1/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/www.hyadatalab.com/-target_blank-relnoopener-noreferrerdafna-shahaf/a/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-target_blank-relnoopener-noreferrergabi-stanovsky/a/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/eli-strugo/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ron-yosef/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/vasr/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,22 +78,7 @@
   </url>
   
   <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/daniel-rotem/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -54,16 +94,6 @@
   
   <url>
     <loc>/author/michael-hassid/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,27 +208,12 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-target_blank-relnoopener-noreferrergabi-stanovsky/a/</loc>
-    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a-hrefhttps/www.cs.unc.edu/~mbansal/-target_blank-relnoopener-noreferrermohit-bansal/a/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</loc>
-    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/nitzan-bitton-guetta/</loc>
-    <lastmod>2022-07-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ron-yosef/</loc>
     <lastmod>2022-07-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -948,7 +963,15 @@
   </url>
   
   <url>
+    <loc>/author/erez-badash/</loc>
+  </url>
+  
+  <url>
     <loc>/project/green_nlp/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/haya-riesel/</loc>
   </url>
   
   <url>

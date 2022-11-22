@@ -5,7 +5,7 @@
     <link>/author/michael-hassid/</link>
       <atom:link href="/author/michael-hassid/index.xml" rel="self" type="application/rss+xml" />
     <description>Michael Hassid</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 06 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Michael Hassid</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</title>
-      <link>/publication/how_much_does_attention/</link>
-      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/how_much_does_attention/</guid>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
       <description></description>
     </item>
     
