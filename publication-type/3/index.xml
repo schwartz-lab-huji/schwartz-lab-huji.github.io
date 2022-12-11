@@ -21,14 +21,6 @@
     </item>
     
     <item>
-      <title>TangoBERT: Reducing Inference Cost by using Cascaded Architecture</title>
-      <link>/publication/tangobert/</link>
-      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/tangobert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
       <link>/publication/finetune/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
