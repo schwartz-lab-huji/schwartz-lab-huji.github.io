@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 03 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Home</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Green AI</title>
+      <link>/talk/green_ai/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/talk/green_ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>VASR: Visual Analogies of Situation Recognition</title>
       <link>/publication/vasr/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/vasr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</title>
+      <link>/talk/dont_balance/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/talk/dont_balance/</guid>
       <description></description>
     </item>
     
@@ -65,14 +81,6 @@
       <link>/publication/dont_balance/</link>
       <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
       <guid>/publication/dont_balance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</title>
-      <link>/talk/dont_balance/</link>
-      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/talk/dont_balance/</guid>
       <description></description>
     </item>
     
@@ -129,14 +137,6 @@
       <link>/publication/vl_mlm/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
       <guid>/publication/vl_mlm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Green AI</title>
-      <link>/talk/green_ai/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>/talk/green_ai/</guid>
       <description></description>
     </item>
     
