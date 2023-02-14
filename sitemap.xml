@@ -3,6 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/author/daniel-rotem/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/yuval-reif/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/aviad-sar-shalom/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/michael-hassid/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/boaz-beldinger/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/inbal-magar/</loc>
+    <lastmod>2022-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yarden-tal/</loc>
+    <lastmod>2022-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/roi-tal/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/yuval-arbel/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</loc>
+    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/deborah-wolhandler/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/michael-hassid/</loc>
+    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/netta-madvil/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/erez-badash/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/yuval-reif/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/haya-riesel/</loc>
+  </url>
+  
+  <url>
     <loc>/talk/green_ai/</loc>
     <lastmod>2022-12-03T00:00:00+00:00</lastmod>
   </url>
@@ -29,11 +97,6 @@
   
   <url>
     <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-target_blank-relnoopener-noreferrergabi-stanovsky/a/</loc>
-    <lastmod>2022-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</loc>
     <lastmod>2022-11-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -104,11 +167,6 @@
   
   <url>
     <loc>/author/ivan-montero/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/michael-hassid/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -249,16 +307,6 @@
   
   <url>
     <loc>/publication/size_bias/</loc>
-    <lastmod>2022-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/inbal-magar/</loc>
-    <lastmod>2022-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/yarden-tal/</loc>
     <lastmod>2022-05-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -939,15 +987,7 @@
   </url>
   
   <url>
-    <loc>/author/aviad-sar-shalom/</loc>
-  </url>
-  
-  <url>
     <loc>/project/biases/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/boaz-beldinger/</loc>
   </url>
   
   <url>
@@ -955,31 +995,11 @@
   </url>
   
   <url>
-    <loc>/author/daniel-rotem/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/deborah-wolhandler/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/erez-badash/</loc>
-  </url>
-  
-  <url>
     <loc>/project/green_nlp/</loc>
   </url>
   
   <url>
-    <loc>/author/haya-riesel/</loc>
-  </url>
-  
-  <url>
     <loc>/joinus/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/netta-madvil/</loc>
   </url>
   
   <url>
@@ -1004,10 +1024,6 @@
   
   <url>
     <loc>/project/understanding_nlp/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/yuval-reif/</loc>
   </url>
   
   <url>
