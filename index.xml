@@ -301,25 +301,6 @@
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>/teaching/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/teaching/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Guest talk on distributional semantics at UW NLP course (spring 2017, &lt;a href=&#34;http://courses.cs.washington.edu/courses/csep517/17sp/slides/lecture8a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=cF6n_Gm05os&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;video&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;UW-NLP RNN Reading Group (spring 2017)&lt;/li&gt;
-&lt;li&gt;UW-NLP Discourse Reading Group (winter 2017)&lt;/li&gt;
-&lt;li&gt;Lecturer of the &lt;b&gt;huji coursera&lt;/b&gt; online version of Introduction to Object Oriented Programming&lt;/li&gt;
-&lt;li&gt;Lecturer of Introduction to Object Oriented Programming (&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs13/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;13/14&lt;/a&gt;, &lt;a href=&#34;http://moodle.cs.huji.ac.il/cs11/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;11/12&lt;/a&gt; &lt;font color=&#39;red&#39;&gt;&lt;b&gt;[Ranked #1 in student survey!]&lt;/b&gt;&lt;/font&gt;,
-&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs10/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;10/11&lt;/a&gt;,
-&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs09/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;09/10&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Lecturer of Computer Laboratory in Data Structures (&lt;a href=&#34;http://moodle.cs.huji.ac.il/cs12/course/view.php?id=67125&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;12/13&lt;/a&gt;) &lt;/li&gt;&lt;/li&gt;
-&lt;li&gt;Lecturer of Introduction to Programming in the Perl Language (&lt;a href=&#34;http://moodle.cs.huji.ac.il/old/course/view.php?id=105&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;07/08&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>LSTMs Exploit Linguistic Attributes of Data</title>
       <link>/publication/lstm/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
@@ -565,14 +546,6 @@ and attach a &lt;b&gt;2-page CV&lt;/b&gt;.&lt;br&gt;
       <link>/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/people/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/teachinga/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/teachinga/</guid>
       <description></description>
     </item>
     
