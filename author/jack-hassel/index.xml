@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nitzan Bitton Guetta | Home</title>
-    <link>/author/nitzan-bitton-guetta/</link>
-      <atom:link href="/author/nitzan-bitton-guetta/index.xml" rel="self" type="application/rss+xml" />
-    <description>Nitzan Bitton Guetta</description>
+    <title>Jack Hassel | Home</title>
+    <link>/author/jack-hassel/</link>
+      <atom:link href="/author/jack-hassel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jack Hassel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Nitzan Bitton Guetta</title>
-      <link>/author/nitzan-bitton-guetta/</link>
+      <title>Jack Hassel</title>
+      <link>/author/jack-hassel/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/whoops/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       <guid>/publication/whoops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
-      <link>/publication/winogavil/</link>
-      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/winogavil/</guid>
       <description></description>
     </item>
     
