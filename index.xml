@@ -23,8 +23,24 @@
     <item>
       <title>Green AI</title>
       <link>/talk/green_ai/</link>
-      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>/talk/green_ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morphosyntactic Probing of Multilingual BERT Models</title>
+      <link>/publication/morphosyntactic_probing/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/morphosyntactic_probing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spurious Correlations: Challenges, Solutions, and Opportunities</title>
+      <link>/talk/spurious_correlations/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/talk/spurious_correlations/</guid>
       <description></description>
     </item>
     
@@ -494,6 +510,20 @@
     
     <item>
       <title></title>
+      <link>/diversity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/diversity/</guid>
+      <description>&lt;div style=&#34;text-align:justify&#34; dir=&#34;rtl&#34;&gt;
+מדע טוב מתבסס על פתיחות מחשבתית ועל שבירת מוסכמות. 
+במעבדה שלנו אנחנו מאמינים בחשיבות של גיוון תרבותי, מחשבתי, שפתי, ומגדרי, וששילוב של אנשים מרקעים שונים הם מפתח להשגת פריצות דרך משמעותיות. 
+&lt;br&gt;
+מעבר לקידום הרעיונות האלו בתוך הקבוצה, רועי מתפקד בתור יועץ ביה״ס לענייני מגוון. 
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/hebrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/hebrew/</guid>
@@ -547,6 +577,14 @@ and attach a &lt;b&gt;2-page CV&lt;/b&gt;.&lt;br&gt;
 &lt;i&gt;Students&lt;/i&gt;, please provide your undergrad and masters grade transcripts if available.&lt;br&gt;
 &lt;i&gt;Ph.D.&lt;/i&gt; and &lt;i&gt;postdoc candidates&lt;/i&gt;, please also briefly describe your research interests. 
 </description>
+    </item>
+    
+    <item>
+      <title>Multimodality</title>
+      <link>/project/multimodal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/multimodal/</guid>
+      <description></description>
     </item>
     
     <item>

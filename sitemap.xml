@@ -111,6 +111,11 @@
   </url>
   
   <url>
+    <loc>/tag/multimodality/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/nitzan-bitton-guetta/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -126,18 +131,58 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/yuval-elovici/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-target_blank-relnoopener-noreferrernoah-a.-smith/a/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/andras-kornai/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/endre-hamerlik/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/green_ai/</loc>
-    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2022-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/judit-acs/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/morphosyntactic_probing/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/spurious_correlations/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -176,11 +221,6 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-target_blank-relnoopener-noreferrernoah-a.-smith/a/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a-hrefhttps/homes.cs.washington.edu/~jkasai/-target_blank-relnoopener-noreferrerjungo-kasai/a/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url>
@@ -201,13 +241,23 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/tag/understanding_models/</loc>
     <lastmod>2022-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/understanding_models/</loc>
-    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-target_blank-relnoopener-noreferrerjesse-dodge/a/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/strubell.github.io/-target_blank-relnoopener-noreferreremma-strubell/a/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp-target_blank-relnoopener-noreferreriryna-gurevych/a/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -237,6 +287,11 @@
   
   <url>
     <loc>/tag/greenai/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jessica-forde/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -356,16 +411,6 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-target_blank-relnoopener-noreferrerjesse-dodge/a/</loc>
-    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/strubell.github.io/-target_blank-relnoopener-noreferreremma-strubell/a/</loc>
-    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a-hrefhttps/www.sashaluccioni.com/-target_blank-relnoopener-noreferrersasha-luccioni/a/</loc>
     <lastmod>2022-04-06T00:00:00+00:00</lastmod>
   </url>
@@ -478,11 +523,6 @@
   <url>
     <loc>/publication/vl_mlm/</loc>
     <lastmod>2021-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -975,6 +1015,10 @@
   </url>
   
   <url>
+    <loc>/diversity/</loc>
+  </url>
+  
+  <url>
     <loc>/hebrew/</loc>
   </url>
   
@@ -1000,6 +1044,10 @@
   
   <url>
     <loc>/joinus/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/multimodal/</loc>
   </url>
   
   <url>

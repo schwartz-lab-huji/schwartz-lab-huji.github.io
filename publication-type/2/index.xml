@@ -5,12 +5,28 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Morphosyntactic Probing of Multilingual BERT Models</title>
+      <link>/publication/morphosyntactic_probing/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/morphosyntactic_probing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?</title>
