@@ -72,11 +72,6 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/3/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
@@ -107,11 +102,6 @@
   </url>
   
   <url>
-    <loc>/author/daniel-rotem/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/emmanuel-dupoux/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
@@ -122,17 +112,7 @@
   </url>
   
   <url>
-    <loc>/publication/sweet/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/gabriel-synnaeve/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/green_ai/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,11 +128,6 @@
   
   <url>
     <loc>/author/jade-copet/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jonathan-mamou/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -189,6 +164,31 @@
   <url>
     <loc>/author/tu-anh-nguyen/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/daniel-rotem/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/sweet/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/green_ai/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jonathan-mamou/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
