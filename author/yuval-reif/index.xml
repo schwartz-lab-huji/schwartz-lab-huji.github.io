@@ -5,12 +5,20 @@
     <link>/author/yuval-reif/</link>
       <atom:link href="/author/yuval-reif/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuval Reif</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yuval Reif</title>
       <link>/author/yuval-reif/</link>
     </image>
+    
+    <item>
+      <title>Fighting Bias with Bias: Promoting Model Robustness by Amplifying Dataset Biases</title>
+      <link>/publication/fight_bias/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/fight_bias/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

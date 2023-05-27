@@ -5,12 +5,36 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
+      <link>/publication/sweet/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/sweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curating Datasets for Better Performance with Example Training Dynamics</title>
+      <link>/publication/curating_datasets/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/curating_datasets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fighting Bias with Bias: Promoting Model Robustness by Amplifying Dataset Biases</title>
+      <link>/publication/fight_bias/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/fight_bias/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VASR: Visual Analogies of Situation Recognition</title>

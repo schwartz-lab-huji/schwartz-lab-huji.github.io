@@ -5,12 +5,52 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Home</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
+      <link>/publication/sweet/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/sweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textually Pretrained Speech Language Models</title>
+      <link>/publication/twist/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/twist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curating Datasets for Better Performance with Example Training Dynamics</title>
+      <link>/publication/curating_datasets/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/curating_datasets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fighting Bias with Bias: Promoting Model Robustness by Amplifying Dataset Biases</title>
+      <link>/publication/fight_bias/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/fight_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spurious Correlations: Challenges, Solutions, and Opportunities</title>
+      <link>/talk/spurious_correlations/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/talk/spurious_correlations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images</title>
@@ -33,14 +73,6 @@
       <link>/publication/morphosyntactic_probing/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>/publication/morphosyntactic_probing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spurious Correlations: Challenges, Solutions, and Opportunities</title>
-      <link>/talk/spurious_correlations/</link>
-      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>/talk/spurious_correlations/</guid>
       <description></description>
     </item>
     
@@ -543,6 +575,22 @@
 &lt;li&gt;&lt;a href=&#34;https://www.haaretz.co.il/captain/software/.premium-1.8194763&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;עיתון הארץ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ynet.co.il/articles/0,7340,L-5567808,00.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;ראיון ב-Ynet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.cs.huji.ac.il/he/page/5734&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;כתבת פרופיל באתר ביה״ס למדעי המחשב&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/media/</guid>
+      <description>&lt;div style=&#34;text-align:justify&#34;&gt;
+Many of the lab&#39;s papers, e.g., &lt;a href=&#34;../publication/greenai/&#34;&gt;Green AI&lt;/a&gt;, &lt;a href=&#34;../publication/carbon/&#34;&gt;Measuring the Carbon Intensity of AI in Cloud instances&lt;/a&gt;, &lt;a href=&#34;../publication/showyourwork/&#34;&gt;Show Your Work&lt;/a&gt;, and &lt;a href=&#34;../publication/SWAG/&#34;&gt;SWAG&lt;/a&gt;, have been covered by various news sources. For Hebrew materials, see our &lt;a href=&#34;../author/רועי-שוורץ/&#34;&gt;Hebrew page&lt;/a&gt;. Below are podcast and recent interviews with Roy.
+&lt;ul&gt;
+&lt;li&gt;Interview with Roy on Bloomberg on &lt;a href=&#34;https://www.bloomberg.com/news/articles/2023-03-09/how-much-energy-do-ai-and-chatgpt-use-no-one-knows-for-sure#xj4y7vzkg?leadSource=uverify%20wall&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;AI Carbon footprint&lt;/a&gt;, March 2023&lt;/li&gt;
+&lt;li&gt;Interview with Roy on the Data Exchange podcast about &lt;a href=&#34;https://thedataexchange.media/efficient-methods-for-natural-language-processing/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Efficient NLP&lt;/a&gt;, December 2022&lt;/li&gt;
+&lt;li&gt;Interview with Roy on the Practical AI podcast about &lt;a href=&#34;https://changelog.com/practicalai/124&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Green AI&lt;/a&gt;, March 2021&lt;/li&gt;
+&lt;li&gt;Interview with Roy on the NLP Highlights podcast about &lt;a href=&#34;https://soundcloud.com/nlp-highlights/32-the-effect-of-different-writing-tasks-on-linguistic-style-with-roy-schwartz&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;annotation artifacts&lt;/a&gt;, July 2017&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
