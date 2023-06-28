@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aviad Sar-Shalom | Home</title>
-    <link>/author/aviad-sar-shalom/</link>
-      <atom:link href="/author/aviad-sar-shalom/index.xml" rel="self" type="application/rss+xml" />
-    <description>Aviad Sar-Shalom</description>
+    <title>Amit Ben Artzy | Home</title>
+    <link>/author/amit-ben-artzy/</link>
+      <atom:link href="/author/amit-ben-artzy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amit Ben Artzy</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Aviad Sar-Shalom</title>
-      <link>/author/aviad-sar-shalom/</link>
+      <title>Amit Ben Artzy</title>
+      <link>/author/amit-ben-artzy/</link>
     </image>
     
   </channel>
