@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ji-Ung Lee | Home</title>
-    <link>/author/ji-ung-lee/</link>
-      <atom:link href="/author/ji-ung-lee/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ji-Ung Lee</description>
+    <title>Andreas Rücklé | Home</title>
+    <link>/author/andreas-ruckle/</link>
+      <atom:link href="/author/andreas-ruckle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andreas Rücklé</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Ji-Ung Lee</title>
-      <link>/author/ji-ung-lee/</link>
+      <title>Andreas Rücklé</title>
+      <link>/author/andreas-ruckle/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/surveying_disparities/</link>
       <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/publication/surveying_disparities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficient Methods for Natural Language Processing: A Survey</title>
-      <link>/publication/efficient_methods/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/efficient_methods/</guid>
       <description></description>
     </item>
     

@@ -81,16 +81,101 @@
   
   <url>
     <loc>/publication-type/3/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-target_blank-relnoopener-noreferrerjesse-dodge/a/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/strubell.github.io/-target_blank-relnoopener-noreferreremma-strubell/a/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp-target_blank-relnoopener-noreferreriryna-gurevych/a/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/andreas-ruckle/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/betty-van-aken/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/greenai/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/haritz-puerto/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jessica-zosa-forde/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ji-ung-lee/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/leon-derczynski/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/surveying_disparities/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/yuki-arase/</loc>
+    <lastmod>2023-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -101,11 +186,6 @@
   
   <url>
     <loc>/author/alexis-conneau/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -125,11 +205,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/itai-gat/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
@@ -141,21 +216,6 @@
   
   <url>
     <loc>/tag/multimodality/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -186,11 +246,6 @@
   
   <url>
     <loc>/publication/sweet/</loc>
-    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/greenai/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -345,27 +400,7 @@
   </url>
   
   <url>
-    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~jessed/-target_blank-relnoopener-noreferrerjesse-dodge/a/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/strubell.github.io/-target_blank-relnoopener-noreferreremma-strubell/a/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp-target_blank-relnoopener-noreferreriryna-gurevych/a/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/andre-f.-t.-martins/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/betty-van-aken/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -390,17 +425,7 @@
   </url>
   
   <url>
-    <loc>/author/ji-ung-lee/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/kenneth-heafield/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/leon-derczynski/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url>
   
