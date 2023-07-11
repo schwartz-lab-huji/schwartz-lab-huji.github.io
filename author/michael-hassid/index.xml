@@ -5,23 +5,29 @@
     <link>/author/michael-hassid/</link>
       <atom:link href="/author/michael-hassid/index.xml" rel="self" type="application/rss+xml" />
     <description>Michael Hassid</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Michael Hassid</title>
       <link>/author/michael-hassid/</link>
     </image>
     
+  </channel>
+</rss>
+/michael-hassid/</link>
+    </image>
+    
     <item>
-      <title>Textually Pretrained Speech Language Models</title>
-      <link>/publication/twist/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/twist/</guid>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
+  </channel>
+</rss>
+ Improvement of Adaptive Inference in Low Resource Settings</title>
       <link>/publication/sweet/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       <guid>/publication/sweet/</guid>
