@@ -5,12 +5,20 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Invited Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Invited Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>The Role of Data in Building Robust Models</title>
+      <link>/talk/role_of_data/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/talk/role_of_data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Spurious Correlations: Challenges, Solutions, and Opportunities</title>
