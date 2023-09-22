@@ -29,14 +29,6 @@
     </item>
     
     <item>
-      <title>Textually Pretrained Speech Language Models</title>
-      <link>/publication/twist/</link>
-      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/twist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
       <link>/publication/finetune/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>

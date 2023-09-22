@@ -60,7 +60,7 @@
   
   <url>
     <loc>/author/michael-hassid/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,8 +90,98 @@
   </url>
   
   <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alexandre-defossez/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/alexis-conneau/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/emmanuel-dupoux/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/felix-kreuk/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/gabriel-synnaeve/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/itai-gat/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jade-copet/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/multimodality/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tal-remez/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/twist/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tu-anh-nguyen/</loc>
+    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -105,22 +195,12 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/a-hrefhttps/gabrielstanovsky.github.io-target_blank-relnoopener-noreferrergabi-stanovsky/a/</loc>
     <lastmod>2023-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2023-07-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -140,27 +220,7 @@
   </url>
   
   <url>
-    <loc>/tag/multimodality/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/nitzan-bitton-guetta/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2023-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2023-07-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -242,66 +302,6 @@
   <url>
     <loc>/author/yuki-arase/</loc>
     <lastmod>2023-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/alexandre-defossez/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/alexis-conneau/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/emmanuel-dupoux/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/felix-kreuk/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/gabriel-synnaeve/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/itai-gat/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jade-copet/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/tal-remez/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/twist/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/tu-anh-nguyen/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
