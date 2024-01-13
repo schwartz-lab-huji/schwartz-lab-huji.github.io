@@ -5,12 +5,20 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
       <link>/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>Transformers are Multi-State RNNs</title>
+      <link>/publication/tova/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/tova/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Read, Look or Listen? What&#39;s Needed for Solving a Multimodal Dataset</title>

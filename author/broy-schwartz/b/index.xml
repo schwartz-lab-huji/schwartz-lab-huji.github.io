@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;* | Home</title>
+    <title>&lt;b&gt;Roy Schwartz&lt;/b&gt; | Home</title>
     <link>/author/broy-schwartz/b/</link>
       <atom:link href="/author/broy-schwartz/b/index.xml" rel="self" type="application/rss+xml" />
-    <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;*</title>
+      <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;</title>
       <link>/author/broy-schwartz/b/</link>
     </image>
     
     <item>
-      <title>Textually Pretrained Speech Language Models</title>
-      <link>/publication/twist/</link>
-      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/twist/</guid>
+      <title>Transformers are Multi-State RNNs</title>
+      <link>/publication/tova/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/tova/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Green AI</title>
-      <link>/publication/greenai/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/greenai/</guid>
+      <title>Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images</title>
+      <link>/publication/whoops/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/whoops/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
-      <link>/publication/sopa/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sopa/</guid>
+      <title>Read, Look or Listen? What&#39;s Needed for Solving a Multimodal Dataset</title>
+      <link>/publication/read_it/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/read_it/</guid>
       <description></description>
     </item>
     
-  </channel>
-</rss>
-Jun 2023 00:00:00 +0000</pubDate>
+    <item>
+      <title>Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research</title>
+      <link>/publication/surveying_disparities/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
       <guid>/publication/surveying_disparities/</guid>
       <description></description>
     </item>
