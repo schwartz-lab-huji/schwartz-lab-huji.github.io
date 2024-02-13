@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Large language models (LLMs) have demonstrated impressive adaptability to diverse tasks, by relying only on context prompts containing instructions, or minimal input-output examples. However, recent work revealed they also exhibit &lt;i&gt;label bias&lt;/i&gt;---an undesirable preference toward predicting certain answers over others. Still, detecting and measuring this bias reliably and at scale has remained relatively unexplored. In this study, we evaluate different approaches to quantifying &lt;i&gt;label bias&lt;/i&gt; in a model&#39;s predictions, conducting a comprehensive investigation across 279 classification tasks and ten LLMs. Our investigation reveals substantial label bias in models both before and after debiasing attempts, as well as highlights the importance of outcomes-based evaluation metrics, which were not previously used in this regard. We further propose a novel label bias calibration method tailored for few-shot prompting, which outperforms recent calibration approaches for both improving performance and mitigating label bias. Nevertheless, our results emphasize that label bias in the predictions of LLMs remains a barrier to their reliability.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/404.html">
+  <link rel="alternate" hreflang="en-us" href="/publication/label_bias/">
 
   
 
@@ -217,7 +217,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/404.html">
+  <link rel="canonical" href="/publication/label_bias/">
 
   
   
@@ -227,24 +227,70 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Home">
-  <meta property="og:url" content="/404.html">
-  <meta property="og:title" content="404 Page not found | Home">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/publication/label_bias/">
+  <meta property="og:title" content="Beyond Performance: Quantifying and Mitigating Label Bias in LLMs | Home">
+  <meta property="og:description" content="Large language models (LLMs) have demonstrated impressive adaptability to diverse tasks, by relying only on context prompts containing instructions, or minimal input-output examples. However, recent work revealed they also exhibit &lt;i&gt;label bias&lt;/i&gt;---an undesirable preference toward predicting certain answers over others. Still, detecting and measuring this bias reliably and at scale has remained relatively unexplored. In this study, we evaluate different approaches to quantifying &lt;i&gt;label bias&lt;/i&gt; in a model&#39;s predictions, conducting a comprehensive investigation across 279 classification tasks and ten LLMs. Our investigation reveals substantial label bias in models both before and after debiasing attempts, as well as highlights the importance of outcomes-based evaluation metrics, which were not previously used in this regard. We further propose a novel label bias calibration method tailored for few-shot prompting, which outperforms recent calibration approaches for both improving performance and mitigating label bias. Nevertheless, our results emphasize that label bias in the predictions of LLMs remains a barrier to their reliability."><meta property="og:image" content="/publication/label_bias/featured.png">
+  <meta property="twitter:image" content="/publication/label_bias/featured.png"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2024-02-13T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-02-13T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/publication/label_bias/"
+  },
+  "headline": "Beyond Performance: Quantifying and Mitigating Label Bias in LLMs",
+  
+  "image": [
+    "/publication/label_bias/featured.png"
+  ],
+  
+  "datePublished": "2024-02-13T00:00:00Z",
+  "dateModified": "2024-02-13T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Yuval Reif"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Home",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Large language models (LLMs) have demonstrated impressive adaptability to diverse tasks, by relying only on context prompts containing instructions, or minimal input-output examples. However, recent work revealed they also exhibit \u003ci\u003elabel bias\u003c/i\u003e---an undesirable preference toward predicting certain answers over others. Still, detecting and measuring this bias reliably and at scale has remained relatively unexplored. In this study, we evaluate different approaches to quantifying \u003ci\u003elabel bias\u003c/i\u003e in a model's predictions, conducting a comprehensive investigation across 279 classification tasks and ten LLMs. Our investigation reveals substantial label bias in models both before and after debiasing attempts, as well as highlights the importance of outcomes-based evaluation metrics, which were not previously used in this regard. We further propose a novel label bias calibration method tailored for few-shot prompting, which outperforms recent calibration approaches for both improving performance and mitigating label bias. Nevertheless, our results emphasize that label bias in the predictions of LLMs remains a barrier to their reliability."
+}
+</script>
+
+  
 
   
 
@@ -252,10 +298,13 @@
   
 
 
+  
 
 
 
-  <title>404 Page not found | Home</title>
+
+
+  <title>Beyond Performance: Quantifying and Mitigating Label Bias in LLMs | Home</title>
 
 </head>
 
@@ -641,50 +690,330 @@
 </nav>
 
 
-  <div class="universal-wrapper pt-3">
-
-  <h1>Page not found</h1>
-
-  
-  
-  <form class="d-flex align-items-center mb-3">
-    <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
-  </form>
-  
+  <div class="pub">
 
   
 
-  <p>Perhaps you were looking for one of these?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Beyond Performance: Quantifying and Mitigating Label Bias in LLMs</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
 
   
   
   
-  <h2>Latest</h2>
-  <ul>
+  
+  <div>
     
-      <li><a href="/publication/label_bias/">Beyond Performance: Quantifying and Mitigating Label Bias in LLMs</a></li>
+
+  
+  <span>Yuval Reif</span>, <span><b>Roy Schwartz</b></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
     
-      <li><a href="/publication/tova/">Transformers are Multi-State RNNs</a></li>
     
-      <li><a href="/publication/twist/">Textually Pretrained Speech Language Models</a></li>
+      
     
-      <li><a href="/talk/role_of_data/">The Role of Data in Building Robust Models</a></li>
+    February 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
     
-      <li><a href="/publication/whoops/">Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images</a></li>
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/label_bias/Label_Bias_in_LLMs.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/label_bias/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 348px;">
+  <div style="position: relative">
+    <img src="/publication/label_bias/featured_hu0900d219e2f908887d932d4717e0e275_73403_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
-      <li><a href="/publication/read_it/">Read, Look or Listen? What&#39;s Needed for Solving a Multimodal Dataset</a></li>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
     
-      <li><a href="/publication/surveying_disparities/">Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research</a></li>
+
     
-      <li><a href="/publication/sweet/">Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</a></li>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" style="text-align:justify">Large language models (LLMs) have demonstrated impressive adaptability to diverse tasks, by relying only on context prompts containing instructions, or minimal input-output examples. However, recent work revealed they also exhibit <i>label bias</i>&mdash;an undesirable preference toward predicting certain answers over others. Still, detecting and measuring this bias reliably and at scale has remained relatively unexplored. In this study, we evaluate different approaches to quantifying <i>label bias</i> in a model&rsquo;s predictions, conducting a comprehensive investigation across 279 classification tasks and ten LLMs. Our investigation reveals substantial label bias in models both before and after debiasing attempts, as well as highlights the importance of outcomes-based evaluation metrics, which were not previously used in this regard. We further propose a novel label bias calibration method tailored for few-shot prompting, which outperforms recent calibration approaches for both improving performance and mitigating label bias. Nevertheless, our results emphasize that label bias in the predictions of LLMs remains a barrier to their reliability.</p>
     
-      <li><a href="/publication/fight_bias/">Fighting Bias with Bias: Promoting Model Robustness by Amplifying Dataset Biases</a></li>
+
     
-      <li><a href="/publication/curating_datasets/">Curating Datasets for Better Performance with Example Training Dynamics</a></li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><i>preprint</i></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/improved_evaluation/">improved_evaluation</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/label_bias/&amp;text=Beyond%20Performance:%20Quantifying%20and%20Mitigating%20Label%20Bias%20in%20LLMs" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/label_bias/&amp;t=Beyond%20Performance:%20Quantifying%20and%20Mitigating%20Label%20Bias%20in%20LLMs" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Beyond%20Performance:%20Quantifying%20and%20Mitigating%20Label%20Bias%20in%20LLMs&amp;body=/publication/label_bias/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/label_bias/&amp;title=Beyond%20Performance:%20Quantifying%20and%20Mitigating%20Label%20Bias%20in%20LLMs" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Beyond%20Performance:%20Quantifying%20and%20Mitigating%20Label%20Bias%20in%20LLMs%20/publication/label_bias/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/label_bias/&amp;title=Beyond%20Performance:%20Quantifying%20and%20Mitigating%20Label%20Bias%20in%20LLMs" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/fight_bias/">Fighting Bias with Bias: Promoting Model Robustness by Amplifying Dataset Biases</a></li>
+      
+      <li><a href="/publication/curating_datasets/">Curating Datasets for Better Performance with Example Training Dynamics</a></li>
+      
+      <li><a href="/publication/dont_balance/">On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</a></li>
+      
+      <li><a href="/publication/contamination/">Data Contamination: From Memorization to Exploitation</a></li>
+      
+      <li><a href="/publication/contrast_sets/">Automatic Generation of Contrast Sets from Scene Graphs: Probing the Compositional Consistency of GQA</a></li>
+      
+    </ul>
+  </div>
   
 
+
+
+  </div>
 </div>
 
       

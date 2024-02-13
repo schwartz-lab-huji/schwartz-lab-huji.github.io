@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/author/haya-riesel/</loc>
+  </url>
+  
+  <url>
     <loc>/author/netta-madvil/</loc>
   </url>
   
@@ -62,15 +66,11 @@
   
   <url>
     <loc>/author/yuval-reif/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/erez-badash/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/haya-riesel/</loc>
   </url>
   
   <url>
@@ -88,7 +88,47 @@
   
   <url>
     <loc>/publication-type/3/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/label_bias/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/improved_evaluation/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -97,37 +137,7 @@
   </url>
   
   <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/greenai/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,11 +343,6 @@
   
   <url>
     <loc>/publication/fight_bias/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/improved_evaluation/</loc>
     <lastmod>2023-05-03T00:00:00+00:00</lastmod>
   </url>
   
