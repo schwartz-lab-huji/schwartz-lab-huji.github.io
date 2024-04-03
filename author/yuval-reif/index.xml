@@ -5,7 +5,7 @@
     <link>/author/yuval-reif/</link>
       <atom:link href="/author/yuval-reif/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuval Reif</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yuval Reif</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Beyond Performance: Quantifying and Mitigating Label Bias in LLMs</title>
       <link>/publication/label_bias/</link>
-      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       <guid>/publication/label_bias/</guid>
       <description></description>
     </item>

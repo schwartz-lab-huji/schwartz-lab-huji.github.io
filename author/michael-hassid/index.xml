@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Michael Hassid | Home</title>
+    <title>Michael Hassid* | Home</title>
     <link>/author/michael-hassid/</link>
       <atom:link href="/author/michael-hassid/index.xml" rel="self" type="application/rss+xml" />
-    <description>Michael Hassid</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate>
+    <description>Michael Hassid*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Michael Hassid</title>
+      <title>Michael Hassid*</title>
       <link>/author/michael-hassid/</link>
     </image>
     
     <item>
-      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
-      <link>/publication/sweet/</link>
-      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/sweet/</guid>
+      <title>The Larger the Better? Improved LLM Code-Generation via Budget Reallocation</title>
+      <link>/publication/larger_better/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/larger_better/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</title>
-      <link>/publication/how_much_does_attention/</link>
-      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/how_much_does_attention/</guid>
+      <title>Transformers are Multi-State RNNs</title>
+      <link>/publication/tova/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/tova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Textually Pretrained Speech Language Models</title>
+      <link>/publication/twist/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/twist/</guid>
       <description></description>
     </item>
     

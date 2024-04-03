@@ -56,7 +56,7 @@
   
   <url>
     <loc>/author/michael-hassid/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -70,11 +70,11 @@
   
   <url>
     <loc>/author/yuval-reif/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/nor-yarden/</loc>
+    <loc>/author/nir-yarden/</loc>
   </url>
   
   <url>
@@ -99,58 +99,91 @@
   </url>
   
   <url>
+    <loc>/author/tamer-ghattas/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/guy-kaplan/</loc>
+  </url>
+  
+  <url>
     <loc>/publication-type/3/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/label_bias/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/improved_evaluation/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/greenai/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jonas-gehring/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/multimodality/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/tal-remez/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/larger_better/</loc>
+    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/label_bias/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/improved_evaluation/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -161,11 +194,6 @@
   <url>
     <loc>/tag/understanding_models/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -210,16 +238,6 @@
   
   <url>
     <loc>/author/jade-copet/</loc>
-    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/multimodality/</loc>
-    <lastmod>2023-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/tal-remez/</loc>
     <lastmod>2023-09-22T00:00:00+00:00</lastmod>
   </url>
   

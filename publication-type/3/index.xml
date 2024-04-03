@@ -5,7 +5,7 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Beyond Performance: Quantifying and Mitigating Label Bias in LLMs</title>
-      <link>/publication/label_bias/</link>
-      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/label_bias/</guid>
+      <title>The Larger the Better? Improved LLM Code-Generation via Budget Reallocation</title>
+      <link>/publication/larger_better/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/larger_better/</guid>
       <description></description>
     </item>
     
