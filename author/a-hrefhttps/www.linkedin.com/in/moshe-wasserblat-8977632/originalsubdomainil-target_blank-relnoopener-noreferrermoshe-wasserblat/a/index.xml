@@ -5,12 +5,20 @@
     <link>/author/a-hrefhttps/www.linkedin.com/in/moshe-wasserblat-8977632/originalsubdomainil-target_blank-relnoopener-noreferrermoshe-wasserblat/a/</link>
       <atom:link href="/author/a-hrefhttps/www.linkedin.com/in/moshe-wasserblat-8977632/originalsubdomainil-target_blank-relnoopener-noreferrermoshe-wasserblat/a/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;a href=&#39;https://www.linkedin.com/in/moshe-wasserblat-8977632/?originalSubdomain=il&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Moshe Wasserblat&lt;/a&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;a href=&#39;https://www.linkedin.com/in/moshe-wasserblat-8977632/?originalSubdomain=il&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Moshe Wasserblat&lt;/a&gt;</title>
       <link>/author/a-hrefhttps/www.linkedin.com/in/moshe-wasserblat-8977632/originalsubdomainil-target_blank-relnoopener-noreferrermoshe-wasserblat/a/</link>
     </image>
+    
+    <item>
+      <title>Accelerating Speculative Decoding using Dynamic Speculation Length</title>
+      <link>/publication/accelerating_speculative/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/accelerating_speculative/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TangoBERT: Reducing Inference Cost by using Cascaded Architecture</title>
