@@ -5,12 +5,20 @@
     <link>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-target_blank-relnoopener-noreferrernoah-a.-smith/a/</link>
       <atom:link href="/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-target_blank-relnoopener-noreferrernoah-a.-smith/a/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Noah A. Smith&lt;/a&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;a href=&#39;http://homes.cs.washington.edu/~nasmith/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Noah A. Smith&lt;/a&gt;</title>
       <link>/author/a-hrefhttp/homes.cs.washington.edu/~nasmith/-target_blank-relnoopener-noreferrernoah-a.-smith/a/</link>
     </image>
+    
+    <item>
+      <title>What Can Natural Language Processing Do for Peer Review?</title>
+      <link>/publication/what_can_natural/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/what_can_natural/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Morphosyntactic Probing of Multilingual BERT Models</title>
