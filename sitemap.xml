@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/author/amit-ben-artzy/</loc>
+  </url>
+  
+  <url>
     <loc>/author/haya-riesel/</loc>
   </url>
   
@@ -15,11 +19,19 @@
   </url>
   
   <url>
+    <loc>/author/yuval-reif/</loc>
+  </url>
+  
+  <url>
     <loc>/author/aviad-sar-shalom/</loc>
   </url>
   
   <url>
     <loc>/author/boaz-beldinger/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/michael-hassid/</loc>
   </url>
   
   <url>
@@ -79,16 +91,16 @@
   </url>
   
   <url>
+    <loc>/author/amit-ben-artzy/</loc>
+  </url>
+  
+  <url>
     <loc>/author/matanel-oren/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/erez-badash/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/amit-ben-artzy/</loc>
   </url>
   
   <url>
@@ -1320,6 +1332,10 @@
   <url>
     <loc>/talk/neutralizing_linguistically/</loc>
     <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/advisory/</loc>
   </url>
   
   <url>
