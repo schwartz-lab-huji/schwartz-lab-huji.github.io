@@ -40,6 +40,10 @@
   </url>
   
   <url>
+    <loc>/author/yuval-arbel/</loc>
+  </url>
+  
+  <url>
     <loc>/author/a-hrefhttps/yonatanbitton.github.io/-target_blank-relnoopener-noreferreryonatan-bitton/a/</loc>
     <lastmod>2023-07-14T00:00:00+00:00</lastmod>
   </url>
@@ -60,10 +64,6 @@
   
   <url>
     <loc>/author/deborah-wolhandler/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/yuval-arbel/</loc>
   </url>
   
   <url>
@@ -92,6 +92,7 @@
   
   <url>
     <loc>/author/amit-ben-artzy/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -121,7 +122,47 @@
   
   <url>
     <loc>/publication-type/3/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/broy-schwartz/b/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/attend_first/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/understanding_models/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -136,11 +177,6 @@
   
   <url>
     <loc>/author/a-hrefhttps/www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp-target_blank-relnoopener-noreferreriryna-gurevych/a/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/broy-schwartz/b/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -165,22 +201,12 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/danish-pruthi/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/dirk-hovy/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -236,16 +262,6 @@
   
   <url>
     <loc>/author/osama-mohammed-afzal/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -310,11 +326,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication-type/1/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -356,11 +367,6 @@
   
   <url>
     <loc>/publication/tova/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/understanding_models/</loc>
     <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url>
   
