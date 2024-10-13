@@ -242,7 +242,7 @@
   <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-09-08T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2024-10-10T00:00:00&#43;00:00">
   
 
   
@@ -1629,6 +1629,147 @@
     
 
   
+  <span>Guy Kaplan</span>, <span>Matanel Oren</span>, <span>Yuval Reif</span>, <span><b>Roy Schwartz</b></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October 2024
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <i>arXiv:2410.05864</i>
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/token2word/">
+      <img src="/publication/token2word/featured_hu2e82fc40fb4ccf868a2e0d404e85b9ee_320614_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/token2word/">From Tokens to Words: on the Inner Lexicon of LLMs</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Natural language is composed of words, but modern LLMs process sub-words as input. A natural question raised by this discrepancy is whether LLMs encode words internally, and if so how. We present evidence that LLMs engage in an intrinsic detokenization process, where sub-word sequences are combined into coherent word representations. Our experiments show that this process takes place primarily within the early and middle layers of the model. They also show that it is robust to non-morphemic splits, typos and perhaps importantly—to out-of-vocabulary words: when feeding the inner representation of such words to the model as input vectors, it can &lsquo;understand&rsquo; them despite never seeing them during training. Our findings suggest that LLMs maintain a latent vocabulary beyond the tokenizer&rsquo;s scope. These insights provide a practical, finetuning-free application for expanding the vocabulary of pre-trained models. By enabling the addition of new vocabulary words, we reduce input length and inference iterations, which reduces both space and model latency, with little to no loss in model accuracy.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2410.05864" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/token2word/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/schwartz-lab-NLP/Tokens2Words" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
   <span>Amit Ben Artzy</span>, <span><b>Roy Schwartz</b></span>
   </div>
   
@@ -1922,7 +2063,7 @@
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      <i>arXiv:2405.04304</i>
+      In <i>Proc. of ENLSP 2024</i>
     
   </span>
   
@@ -2131,143 +2272,6 @@
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/slp-rl/budget-realloc" target="_blank" rel="noopener">
   Project
 </a>
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-  
-
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span>Yuval Reif</span>, <span><b>Roy Schwartz</b></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    March 2024
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <i>Proc. of NAACL 2024</i>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  <a href="/publication/label_bias/">
-      <img src="/publication/label_bias/featured_hu8ed155305407a092414610345ef78c4f_500168_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="">
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/label_bias/">Beyond Performance: Quantifying and Mitigating Label Bias in LLMs</a>
-  </h3>
-
-  
-  <div class="article-style">
-    <p>Large language models (LLMs) have shown remarkable adaptability to diverse tasks, by leveraging context prompts containing instructions, or minimal input-output examples. However, recent work revealed they also exhibit label bias&mdash;an undesirable preference toward predicting certain answers over others. Still, detecting and measuring this bias reliably and at scale has remained relatively unexplored. In this study, we evaluate different approaches to quantifying label bias in a model&rsquo;s predictions, conducting a comprehensive investigation across 279 classification tasks and ten LLMs. Our investigation reveals substantial label bias in models both before and after debiasing attempts, as well as highlights the importance of outcomes-based evaluation metrics, which were not previously used in this regard. We further propose a novel label bias calibration method tailored for few-shot prompting, which outperforms recent calibration approaches for both improving performance and mitigating label bias. Our results emphasize that label bias in the predictions of LLMs remains a barrier to their reliability.</p>
-  </div>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2405.02743" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/label_bias/cite.bib">
-  Cite
-</button>
-
-
-
-
 
 
 

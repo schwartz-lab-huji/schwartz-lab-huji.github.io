@@ -5,7 +5,7 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>What Can Natural Language Processing Do for Peer Review?</title>
-      <link>/publication/what_can_natural/</link>
-      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/what_can_natural/</guid>
+      <title>From Tokens to Words: on the Inner Lexicon of LLMs</title>
+      <link>/publication/token2word/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/token2word/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Accelerating Speculative Decoding using Dynamic Speculation Length</title>
-      <link>/publication/accelerating_speculative/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/accelerating_speculative/</guid>
+      <title>What Can Natural Language Processing Do for Peer Review?</title>
+      <link>/publication/what_can_natural/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/what_can_natural/</guid>
       <description></description>
     </item>
     
