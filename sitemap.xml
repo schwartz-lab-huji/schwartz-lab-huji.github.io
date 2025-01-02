@@ -31,7 +31,15 @@
   </url>
   
   <url>
+    <loc>/author/lotem-rozner/</loc>
+  </url>
+  
+  <url>
     <loc>/author/michael-hassid/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/nir-yarden/</loc>
   </url>
   
   <url>
@@ -77,17 +85,8 @@
   </url>
   
   <url>
-    <loc>/author/lotem-rozner/</loc>
-  </url>
-  
-  <url>
     <loc>/author/yuval-reif/</loc>
     <lastmod>2024-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/nir-yarden/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -96,8 +95,11 @@
   </url>
   
   <url>
-    <loc>/author/matanel-oren/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+    <loc>/author/ido-amos/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/omer-ben-shahar/</loc>
   </url>
   
   <url>
@@ -110,6 +112,11 @@
   </url>
   
   <url>
+    <loc>/author/matanel-oren/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/maoz-nahum/</loc>
   </url>
   
@@ -119,6 +126,15 @@
   
   <url>
     <loc>/author/guy-kaplan/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/nir-yarden/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/lotem-rozner/</loc>
   </url>
   
   <url>
