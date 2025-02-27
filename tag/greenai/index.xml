@@ -5,12 +5,28 @@
     <link>/tag/greenai/</link>
       <atom:link href="/tag/greenai/index.xml" rel="self" type="application/rss+xml" />
     <description>greenai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>greenai</title>
       <link>/tag/greenai/</link>
     </image>
+    
+    <item>
+      <title>On Pruning State-Space LLMs</title>
+      <link>/publication/on_pruning_state-space/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/on_pruning_state-space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies</title>
+      <link>/publication/accelerating_llm_inference/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/accelerating_llm_inference/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Accelerating Speculative Decoding using Dynamic Speculation Length</title>

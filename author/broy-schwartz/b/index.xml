@@ -1,38 +1,494 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;* | Home</title>
+    <title>&lt;b&gt;Roy Schwartz&lt;/b&gt; | Home</title>
     <link>/author/broy-schwartz/b/</link>
       <atom:link href="/author/broy-schwartz/b/index.xml" rel="self" type="application/rss+xml" />
-    <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <description>&lt;b&gt;Roy Schwartz&lt;/b&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;*</title>
+      <title>&lt;b&gt;Roy Schwartz&lt;/b&gt;</title>
       <link>/author/broy-schwartz/b/</link>
     </image>
     
     <item>
-      <title>Textually Pretrained Speech Language Models</title>
-      <link>/publication/twist/</link>
-      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/twist/</guid>
+      <title>On Pruning State-Space LLMs</title>
+      <link>/publication/on_pruning_state-space/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/on_pruning_state-space/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Green AI</title>
-      <link>/publication/greenai/</link>
+      <title>Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies</title>
+      <link>/publication/accelerating_llm_inference/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/accelerating_llm_inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Tokens to Words: on the Inner Lexicon of LLMs</title>
+      <link>/publication/token2word/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/token2word/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attend First, Consolidate Later: On the Importance of Attention in Different LLM Layers</title>
+      <link>/publication/attend_first/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/attend_first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Can Natural Language Processing Do for Peer Review?</title>
+      <link>/publication/what_can_natural/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/what_can_natural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Speculative Decoding using Dynamic Speculation Length</title>
+      <link>/publication/accelerating_speculative/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/accelerating_speculative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Larger the Better? Improved LLM Code-Generation via Budget Reallocation</title>
+      <link>/publication/larger_better/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/larger_better/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Performance: Quantifying and Mitigating Label Bias in LLMs</title>
+      <link>/publication/label_bias/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/label_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformers are Multi-State RNNs</title>
+      <link>/publication/tova/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/tova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images</title>
+      <link>/publication/whoops/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/whoops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Read, Look or Listen? What&#39;s Needed for Solving a Multimodal Dataset</title>
+      <link>/publication/read_it/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/read_it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research</title>
+      <link>/publication/surveying_disparities/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/surveying_disparities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
+      <link>/publication/sweet/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/sweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fighting Bias with Bias: Promoting Model Robustness by Amplifying Dataset Biases</title>
+      <link>/publication/fight_bias/</link>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/fight_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curating Datasets for Better Performance with Example Training Dynamics</title>
+      <link>/publication/curating_datasets/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/curating_datasets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Morphosyntactic Probing of Multilingual BERT Models</title>
+      <link>/publication/morphosyntactic_probing/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/morphosyntactic_probing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VASR: Visual Analogies of Situation Recognition</title>
+      <link>/publication/vasr/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/vasr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</title>
+      <link>/publication/how_much_does_attention/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/how_much_does_attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WinoGAViL: Gamified Association Benchmark to Challenge Vision-and-Language Models</title>
+      <link>/publication/winogavil/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/winogavil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fewer Errors, but More Stereotypes? The Effect of Model Size on Gender Bias</title>
+      <link>/publication/size_bias/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/size_bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TangoBERT: Reducing Inference Cost by using Cascaded Architecture</title>
+      <link>/publication/tangobert/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/tangobert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Limitations of Dataset Balancing: The Lost Battle Against Spurious Correlations</title>
+      <link>/publication/dont_balance/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/dont_balance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the Carbon Intensity of AI in Cloud instances</title>
+      <link>/publication/carbon/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/carbon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Contamination: From Memorization to Exploitation</title>
+      <link>/publication/contamination/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/contamination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ABC: Attention with Bounded-memory Control</title>
+      <link>/publication/abc/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/abc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent</title>
+      <link>/publication/norm_growth/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/norm_growth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expected Validation Performanceand Estimation of a Random Variable&#39;s Maximum</title>
+      <link>/publication/showyourwork2/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Efficient Masked Language Modeling for Vision and Language</title>
+      <link>/publication/vl_mlm/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/vl_mlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?</title>
+      <link>/publication/gpt300/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/gpt300/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extracting a Knowledge Base of Mechanisms from COVID-19 Papers</title>
+      <link>/publication/covid_mechanisms/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/covid_mechanisms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Generation of Contrast Sets from Scene Graphs: Probing the Compositional Consistency of GQA</title>
+      <link>/publication/contrast_sets/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/contrast_sets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random Feature Attention</title>
+      <link>/publication/rfa/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extracting a knowledge base of mechanisms from COVID-19 papers</title>
+      <link>/publication/covid_mechanisms_ws/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/covid_mechanisms_ws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Hierarchy of RNN Architectures</title>
+      <link>/publication/rnn_hierarchy/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rnn_hierarchy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mixture of &lt;i&gt;h-1&lt;/i&gt; Heads is Better than &lt;i&gt;h&lt;/i&gt; Heads</title>
+      <link>/publication/mae/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/mae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
+      <link>/publication/sledgehammer/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sledgehammer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
+      <link>/publication/finetune/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/finetune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knowledge Enhanced Contextual Word Representations</title>
+      <link>/publication/kermit/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/greenai/</guid>
+      <guid>/publication/kermit/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SoPa: Bridging CNNs, RNNs, and Weighted Finite-State Machines</title>
-      <link>/publication/sopa/</link>
+      <title>PaLM: A Hybrid Parser and Language Model</title>
+      <link>/publication/palm/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/palm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN Architecture Learning with Sparse Regularization </title>
+      <link>/publication/sparsifying/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sparsifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Show Your Work: Improved Reporting of Experimental Results </title>
+      <link>/publication/showyourwork/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets</title>
+      <link>/publication/inoculation/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/inoculation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rational Recurrences</title>
+      <link>/publication/rr/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference</title>
+      <link>/publication/swag/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/swag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSTMs Exploit Linguistic Attributes of Data</title>
+      <link>/publication/lstm/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sopa/</guid>
+      <guid>/publication/lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications</title>
+      <link>/publication/peeread/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/peeread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annotation Artifacts in Natural Language Inference Data</title>
+      <link>/publication/artifacts/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/artifacts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic selection of context configurations for improved (and fast) class-specific word representations</title>
+      <link>/publication/context_config/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/context_config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the ROC Story Cloze Task</title>
+      <link>/publication/language_constraint/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/language_constraint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Story Cloze Task: UW NLP System</title>
+      <link>/publication/lsdsem_uw_nlp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/lsdsem_uw_nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Patterns and Coordinations: Fast and Enhanced Representations of Verbs and Adjectives</title>
+      <link>/publication/sp_sg/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/sp_sg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pattern-based methods for Improved Lexical Semantics and Word Embeddings</title>
+      <link>/publication/thesis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Well Do Distributional Models Capture Different Types of Semantic Knowledge?</title>
+      <link>/publication/semantics_from_text/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/semantics_from_text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symmetric Pattern Based Word Embeddings for Improved Word Similarity Prediction</title>
+      <link>/publication/sp_embeddings/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/sp_embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimally Supervised Classification to Semantic Categories using Automatically Acquired Symmetric Patterns</title>
+      <link>/publication/coarse_grained/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/coarse_grained/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authorship Attribution of Micro-Messages</title>
+      <link>/publication/twitter_authorship/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/twitter_authorship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learnability-based Syntactic Annotation Design</title>
+      <link>/publication/learnable/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/learnable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutralizing Linguistically Problematic Annotations in Unsupervised Dependency Parsing Evaluation</title>
+      <link>/publication/ned/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/ned/</guid>
       <description></description>
     </item>
     
