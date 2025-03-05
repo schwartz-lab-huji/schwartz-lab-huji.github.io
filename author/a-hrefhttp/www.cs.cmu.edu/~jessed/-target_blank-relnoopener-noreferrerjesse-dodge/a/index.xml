@@ -22,3 +22,65 @@
     
   </channel>
 </rss>
+ties/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the Carbon Intensity of AI in Cloud instances</title>
+      <link>/publication/carbon/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/carbon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expected Validation Performanceand Estimation of a Random Variable&#39;s Maximum</title>
+      <link>/publication/showyourwork2/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
+      <link>/publication/sledgehammer/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sledgehammer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-Tuning Pretrained Language Models: Weight Initializations, Data Orders, and Early Stopping</title>
+      <link>/publication/finetune/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/finetune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNN Architecture Learning with Sparse Regularization </title>
+      <link>/publication/sparsifying/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sparsifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Show Your Work: Improved Reporting of Experimental Results </title>
+      <link>/publication/showyourwork/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/showyourwork/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

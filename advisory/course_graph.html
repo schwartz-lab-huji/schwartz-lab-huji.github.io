@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Prerequisites</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #graph {
+            flex-grow: 1;
+            width: 100%;
+            background-color: #f9f9f9;
+        }
+        .controls {
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            background-color: #eee;
+        }
+        button {
+            padding: 8px 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+        .restart {
+            background-color: #3498db;
+            color: white;
+        }
+        .node {
+            cursor: pointer;
+        }
+        .link {
+            stroke-width: 2px;
+        }
+        .link-active {
+            stroke: #333;
+        }
+        .link-inactive {
+            stroke: #ddd;
+            stroke-dasharray: 4;
+        }
+        .node text {
+            font-size: 12px;
+            text-anchor: middle;
+        }
+        .link-label {
+            font-size: 10px;
+            fill: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="graph"></div>
+    <div class="controls">
+        <button class="restart" id="restartBtn">Restart</button>
+    </div>
+
+    <script>
+        // Course data
+        const courses = [
+            ['intro2cs (7)', 'linear1 (6)', 'infi1 (7)', 'discrete (5)'],
+            ['c/cpp (4)', 'linear2 (6)', 'infi2 (7)', 'dast (4)'],
+            ['nand (5)', 'oop (4)', 'probabilty (6)', 'algo (5)'],
+            ['os (4)', 'iml* (5)', 'complexity (5)'],
+            ['communication* (4)']
+        ];
+
+        // Course indices
+        const INTRO2CS = 1;
+        const LINEAR1 = 2;
+        const INFI1 = 3;
+        const DISCRETE = 4;
+        const CPP = 5;
+        const LINEAR2 = 6;
+        const INFI2 = 7;
+        const DAST = 8;
+        const NAND = 9;
+        const OOP = 10;
+        const PROBABILITY = 11;
+        const ALGO = 12;
+        const OS = 13;
+        const IML = 14;
+        const COMPLEXITY = 15;
+        const COMMUNICATION = 16;
+
+        // Links between courses (prerequisites)
+        const links = [
+            [[INTRO2CS], CPP],
+            [[INTRO2CS], DAST],
+            [[INTRO2CS], OOP],
+            [[INTRO2CS], NAND],
+            [[INFI1], INFI2],
+            [[INFI1, LINEAR1], DAST, 'inf1 or linear1'],
+            [[INFI1], PROBABILITY],
+            [[LINEAR1], LINEAR2],
+            [[DISCRETE], DAST],
+            [[DISCRETE], ALGO],
+            [[PROBABILITY], ALGO, 'in parallel'],
+            [[DISCRETE], PROBABILITY],
+            [[INFI2], PROBABILITY, 'or matap'],
+            [[INFI2], IML, 'or matap'],
+            [[CPP], OOP],
+            [[CPP], OS],
+            [[DAST], ALGO],
+            [[ALGO], IML],
+            [[ALGO], COMPLEXITY],
+            [[PROBABILITY], IML],
+            [[NAND], OS],
+            [[ALGO], COMMUNICATION],
+            [[PROBABILITY], COMMUNICATION],
+            [[NAND], COMMUNICATION],
+        ];
+
+        // Colors for different years - match original purple, blue, green, red, orange
+        const COLORS = ['#9b59b6', '#3498db', '#2ecc71', '#e74c3c', '#f39c12'];
+
+        // Lighten color function (similar to the Python version)
+        function lightenColor(color, factor = 0.5) {
+            // Convert hex to RGB
+            let r = parseInt(color.slice(1, 3), 16);
+            let g = parseInt(color.slice(3, 5), 16);
+            let b = parseInt(color.slice(5, 7), 16);
+            
+            // Lighten
+            r = Math.min(255, r + (255 - r) * factor);
+            g = Math.min(255, g + (255 - g) * factor);
+            b = Math.min(255, b + (255 - b) * factor);
+            
+            // Convert back to hex
+            return `#${Math.round(r).toString(16).padStart(2, '0')}${Math.round(g).toString(16).padStart(2, '0')}${Math.round(b).toString(16).padStart(2, '0')}`;
+        }
+
+        // Initialize graph data structures
+        const nodes = [];
+        const graphLinks = [];
+        const nodeMap = {};
+
+        // Create node objects
+        let id = 1;
+        courses.forEach((yearCourses, yearIndex) => {
+            const nodeColor = COLORS[yearIndex]; // Get color for this layer
+            yearCourses.forEach(course => {
+                const node = {
+                    id,
+                    text: course,
+                    layerColor: nodeColor, // Store the layer color permanently
+                    layer: yearIndex,
+                    isOn: false,
+                    active: false,
+                    incoming: [],
+                    outgoing: []
+                };
+                nodes.push(node);
+                nodeMap[id] = node;
+                id++;
+            });
+        });
+
+        // Create edge objects
+        links.forEach(link => {
+            const fromIds = link[0];
+            const toId = link[1];
+            const text = link.length > 2 ? link[2] : '';
+            
+            const toNode = nodeMap[toId];
+            
+            const edgeGroup = [];
+            
+            fromIds.forEach(fromId => {
+                const fromNode = nodeMap[fromId];
+                
+                const edge = {
+                    source: fromId,
+                    target: toId,
+                    text,
+                    isActive: false,
+                    fromNode,
+                    toNode,
+                    sisterEdges: edgeGroup
+                };
+                
+                edgeGroup.push(edge);
+                graphLinks.push(edge);
+                
+                // Add references to nodes
+                fromNode.outgoing.push(edge);
+                toNode.incoming.push(edge);
+            });
+        });
+
+        // Check if a node is active (all prerequisites met)
+        function isNodeActive(node) {
+            // If no prerequisites, it's always active
+            if (node.incoming.length === 0) return true;
+            
+            // Check if any incoming edge is active
+            for (const edge of node.incoming) {
+                // Check if this edge or any sister edge is active
+                const anyActive = edge.isActive || edge.sisterEdges.some(e => e.isActive);
+                if (!anyActive) return false;
+            }
+            
+            return true;
+        }
+
+        // Get node fill color based on its state
+        function getNodeFillColor(node) {
+            if (!node.active) {
+                return lightenColor(node.layerColor, 0.8);
+            }
+            return node.isOn ? node.layerColor : lightenColor(node.layerColor, 0.5);
+        }
+
+        // Toggle a node and update the graph
+        function toggleNode(node) {
+            if (!isNodeActive(node)) return;
+            
+            node.isOn = !node.isOn;
+            
+            // Activate outgoing edges
+            if (node.isOn) {
+                node.outgoing.forEach(edge => {
+                    edge.isActive = true;
+                });
+            } else {
+                // If the node is turned off, deactivate its outgoing edges
+                // and turn off dependent nodes
+                node.outgoing.forEach(edge => {
+                    if (edge.toNode.isOn) {
+                        toggleNode(edge.toNode); // Recursively turn off dependent nodes
+                    }
+                    edge.isActive = false;
+                });
+            }
+            
+            // Update node active states
+            nodes.forEach(n => {
+                n.active = isNodeActive(n);
+            });
+            
+            updateGraph();
+        }
+
+        // D3 visualization setup
+        let svg, simulation, linkElements, nodeElements, nodeCircles, labelElements, linkLabelElements;
+
+        function initializeGraph() {
+            // Clear previous graph
+            d3.select('#graph').html('');
+            
+            // Set up an SVG container for the graph
+            const width = document.getElementById('graph').clientWidth;
+            const height = document.getElementById('graph').clientHeight;
+            
+            svg = d3.select('#graph')
+                .append('svg')
+                .attr('width', width)
+                .attr('height', height);
+            
+            // Position nodes by layer - fixed positions with staggered rows
+            nodes.forEach(node => {
+                // Calculate position based on layer (vertical positioning)
+                const layerCount = courses[node.layer].length;
+                
+                // Find index within layer
+                const indexInLayer = courses[node.layer].findIndex(course => course === node.text);
+                
+                // Center each row and space nodes evenly
+                // Offset odd-numbered layers slightly to the left as in original code
+                const rowOffset = node.layer % 2 === 1 ? -40 : 0;
+                node.fx = width/2 - (layerCount-1)*140/2 + indexInLayer * 140 + rowOffset;
+                node.fy = 80 + node.layer * 120;
+            });
+            
+            // Initialize the force simulation with fixed nodes
+            simulation = d3.forceSimulation(nodes)
+                .force('link', d3.forceLink(graphLinks).id(d => d.id).distance(100))
+                .on('tick', ticked);
+            
+            // Create the links
+            linkElements = svg.append('g')
+                .selectAll('line')
+                .data(graphLinks)
+                .enter()
+                .append('line')
+                .attr('class', d => d.isActive ? 'link link-active' : 'link link-inactive');
+            
+            // Create link labels
+            linkLabelElements = svg.append('g')
+                .selectAll('text')
+                .data(graphLinks.filter(d => d.text))
+                .enter()
+                .append('text')
+                .attr('class', 'link-label')
+                .text(d => d.text);
+            
+            // Create the nodes
+            nodeElements = svg.append('g')
+                .selectAll('g')
+                .data(nodes)
+                .enter()
+                .append('g')
+                .attr('class', 'node')
+                .on('click', (event, d) => toggleNode(d));
+            
+            // Add the circles to nodes
+            nodeCircles = nodeElements.append('circle')
+                .attr('r', 20)
+                .style('fill', d => getNodeFillColor(d));
+            
+            // Add labels to nodes
+            nodeElements.append('text')
+                .attr('dy', 30)
+                .attr('text-anchor', 'middle')
+                .text(d => d.text);
+            
+            // Set first-layer nodes as active
+            nodes.filter(n => n.layer === 0).forEach(n => {
+                n.active = true;
+            });
+            
+            updateGraph();
+            
+            // Restart the simulation
+            simulation.alpha(1).restart();
+        }
+
+        // Update the positions of elements on tick
+        function ticked() {
+            linkElements
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+            
+            nodeElements.attr('transform', d => `translate(${d.x},${d.y})`);
+            
+            linkLabelElements
+                .attr('x', d => (d.source.x + d.target.x) / 2)
+                .attr('y', d => (d.source.y + d.target.y) / 2);
+        }
+
+        function updateGraph() {
+            // Update link appearances
+            linkElements
+                .data(graphLinks)
+                .attr('class', d => d.isActive ? 'link link-active' : 'link link-inactive');
+            
+            // Update node appearances using the correct color for each state
+            nodeCircles
+                .style('fill', d => getNodeFillColor(d));
+                
+            // Restart the simulation to update positions
+            simulation.alpha(0.3).restart();
+        }
+
+        function restart() {
+            // Reset all nodes and edges
+            nodes.forEach(node => {
+                node.isOn = false;
+                node.active = node.incoming.length === 0;
+            });
+            
+            graphLinks.forEach(link => {
+                link.isActive = false;
+            });
+            
+            // Set first-layer nodes as active
+            nodes.filter(n => n.layer === 0).forEach(n => {
+                n.active = true;
+            });
+            
+            updateGraph();
+        }
+
+        // Initialize the graph on page load
+        window.addEventListener('load', () => {
+            initializeGraph();
+            
+            // Set up the restart button
+            document.getElementById('restartBtn').addEventListener('click', restart);
+            
+            // Handle window resize
+            window.addEventListener('resize', () => {
+                initializeGraph();
+            });
+        });
+    </script>
+</body>
+</html>
