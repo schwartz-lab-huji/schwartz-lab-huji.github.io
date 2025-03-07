@@ -13,27 +13,17 @@
             display: flex;
             flex-direction: column;
             height: 100vh;
-            overflow: hidden; /* Prevent scrollbars when dragging */
         }
         #graph {
             flex-grow: 1;
             width: 100%;
             background-color: #f9f9f9;
-            cursor: grab; /* Show grab cursor to indicate draggable area */
-        }
-        #graph svg {
-            width: 100%;
-            height: 100%;
-        }
-        #graph.grabbing {
-            cursor: grabbing; /* Show grabbing cursor while dragging */
         }
         .controls {
             padding: 10px;
             display: flex;
             gap: 10px;
             background-color: #eee;
-            z-index: 100;
         }
         button {
             padding: 8px 16px;
@@ -45,16 +35,11 @@
             background-color: #3498db;
             color: white;
         }
-        .reset-view {
-            background-color: #2ecc71;
-            color: white;
-        }
         .node {
             cursor: pointer;
         }
         .link {
             stroke-width: 2px;
-            pointer-events: none;
         }
         .link-active {
             stroke: #333;
@@ -66,12 +51,10 @@
         .node text {
             font-size: 12px;
             text-anchor: middle;
-            pointer-events: none; /* Prevent text from interfering with clicks */
         }
         .link-label {
             font-size: 10px;
             fill: #555;
-            pointer-events: none; /* Prevent labels from interfering with drags */
         }
     </style>
 </head>
@@ -79,7 +62,6 @@
     <div id="graph"></div>
     <div class="controls">
         <button class="restart" id="restartBtn">Restart</button>
-        <button class="reset-view" id="resetViewBtn">Reset View</button>
     </div>
 
     <script>
@@ -269,9 +251,8 @@
         }
 
         // D3 visualization setup
-        let svg, gMain, simulation, linkElements, nodeElements, nodeCircles, labelElements, linkLabelElements;
-        let zoomHandler;
-        
+        let svg, simulation, linkElements, nodeElements, nodeCircles, labelElements, linkLabelElements;
+
         function initializeGraph() {
             // Clear previous graph
             d3.select('#graph').html('');
@@ -280,31 +261,10 @@
             const width = document.getElementById('graph').clientWidth;
             const height = document.getElementById('graph').clientHeight;
             
-            // Create SVG element
             svg = d3.select('#graph')
                 .append('svg')
                 .attr('width', width)
                 .attr('height', height);
-                
-            // Create a main group for the graph that will be transformed for dragging
-            gMain = svg.append('g');
-            
-            // Create zoom behavior
-            zoomHandler = d3.zoom()
-                .extent([[0, 0], [width, height]])
-                .scaleExtent([0.5, 3])
-                .on('start', () => {
-                    document.getElementById('graph').classList.add('grabbing');
-                })
-                .on('zoom', (event) => {
-                    gMain.attr('transform', event.transform);
-                })
-                .on('end', () => {
-                    document.getElementById('graph').classList.remove('grabbing');
-                });
-                
-            // Apply zoom behavior
-            svg.call(zoomHandler);
             
             // Position nodes by layer - fixed positions with staggered rows
             nodes.forEach(node => {
@@ -326,8 +286,8 @@
                 .force('link', d3.forceLink(graphLinks).id(d => d.id).distance(100))
                 .on('tick', ticked);
             
-            // Create the links within the main group
-            linkElements = gMain.append('g')
+            // Create the links
+            linkElements = svg.append('g')
                 .selectAll('line')
                 .data(graphLinks)
                 .enter()
@@ -335,7 +295,7 @@
                 .attr('class', d => d.isActive ? 'link link-active' : 'link link-inactive');
             
             // Create link labels
-            linkLabelElements = gMain.append('g')
+            linkLabelElements = svg.append('g')
                 .selectAll('text')
                 .data(graphLinks.filter(d => d.text))
                 .enter()
@@ -344,26 +304,18 @@
                 .text(d => d.text);
             
             // Create the nodes
-            nodeElements = gMain.append('g')
+            nodeElements = svg.append('g')
                 .selectAll('g')
                 .data(nodes)
                 .enter()
                 .append('g')
-                .attr('class', 'node');
-                
+                .attr('class', 'node')
+                .on('click', (event, d) => toggleNode(d));
+            
             // Add the circles to nodes
             nodeCircles = nodeElements.append('circle')
                 .attr('r', 20)
-                .style('fill', d => getNodeFillColor(d))
-                .on('mousedown', function(event) {
-                    // Prevent the zoom behavior from activating when clicking on a node
-                    event.stopPropagation();
-                })
-                .on('click', function(event, d) {
-                    // Handle node clicks
-                    event.stopPropagation();
-                    toggleNode(d);
-                });
+                .style('fill', d => getNodeFillColor(d));
             
             // Add labels to nodes
             nodeElements.append('text')
@@ -429,13 +381,6 @@
             
             updateGraph();
         }
-        
-        function resetView() {
-            // Reset the transform to identity (no translation or scaling)
-            svg.transition()
-               .duration(750)
-               .call(zoomHandler.transform, d3.zoomIdentity);
-        }
 
         // Initialize the graph on page load
         window.addEventListener('load', () => {
@@ -443,9 +388,6 @@
             
             // Set up the restart button
             document.getElementById('restartBtn').addEventListener('click', restart);
-            
-            // Set up the reset view button
-            document.getElementById('resetViewBtn').addEventListener('click', resetView);
             
             // Handle window resize
             window.addEventListener('resize', () => {
