@@ -56,17 +56,8 @@
             background-color: #2ecc71;
             color: white;
         }
-        /* Remove the general cursor pointer from node class */
         .node {
-            /* cursor style will be dynamically set based on active state */
-        }
-        /* Add a new class for active nodes that are clickable */
-        .node-active {
             cursor: pointer;
-        }
-        /* Non-active nodes should have default cursor */
-        .node-inactive {
-            cursor: default;
         }
         .semester-node {
             cursor: default;
@@ -196,7 +187,7 @@
             const semesterNode = {
                 id: 100 + yearIndex, // Use high IDs to avoid collision
                 text: `Year ${Math.round((yearIndex + 1)/2)}`,
-	        subtext: `Semester ${(yearIndex)%2 ? 'B' : 'A'}`, 
+		subtext: `Semester ${(yearIndex)%2+1}`, 
                 layerColor: nodeColor,
                 layer: yearIndex,
                 isSemester: true
@@ -439,9 +430,7 @@
                 .data(nodes)
                 .enter()
                 .append('g')
-                .attr('class', 'node')
-                .classed('node-active', d => d.active)
-                .classed('node-inactive', d => !d.active);
+                .attr('class', 'node');
                 
             // Add the circles to nodes
             nodeCircles = nodeElements.append('circle')
@@ -452,11 +441,9 @@
                     event.stopPropagation();
                 })
                 .on('click', function(event, d) {
-                    // Only process click if the node is active
-                    if (d.active) {
-                        event.stopPropagation();
-                        toggleNode(d);
-                    }
+                    // Handle node clicks
+                    event.stopPropagation();
+                    toggleNode(d);
                 });
             
             // Add labels to nodes
@@ -501,11 +488,6 @@
             // Update node appearances using the correct color for each state
             nodeCircles
                 .style('fill', d => getNodeFillColor(d));
-            
-            // Update node active state and cursor style
-            nodeElements
-                .classed('node-active', d => d.active)
-                .classed('node-inactive', d => !d.active);
                 
             // Restart the simulation to update positions
             simulation.alpha(0.3).restart();
