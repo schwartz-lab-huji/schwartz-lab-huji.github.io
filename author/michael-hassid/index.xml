@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Michael Hassid* | Home</title>
+    <title>Michael Hassid | Home</title>
     <link>/author/michael-hassid/</link>
       <atom:link href="/author/michael-hassid/index.xml" rel="self" type="application/rss+xml" />
-    <description>Michael Hassid*</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <description>Michael Hassid</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Michael Hassid*</title>
+      <title>Michael Hassid</title>
       <link>/author/michael-hassid/</link>
     </image>
     
     <item>
-      <title>The Larger the Better? Improved LLM Code-Generation via Budget Reallocation</title>
-      <link>/publication/larger_better/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/larger_better/</guid>
+      <title>On Pruning State-Space LLMs</title>
+      <link>/publication/on_pruning_state-space/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/on_pruning_state-space/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Transformers are Multi-State RNNs</title>
-      <link>/publication/tova/</link>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/tova/</guid>
+      <title>Efficient Methods for Natural Language Processing: A Survey</title>
+      <link>/publication/efficient_methods/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient_methods/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Textually Pretrained Speech Language Models</title>
-      <link>/publication/twist/</link>
-      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+  </channel>
+</rss>
+does_attention/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
+, 22 Sep 2023 00:00:00 +0000</pubDate>
       <guid>/publication/twist/</guid>
       <description></description>
     </item>

@@ -77,10 +77,12 @@
         }
         .link-active {
             stroke: #333;
+            marker-end: url(#arrow-active);
         }
         .link-inactive {
             stroke: #ddd;
             stroke-dasharray: 4;
+            marker-end: url(#arrow-inactive);
         }
         .node text {
             font-size: 12px;
@@ -109,26 +111,26 @@
     <script>
         // Course data
         const courses = [
-            ['intro2cs (7)', 'linear1 (6)', 'infi1 (7)', 'discrete (5)'],
-            ['c/cpp (4)', 'linear2 (6)', 'infi2 (7)', 'dast (4)'],
-            ['nand (5)', 'oop (4)', 'probabilty (6)', 'algo (5)'],
+            ['intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+            ['c/cpp (4)', 'dast (4)', 'infi2 (7)', 'linear2 (6)'],
+            ['nand (5)', 'oop (4)', 'algo (5)', 'probabilty (6)'],
             ['os (4)', 'iml* (5)', 'complexity (5)'],
             ['communication* (4)']
         ];
 
         // Course indices
         const INTRO2CS = 1;
-        const LINEAR1 = 2;
-        const INFI1 = 3;
-        const DISCRETE = 4;
+        const INFI1 = 2;
+        const DISCRETE = 3;
+        const LINEAR1 = 4;
         const CPP = 5;
-        const LINEAR2 = 6;
+        const DAST = 6;
         const INFI2 = 7;
-        const DAST = 8;
+        const LINEAR2 = 8;
         const NAND = 9;
         const OOP = 10;
-        const PROBABILITY = 11;
-        const ALGO = 12;
+        const ALGO = 11;
+        const PROBABILITY = 12;
         const OS = 13;
         const IML = 14;
         const COMPLEXITY = 15;
@@ -153,6 +155,7 @@
             [[CPP], OOP],
             [[CPP], OS],
             [[DAST], ALGO],
+            [[DAST], CPP, 'in parallel'],
             [[ALGO], IML],
             [[ALGO], COMPLEXITY],
             [[PROBABILITY], IML],
@@ -331,7 +334,37 @@
                 .append('svg')
                 .attr('width', width)
                 .attr('height', height);
+
+            // Add arrow marker definitions for both active and inactive states
+            const defs = svg.append("defs");
+            
+            // Active arrow marker
+            defs.append("marker")
+                .attr("id", "arrow-active")
+                .attr("viewBox", "0 -5 10 10")
+                .attr("refX", 26) // Position just before the target node
+                .attr("refY", 0)
+                .attr("markerWidth", 6)
+                .attr("markerHeight", 6)
+                .attr("orient", "auto")
+                .append("path")
+                .attr("d", "M0,-5L10,0L0,5")
+                .attr("fill", "#333"); // Same color as active links
                 
+            // Inactive arrow marker
+            defs.append("marker")
+                .attr("id", "arrow-inactive")
+                .attr("viewBox", "0 -5 10 10")
+                .attr("refX", 26) // Position just before the target node
+                .attr("refY", 0)
+                .attr("markerWidth", 6)
+                .attr("markerHeight", 6)
+                .attr("orient", "auto")
+                .append("path")
+                .attr("d", "M0,-5L10,0L0,5")
+                .attr("fill", "#ddd"); // Same color as inactive links
+                
+
             // Create a main group for the graph that will be transformed for dragging
             gMain = svg.append('g');
             
