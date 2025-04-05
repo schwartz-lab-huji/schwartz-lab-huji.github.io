@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;a href=&#39;https://guykap12.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Guy Kaplan&lt;/a&gt; | Home</title>
+    <link>/author/a-hrefhttps/guykap12.github.io/-target_blank-relnoopener-noreferrerguy-kaplan/a/</link>
+      <atom:link href="/author/a-hrefhttps/guykap12.github.io/-target_blank-relnoopener-noreferrerguy-kaplan/a/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;a href=&#39;https://guykap12.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Guy Kaplan&lt;/a&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>&lt;a href=&#39;https://guykap12.github.io/&#39; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Guy Kaplan&lt;/a&gt;</title>
+      <link>/author/a-hrefhttps/guykap12.github.io/-target_blank-relnoopener-noreferrerguy-kaplan/a/</link>
+    </image>
+    
+    <item>
+      <title>Follow the Flow: On Information Flow Across Textual Tokens in Text-to-Image Models</title>
+      <link>/publication/follow_the_flow/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/follow_the_flow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Tokens to Words: on the Inner Lexicon of LLMs</title>
+      <link>/publication/token2word/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/token2word/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
