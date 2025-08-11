@@ -5,20 +5,12 @@
     <link>/author/nir-yarden/</link>
       <atom:link href="/author/nir-yarden/index.xml" rel="self" type="application/rss+xml" />
     <description>Nir Yarden</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Nir Yarden</title>
       <link>/author/nir-yarden/</link>
     </image>
-    
-    <item>
-      <title>Transformers are Multi-State RNNs</title>
-      <link>/publication/tova/</link>
-      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/tova/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
