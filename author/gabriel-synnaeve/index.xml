@@ -5,12 +5,20 @@
     <link>/author/gabriel-synnaeve/</link>
       <atom:link href="/author/gabriel-synnaeve/index.xml" rel="self" type="application/rss+xml" />
     <description>Gabriel Synnaeve</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Gabriel Synnaeve</title>
       <link>/author/gabriel-synnaeve/</link>
     </image>
+    
+    <item>
+      <title>Don&#39;t Overthink it. Preferring Shorter Thinking Chains for Improved LLM Reasoning</title>
+      <link>/publication/dont_overthink_it/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/dont_overthink_it/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Textually Pretrained Speech Language Models</title>

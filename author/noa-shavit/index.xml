@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noa Shavit | Home</title>
+    <link>/author/noa-shavit/</link>
+      <atom:link href="/author/noa-shavit/index.xml" rel="self" type="application/rss+xml" />
+    <description>Noa Shavit</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Noa Shavit</title>
+      <link>/author/noa-shavit/</link>
+    </image>
+    
+  </channel>
+</rss>

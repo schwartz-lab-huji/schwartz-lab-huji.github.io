@@ -5,12 +5,28 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
       <link>/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>SpeLLM: Character-Level Multi-Head Decoding</title>
+      <link>/publication/spellm/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/spellm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Overthink it. Preferring Shorter Thinking Chains for Improved LLM Reasoning</title>
+      <link>/publication/dont_overthink_it/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/dont_overthink_it/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Follow the Flow: On Information Flow Across Textual Tokens in Text-to-Image Models</title>
