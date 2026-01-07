@@ -44,6 +44,10 @@
   </url>
   
   <url>
+    <loc>/author/gal-bloch/</loc>
+  </url>
+  
+  <url>
     <loc>/author/boaz-beldinger/</loc>
   </url>
   
@@ -125,10 +129,6 @@
   </url>
   
   <url>
-    <loc>/author/gal-bloch/</loc>
-  </url>
-  
-  <url>
     <loc>/author/elyasaf-nachum/</loc>
   </url>
   
@@ -138,6 +138,10 @@
   
   <url>
     <loc>/author/nimrod-segev/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/carmi-shaag/</loc>
   </url>
   
   <url>
