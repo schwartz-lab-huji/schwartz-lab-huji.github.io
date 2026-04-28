@@ -5,7 +5,7 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Vocab Diet: Reshaping the Vocabulary of LLMs with Vector Arithmetic</title>
-      <link>/publication/vocab_diet/</link>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/vocab_diet/</guid>
+      <title>Why Fine-Tuning Encourages Hallucinations and How to Fix It</title>
+      <link>/publication/why_fine-tuning_encourages/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/why_fine-tuning_encourages/</guid>
       <description></description>
     </item>
     
@@ -33,14 +33,6 @@
       <link>/publication/dont_overthink_it/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
       <guid>/publication/dont_overthink_it/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Follow the Flow: On Information Flow Across Textual Tokens in Text-to-Image Models</title>
-      <link>/publication/follow_the_flow/</link>
-      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/follow_the_flow/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhen Zhu | Home</title>
+    <link>/author/zhen-zhu/</link>
+      <atom:link href="/author/zhen-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhen Zhu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Zhen Zhu</title>
+      <link>/author/zhen-zhu/</link>
+    </image>
+    
+    <item>
+      <title>Why Fine-Tuning Encourages Hallucinations and How to Fix It</title>
+      <link>/publication/why_fine-tuning_encourages/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/why_fine-tuning_encourages/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
