@@ -5,44 +5,12 @@
     <link>/author/a-hrefhttps/hassidm.github.io/-target_blank-relnoopener-noreferrermichael-hassid/a/</link>
       <atom:link href="/author/a-hrefhttps/hassidm.github.io/-target_blank-relnoopener-noreferrermichael-hassid/a/index.xml" rel="self" type="application/rss+xml" />
     <description>&lt;a href=&#34;https://hassidm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Michael Hassid&lt;/a&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>&lt;a href=&#34;https://hassidm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Michael Hassid&lt;/a&gt;</title>
       <link>/author/a-hrefhttps/hassidm.github.io/-target_blank-relnoopener-noreferrermichael-hassid/a/</link>
     </image>
-    
-    <item>
-      <title>Don&#39;t Overthink it. Preferring Shorter Thinking Chains for Improved LLM Reasoning</title>
-      <link>/publication/dont_overthink_it/</link>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/dont_overthink_it/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Pruning State-Space LLMs</title>
-      <link>/publication/on_pruning_state-space/</link>
-      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/on_pruning_state-space/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
-      <link>/publication/sweet/</link>
-      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/sweet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</title>
-      <link>/publication/how_much_does_attention/</link>
-      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/how_much_does_attention/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
