@@ -14,3 +14,24 @@
     
   </channel>
 </rss>
+or/daniel-rotem/</link>
+    </image>
+    
+    <item>
+      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
+      <link>/publication/sweet/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/sweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</title>
+      <link>/publication/how_much_does_attention/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/how_much_does_attention/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
