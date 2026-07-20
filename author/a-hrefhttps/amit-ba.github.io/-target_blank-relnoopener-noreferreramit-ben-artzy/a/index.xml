@@ -14,24 +14,3 @@
     
   </channel>
 </rss>
-mit-ben-artzy/a/</link>
-    </image>
-    
-    <item>
-      <title>SpeLLM: Character-Level Multi-Head Decoding</title>
-      <link>/publication/spellm/</link>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/spellm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Attend First, Consolidate Later: On the Importance of Attention in Different LLM Layers</title>
-      <link>/publication/attend_first/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/attend_first/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
