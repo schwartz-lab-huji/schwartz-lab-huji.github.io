@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Home</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>More Than Words: Compositional Tokenization for Efficient Language Models</title>
+      <link>/publication/more_than_words/</link>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/more_than_words/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Post-training is (Massive) Supervised Learning</title>
@@ -751,7 +759,7 @@
 &lt;li&gt; אם נתקלתם בבאג או אי-דיוק באפליקציה, אנא כתבו אליי (&lt;a href=&#34;mailto:year1advisor@cs.huji.ac.il&#34;&gt;year1advisor@cs.huji.ac.il&lt;/a&gt;). &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 dir=&#34;rtl&#34; id=&#34;hours&#34;&gt;שעות קבלה&lt;/h2&gt;
-ביומן שלמטה רשומים הזמנים והמיקום של שעות הקבלה. כדאי לבדוק בערב שלפני שלא היה שינוי של הרגע האחרון. שימו לב שרוב הסלוטים למטה הם של  &lt;b&gt;חצי שעה&lt;/b&gt; ולא שעה, אנא הקליקו על האירוע כדי לראות את זמן הסיום.
+ביומן שלמטה רשומים הזמנים והמיקום של שעות הקבלה. כדאי לבדוק בערב שלפני שלא היה שינוי של הרגע האחרון. אין צורך לתאם מראש, אפשר פשוט להגיע / להתחבר, רק מומלץ לשלוח לי מראש מייל עם הפרטים החשובים. שימו לב שרוב הסלוטים למטה הם של  &lt;b&gt;חצי שעה&lt;/b&gt; ולא שעה, אנא הקליקו על האירוע כדי לראות את זמן הסיום.
 &lt;br&gt;
 &lt;br&gt;
 &lt;/div&gt;

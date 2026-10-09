@@ -5,12 +5,28 @@
     <link>/author/daniel-rotem/</link>
       <atom:link href="/author/daniel-rotem/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Rotem</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Daniel Rotem</title>
       <link>/author/daniel-rotem/</link>
     </image>
+    
+    <item>
+      <title>Finding the SWEET Spot: Analysis and Improvement of Adaptive Inference in Low Resource Settings</title>
+      <link>/publication/sweet/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/sweet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Much Does Attention Actually Attend? Questioning the Importance of Attention in Pretrained Transformers</title>
+      <link>/publication/how_much_does_attention/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/how_much_does_attention/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
