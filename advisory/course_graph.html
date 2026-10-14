@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Prerequisites</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script>
+        // Fall back to the bundled copy if the CDN is blocked or unreachable.
+        if (!window.d3) {
+            document.write('<script src="course_graph_files/d3.min_3TyD.js"><\/script>');
+        }
+    </script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -71,6 +77,19 @@
         .semester-node {
             cursor: default;
         }
+        .program-label {
+            align-self: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #programSelect {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            background-color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
         .link {
             stroke-width: 2px;
             pointer-events: none;
@@ -102,72 +121,425 @@
 </head>
 <body>
     <div id="title">Click on the courses you have taken</div>
-    <div id="graph"></div>
+    <div id="graph" class=""></div>
     <div class="controls">
+        <label class="program-label" for="programSelect">Program:</label>
+        <select id="programSelect"></select>
         <button class="restart" id="restartBtn">Restart</button>
         <button class="reset-view" id="resetViewBtn">Reset View</button>
     </div>
 
     <script>
-        // Course data
-        const courses = [
-            ['intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
-            ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probabilty (6)'],
-            ['nand (5)', 'dast (4)', 'oop (4)', 'algo (5)'],
-            ['os (4)', 'iml* (5)', 'complexity (5)'],
-            ['communication* (4)']
+        // ---------------------------------------------------------------
+        // Program definitions
+        //
+        // To add a program, append an object here. It shows up in the
+        // dropdown automatically.
+        //   courses: one array per semester, in order. The strings are the
+        //            node labels AND the keys used by `links`.
+        //   links:   [[prerequisite labels...], target label, optional note]
+        //            Several labels in one array mean OR (sister edges);
+        //            separate link entries for the same target mean AND.
+        // ---------------------------------------------------------------
+        const PROGRAMS = [
+            {
+                id: 'cs-single-pre2027',
+                name: 'Computer Science — Single Major (pre-2027)',
+                courses: [
+                    ['intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'dast (4)', 'infi2 (7)', 'linear2 (6)'],
+                    ['nand (5)', 'oop (4)', 'algo (5)', 'probability (6)'],
+                    ['os (4)', 'iml* (5)', 'complexity (5)'],
+                    ['communication* (4)']
+                ],
+                links: [
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['intro2cs (7)'], 'nand (5)'],
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    [['infi1 (7)'], 'probability (6)'],
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    [['discrete (5)'], 'dast (4)'],
+                    [['discrete (5)'], 'algo (5)'],
+                    [['probability (6)'], 'algo (5)', 'in parallel'],
+                    [['discrete (5)'], 'probability (6)'],
+                    [['linear2 (6)'], 'iml* (5)'],
+                    [['infi2 (7)'], 'iml* (5)', 'or matap'],
+                    [['infi2 (7)'], 'probability (6)', 'or matap'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'os (4)'],
+                    [['dast (4)'], 'algo (5)'],
+                    [['dast (4)'], 'c/cpp (4)', 'in parallel'],
+                    [['algo (5)'], 'iml* (5)', 'in parallel'],
+                    [['algo (5)'], 'complexity (5)'],
+                    [['probability (6)'], 'iml* (5)'],
+                    [['nand (5)'], 'os (4)'],
+                    [['algo (5)'], 'communication* (4)'],
+                    [['probability (6)'], 'communication* (4)'],
+                    [['nand (5)'], 'communication* (4)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 528-3090 (year 2027) — mandatory
+                // courses only. Prerequisites come from each course's
+                // /courses/code/<code>/requirements record, restricted to courses
+                // that are themselves part of this program.
+                // Semester placement follows the roadmap's threshold notes:
+                //   Y1 sem A: 67101, 80131, 80134, 80187
+                //      sem B: 80430, 80133, 80135, 67315
+                //   Y2 sem A: 67577, 67109, 67653   sem B: 67912, 67822, 67504
+                //   Y3: "AI Systems" - a new course, opening in 2029 (תשפ"ט)
+                id: 'ai-dual-2027',
+                name: 'Artificial Intelligence — Dual-Major (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'iml (5)', 'stats (4)'],
+                    ['algo (5)', 'deep learning (4)', 'advanced ml (4)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67653 stats requires probability
+                    [['probability (4)'], 'stats (4)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67822 deep learning requires probability OR iml
+                    [['probability (4)', 'iml (5)'], 'deep learning (4)', 'probability or iml'],
+                    // 67912 advanced ml requires iml with a grade of at least 60
+                    [['iml (5)'], 'advanced ml (4)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 521-3015 (year 2027),
+                // officially "Computer Science, single-major, with Artificial
+                // Intelligence emphasis". Mandatory courses only; prerequisites
+                // from each course's /requirements record, restricted to courses
+                // that are themselves part of this program.
+                // Semester placement follows the roadmap's threshold notes:
+                //   Y1 sem A: 67101, 80131, 80134, 80187
+                //      sem B: 80430, 80133, 80135, 67315
+                //   Y2 sem A: 67109, 67925, 67577, 67125   sem B: 67504
+                //   Y3 sem A (semester 5): 67521
+                //   The AI-emphasis courses (67653, 67822, 67912) carry no
+                //   semester note; placed by their own coursePeriod.
+                id: 'cs-single-ai-2027',
+                name: 'Computer Science — Single Major with AI Emphasis (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'oop (4)', 'nand (5)', 'iml (5)'],
+                    ['algo (5)', 'os (4)', 'stats (4)', 'deep learning (4)', 'advanced ml (4)'],
+                    ['complexity (5)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67125 oop requires intro2cs AND c/cpp, both at grade >= 60
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67808 os requires c/cpp at grade >= 60, AND nand (or 67200
+                    // Computer Architecture, which is not part of this program)
+                    [['c/cpp (4)'], 'os (4)'],
+                    [['nand (5)'], 'os (4)'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67653 stats requires probability
+                    [['probability (4)'], 'stats (4)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67822 deep learning requires probability OR iml
+                    [['probability (4)', 'iml (5)'], 'deep learning (4)', 'probability or iml'],
+                    // 67912 advanced ml requires iml with a grade of at least 60
+                    [['iml (5)'], 'advanced ml (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 521-3010 (year 2027),
+                // "Computer Sciences, single-major". Mandatory courses only;
+                // prerequisites from each course's /requirements record,
+                // restricted to courses that are themselves part of this program.
+                // Semester placement follows the roadmap's threshold notes:
+                //   Y1 sem A: 67101/67102, 80131, 80134, 80187
+                //      sem B: 80430, 80133, 80135, 67315
+                //   Y2 sem A: 67577, 67109   sem B: 67504
+                //   Y3 sem A: 67521
+                //   67125, 67925, 67808 and 67594 carry no semester note;
+                //   placed by their own coursePeriod.
+                id: 'cs-single-2027',
+                name: 'Computer Science — Single Major (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'oop (4)', 'nand (5)', 'iml (5)'],
+                    ['algo (5)', 'os (4)'],
+                    ['communication (4)', 'complexity (5)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67808 os requires c/cpp AND nand (or 67200 Computer
+                    // Architecture, which is not part of this program)
+                    [['c/cpp (4)'], 'os (4)'],
+                    [['nand (5)'], 'os (4)'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67594 communication networks requires algo AND probability
+                    // AND nand (or 67200 Computer Architecture, not in program)
+                    [['algo (5)'], 'communication (4)'],
+                    [['probability (4)'], 'communication (4)'],
+                    [['nand (5)'], 'communication (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 521-3021 (year 2027),
+                // "Computer Sciences, dual-major, with Cognitive and Brain
+                // Sciences". Mandatory courses only; prerequisites from each
+                // course's /requirements record, restricted to courses that are
+                // themselves part of this program.
+                id: 'cs-dual-cogsci-2027',
+                name: 'Computer Science — Dual-Major with Cognitive Science (2027)',
+                // Semester placement follows the roadmap's own threshold notes:
+                //   Y1 sem A: 67101, 80131, 80134   sem B: 80133, 80135, 80430
+                //             (80187 is marked "semester A or B")
+                //   Y2 sem A: 67577, 67109          sem B: 67504, 67925, 67315
+                //   Y3 sem A: 67521, 67125          sem B: 67808
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'iml (5)'],
+                    ['c/cpp (4)', 'nand (5)', 'algo (5)'],
+                    ['oop (4)', 'complexity (5)'],
+                    ['os (4)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67808 os requires c/cpp AND nand (or 67200 Computer
+                    // Architecture, which is not part of this program)
+                    [['c/cpp (4)'], 'os (4)'],
+                    [['nand (5)'], 'os (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 521-3011 (year 2027),
+                // "Computer Sciences, dual-major". Mandatory courses only;
+                // prerequisites from each course's /requirements record,
+                // restricted to courses that are themselves part of this program.
+                // Semester placement follows the roadmap's threshold notes:
+                //   Y1 sem A: 67101, 80131, 80134, 80187 (the note writes the
+                //             older code 80181 for discrete maths)
+                //      sem B: 80430, 80133, 80135, 67315
+                //   Y2 sem 3: 67109, 67577, 67925   sem 4: 67504
+                //             67125 may be taken in either; placed in sem 4.
+                //   Y3 sem 5: 67521
+                id: 'cs-dual-2027',
+                name: 'Computer Science — Dual-Major (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'iml (5)', 'nand (5)'],
+                    ['algo (5)', 'oop (4)'],
+                    ['complexity (5)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 521-3020 (year 2027),
+                // "Computer Sciences, dual-major, with Economics". Mandatory
+                // courses only; prerequisites from each course's /requirements
+                // record, restricted to courses that are themselves part of this
+                // program. Semester placement follows the threshold notes:
+                //   Y1 sem A: 67101, 80131, 80187   sem B: 80430, 80133, 80134,
+                //             67315  (note that linear1 sits in semester B here,
+                //             and linear2 moves to year 2)
+                //   Y2 sem A: 80135, 67109, 67925   sem B: 67504, 67577
+                //   Y3 sem A: 67521, 67922          sem B: 67927
+                //             67125 may be taken in either; placed in sem A.
+                // NOTE: the Y3 note puts 67922 in semester A, while the course's
+                // own coursePeriod says Semester B. The program note wins here.
+                id: 'cs-dual-econ-2027',
+                name: 'Computer Science — Dual-Major with Economics (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'econ seminar (1)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear1 (6)', 'probability (4)'],
+                    ['linear2 (6)', 'dast (4)', 'nand (5)'],
+                    ['algo (5)', 'iml (5)'],
+                    ['complexity (5)', 'game theory (4)', 'oop (4)'],
+                    ['econ research seminar (2)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)'],
+                    // 67922 algorithmic game theory requires 67504 algo
+                    [['algo (5)'], 'game theory (4)'],
+                    // 67927 requires 67922 (or 67691 / 67677, neither of which is
+                    // part of this program)
+                    [['game theory (4)'], 'econ research seminar (2)']
+                    // 67120 econ seminar has no prerequisites
+                ]
+            }
         ];
 
-        // Course indices
-        const INTRO2CS = 1;
-        const INFI1 = 2;
-        const DISCRETE = 3;
-        const LINEAR1 = 4;
-        const CPP = 5;
-        const INFI2 = 6;
-        const LINEAR2 = 7;
-        const PROBABILITY = 8;
-        const NAND = 9;
-        const DAST = 10;
-        const OOP = 11;
-        const ALGO = 12;
-        const OS = 13;
-        const IML = 14;
-        const COMPLEXITY = 15;
-        const COMMUNICATION = 16;
-
-        // Links between courses (prerequisites)
-        const links = [
-            [[INTRO2CS], CPP],
-            [[INTRO2CS], DAST],
-            [[INTRO2CS], OOP],
-            [[INTRO2CS], NAND],
-            [[INFI1], INFI2],
-            [[INFI1, LINEAR1], DAST, 'inf1 or linear1'],
-            [[INFI1], PROBABILITY],
-            [[LINEAR1], LINEAR2],
-            [[DISCRETE], DAST],
-            [[DISCRETE], ALGO],
-            [[PROBABILITY], ALGO, 'in parallel'],
-            [[DISCRETE], PROBABILITY],
-            [[LINEAR2], IML],
-            [[INFI2], IML, 'or matap'],
-            [[INFI2], PROBABILITY, 'or matap'],
-            [[CPP], OOP],
-            [[CPP], OS],
-            [[DAST], ALGO],
-//            [[DAST], CPP, 'in parallel'],
-            [[ALGO], IML, 'in parallel'],
-            [[ALGO], COMPLEXITY],
-            [[PROBABILITY], IML],
-            [[NAND], OS],
-            [[ALGO], COMMUNICATION],
-            [[PROBABILITY], COMMUNICATION],
-            [[NAND], COMMUNICATION],
-        ];
+        let currentProgram = PROGRAMS[3];
 
         // Colors for different years - match original purple, blue, green, red, orange
-        const COLORS = ['#9b59b6', '#3498db', '#2ecc71', '#e74c3c', '#f39c12'];
+        const COLORS = ['#9b59b6', '#3498db', '#2ecc71', '#e74c3c', '#f39c12', '#1abc9c'];
 
         // Lighten color function (similar to the Python version)
         function lightenColor(color, factor = 0.5) {
@@ -175,88 +547,104 @@
             let r = parseInt(color.slice(1, 3), 16);
             let g = parseInt(color.slice(3, 5), 16);
             let b = parseInt(color.slice(5, 7), 16);
-            
+
             // Lighten
             r = Math.min(255, r + (255 - r) * factor);
             g = Math.min(255, g + (255 - g) * factor);
             b = Math.min(255, b + (255 - b) * factor);
-            
+
             // Convert back to hex
             return `#${Math.round(r).toString(16).padStart(2, '0')}${Math.round(g).toString(16).padStart(2, '0')}${Math.round(b).toString(16).padStart(2, '0')}`;
         }
 
-        // Initialize graph data structures
-        const nodes = [];
-        const semesterNodes = [];
-        const graphLinks = [];
-        const nodeMap = {};
+        // Graph data structures - rebuilt from scratch on every program switch
+        let nodes = [];
+        let semesterNodes = [];
+        let graphLinks = [];
+        let nodeMap = {};
 
-        // Create node objects
-        let id = 1;
-        courses.forEach((yearCourses, yearIndex) => {
-            const nodeColor = COLORS[yearIndex]; // Get color for this layer
-            
-            // Create semester node
-            const semesterNode = {
-                id: 100 + yearIndex, // Use high IDs to avoid collision
-                text: `Year ${Math.round((yearIndex + 1)/2)}`,
-	        subtext: `Semester ${(yearIndex)%2 ? 'B' : 'A'}`, 
-                layerColor: nodeColor,
-                layer: yearIndex,
-                isSemester: true
-            };
-            semesterNodes.push(semesterNode);
-            
-            // Create course nodes
-            yearCourses.forEach(course => {
-                const node = {
-                    id,
-                    text: course,
-                    layerColor: nodeColor, // Store the layer color permanently
+        // Build the node/edge objects for a program
+        function buildProgramGraph(program) {
+            nodes = [];
+            semesterNodes = [];
+            graphLinks = [];
+            nodeMap = {};
+
+            // Create node objects
+            let id = 1;
+            program.courses.forEach((yearCourses, yearIndex) => {
+                const nodeColor = COLORS[yearIndex % COLORS.length]; // Get color for this layer
+
+                // Create semester node
+                const semesterNode = {
+                    id: 1000 + yearIndex, // Use high IDs to avoid collision
+                    text: `Year ${Math.round((yearIndex + 1)/2)}`,
+                    subtext: `Semester ${(yearIndex)%2 ? 'B' : 'A'}`,
+                    layerColor: nodeColor,
                     layer: yearIndex,
-                    isOn: false,
-                    active: false,
-                    incoming: [],
-                    outgoing: []
+                    isSemester: true
                 };
-                nodes.push(node);
-                nodeMap[id] = node;
-                id++;
-            });
-        });
+                semesterNodes.push(semesterNode);
 
-        // Create edge objects
-        links.forEach(link => {
-            const fromIds = link[0];
-            const toId = link[1];
-            const text = link.length > 2 ? link[2] : '';
-            
-            const toNode = nodeMap[toId];
-            
-            const edgeGroup = [];
-            
-            fromIds.forEach(fromId => {
-                const fromNode = nodeMap[fromId];
-                
-                const edge = {
-                    source: fromId,
-                    target: toId,
-                    text,
-                    isActive: false,
-                    fromNode,
-                    toNode,
-                    sisterEdges: edgeGroup
-                };
-                
-                edgeGroup.push(edge);
-                graphLinks.push(edge);
-                
-                // Add references to nodes
-                fromNode.outgoing.push(edge);
-                toNode.incoming.push(edge);
+                // Create course nodes
+                yearCourses.forEach((course, indexInLayer) => {
+                    const node = {
+                        id,
+                        text: course,
+                        layerColor: nodeColor, // Store the layer color permanently
+                        layer: yearIndex,
+                        indexInLayer,
+                        isOn: false,
+                        active: false,
+                        incoming: [],
+                        outgoing: []
+                    };
+                    nodes.push(node);
+                    nodeMap[course] = node;
+                    id++;
+                });
             });
-        });
 
+            // Create edge objects
+            program.links.forEach(link => {
+                const fromLabels = link[0];
+                const toLabel = link[1];
+                const text = link.length > 2 ? link[2] : '';
+
+                const toNode = nodeMap[toLabel];
+                if (!toNode) {
+                    console.warn(`Unknown target course "${toLabel}" in program "${program.id}"`);
+                    return;
+                }
+
+                const edgeGroup = [];
+
+                fromLabels.forEach(fromLabel => {
+                    const fromNode = nodeMap[fromLabel];
+                    if (!fromNode) {
+                        console.warn(`Unknown prerequisite "${fromLabel}" in program "${program.id}"`);
+                        return;
+                    }
+
+                    const edge = {
+                        source: fromNode.id,
+                        target: toNode.id,
+                        text,
+                        isActive: false,
+                        fromNode,
+                        toNode,
+                        sisterEdges: edgeGroup
+                    };
+
+                    edgeGroup.push(edge);
+                    graphLinks.push(edge);
+
+                    // Add references to nodes
+                    fromNode.outgoing.push(edge);
+                    toNode.incoming.push(edge);
+                });
+            });
+        }
         // Check if a node is active (all prerequisites met)
         function isNodeActive(node) {
             // If no prerequisites, it's always active
@@ -323,6 +711,9 @@
         let zoomHandler;
         
         function initializeGraph() {
+            // Stop any previous simulation so it stops ticking against detached nodes
+            if (simulation) simulation.stop();
+
             // Clear previous graph
             d3.select('#graph').html('');
             
@@ -398,10 +789,10 @@
             // Position nodes by layer - fixed positions with staggered rows
             nodes.forEach(node => {
                 // Calculate position based on layer (vertical positioning)
-                const layerCount = courses[node.layer].length;
+                const layerCount = currentProgram.courses[node.layer].length;
                 
-                // Find index within layer
-                const indexInLayer = courses[node.layer].findIndex(course => course === node.text);
+                // Index within layer (stored at build time, so duplicate labels are safe)
+                const indexInLayer = node.indexInLayer;
                 
                 // Center each row and space nodes evenly
                 // Offset odd-numbered layers slightly to the left as in original code
@@ -579,8 +970,43 @@
                );
         }
 
+        // Switch to a different program: rebuild the data, then redraw
+        function switchProgram(programId) {
+            const program = PROGRAMS.find(p => p.id === programId);
+            if (!program) return;
+            currentProgram = program;
+            buildProgramGraph(currentProgram);
+            initializeGraph();
+        }
+
+        // Populate the program dropdown from PROGRAMS
+        function populateProgramSelect() {
+            const select = document.getElementById('programSelect');
+            select.innerHTML = '';
+            PROGRAMS.forEach(program => {
+                const option = document.createElement('option');
+                option.value = program.id;
+                option.textContent = program.name;
+                select.appendChild(option);
+            });
+            select.value = currentProgram.id;
+            select.addEventListener('change', event => switchProgram(event.target.value));
+        }
+
         // Initialize the graph on page load
         window.addEventListener('load', () => {
+            // Without d3 nothing can be drawn; say so instead of showing an
+            // empty frame.
+            if (!window.d3) {
+                document.getElementById('graph').innerHTML =
+                    '<p style="padding:20px;color:#c0392b;">' +
+                    'Could not load the d3 library, so the graph cannot be drawn. ' +
+                    'Please try reloading the page.</p>';
+                return;
+            }
+
+            populateProgramSelect();
+            buildProgramGraph(currentProgram);
             initializeGraph();
             
             // Set up the restart button
@@ -595,5 +1021,6 @@
             });
         });
     </script>
-</body>
-</html>
+
+
+</body></html>
