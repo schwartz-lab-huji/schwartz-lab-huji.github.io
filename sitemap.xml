@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/author/nir-yarden/</loc>
+    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/maoz-nahum/</loc>
   </url>
   
@@ -73,7 +78,7 @@
   
   <url>
     <loc>/author/a-hrefhttps/hassidm.github.io/-target_blank-relnoopener-noreferrermichael-hassid/a/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -115,12 +120,12 @@
   
   <url>
     <loc>/author/yuval-reif/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/a-hrefhttps/amit-ba.github.io/-target_blank-relnoopener-noreferreramit-ben-artzy/a/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -133,7 +138,7 @@
   
   <url>
     <loc>/author/a-hrefhttps/guykap12.github.io/-target_blank-relnoopener-noreferrerguy-kaplan/a/</loc>
-    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -158,11 +163,6 @@
   </url>
   
   <url>
-    <loc>/author/nir-yarden/</loc>
-    <lastmod>2024-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/lotem-rozner/</loc>
   </url>
   
@@ -171,22 +171,47 @@
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/broy-schwartz/b/</loc>
-    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/amit-ben-artzy/</loc>
-    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/beyond_state_capacity/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/nir-yarden/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/1/</loc>
     <lastmod>2026-10-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -196,42 +221,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/guy-kaplan/</loc>
-    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/more_than_words/</loc>
     <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/yuval-reif/</loc>
-    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/michael-hassid/</loc>
+    <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -241,8 +236,8 @@
   </url>
   
   <url>
-    <loc>/author/yossi-adi/</loc>
-    <lastmod>2026-06-09T00:00:00+00:00</lastmod>
+    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-target_blank-relnoopener-noreferrerswabha-swayamdipta/a/</loc>
+    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -252,11 +247,6 @@
   
   <url>
     <loc>/author/lotem-rozner/</loc>
-    <lastmod>2026-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/swabha-swayamdipta/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -331,17 +321,17 @@
   </url>
   
   <url>
+    <loc>/author/a-hrefhttps/www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp-target_blank-relnoopener-noreferreriryna-gurevych/a/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/federico-marcuzzi/</loc>
     <lastmod>2025-09-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/how_quantization_shapes/</loc>
-    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/iryna-gurevych/</loc>
     <lastmod>2025-09-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -382,6 +372,11 @@
   
   <url>
     <loc>/publication/follow_the_flow/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/guy-kaplan/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -427,11 +422,6 @@
   
   <url>
     <loc>/author/a-hrefhttps/tomhoper.github.io/-target_blank-relnoopener-noreferrertom-hope/a/</loc>
-    <lastmod>2024-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp-target_blank-relnoopener-noreferreriryna-gurevych/a/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -573,11 +563,6 @@
   <url>
     <loc>/author/nadav-timor/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttps/www.cs.huji.ac.il/~adiyoss/-target_blank-relnoopener-noreferreryossi-adi/a/</loc>
-    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -911,6 +896,11 @@
   </url>
   
   <url>
+    <loc>/author/michael-hassid/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/niranjan-balasubramanian/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -1152,11 +1142,6 @@
   
   <url>
     <loc>/author/a-hrefhttp/homes.cs.washington.edu/~yejin/-target_blank-relnoopener-noreferreryejin-choi/a/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/a-hrefhttp/www.cs.cmu.edu/~sswayamd/-target_blank-relnoopener-noreferrerswabha-swayamdipta/a/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url>
   

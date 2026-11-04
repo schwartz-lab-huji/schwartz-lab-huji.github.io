@@ -30,20 +30,3 @@
     
   </channel>
 </rss>
-e>
-      <link>/publication/vl_mlm/</link>
-      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/vl_mlm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatic Generation of Contrast Sets from Scene Graphs: Probing the Compositional Consistency of GQA</title>
-      <link>/publication/contrast_sets/</link>
-      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/contrast_sets/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
