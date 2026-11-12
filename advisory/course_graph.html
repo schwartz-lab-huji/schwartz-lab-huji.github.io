@@ -182,22 +182,25 @@
                 ]
             },
             {
-                // Source: shnaton.huji.ac.il roadmap 528-3090 (year 2027) — mandatory
-                // courses only. Prerequisites come from each course's
-                // /courses/code/<code>/requirements record, restricted to courses
-                // that are themselves part of this program.
+                // Source: shnaton.huji.ac.il roadmap 521-3010 (year 2027),
+                // "Computer Sciences, single-major". Mandatory courses only;
+                // prerequisites from each course's /requirements record,
+                // restricted to courses that are themselves part of this program.
                 // Semester placement follows the roadmap's threshold notes:
-                //   Y1 sem A: 67101, 80131, 80134, 80187
+                //   Y1 sem A: 67101/67102, 80131, 80134, 80187
                 //      sem B: 80430, 80133, 80135, 67315
-                //   Y2 sem A: 67577, 67109, 67653   sem B: 67912, 67822, 67504
-                //   Y3: "AI Systems" - a new course, opening in 2029 (תשפ"ט)
-                id: 'ai-dual-2027',
-                name: 'Artificial Intelligence — Dual-Major (2027)',
+                //   Y2 sem A: 67577, 67109   sem B: 67504
+                //   Y3 sem A: 67521
+                //   67125, 67925, 67808 and 67594 carry no semester note;
+                //   placed by their own coursePeriod.
+                id: 'cs-single-2027',
+                name: 'Computer Science — Single Major (2027)',
                 courses: [
                     ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
                     ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
-                    ['dast (4)', 'iml (5)', 'stats (4)'],
-                    ['algo (5)', 'deep learning (4)', 'advanced ml (4)']
+                    ['dast (4)', 'oop (4)', 'nand (5)', 'iml (5)'],
+                    ['algo (5)', 'os (4)'],
+                    ['communication (4)', 'complexity (5)']
                 ],
                 links: [
                     // 67101 intro2cs requires 67100 System Introduction for CS
@@ -215,20 +218,30 @@
                     // Edges added from the course's actual prerequisites.
                     [['intro2cs (7)'], 'dast (4)'],
                     [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67808 os requires c/cpp AND nand (or 67200 Computer
+                    // Architecture, which is not part of this program)
+                    [['c/cpp (4)'], 'os (4)'],
+                    [['nand (5)'], 'os (4)'],
                     // 67577 iml requires probability AND infi2 AND linear2
                     [['probability (4)'], 'iml (5)'],
                     [['infi2 (7)'], 'iml (5)'],
                     [['linear2 (6)'], 'iml (5)'],
-                    // 67653 stats requires probability
-                    [['probability (4)'], 'stats (4)'],
                     // 67504 algo requires dast AND linear1 AND probability
                     [['dast (4)'], 'algo (5)'],
                     [['linear1 (6)'], 'algo (5)'],
                     [['probability (4)'], 'algo (5)'],
-                    // 67822 deep learning requires probability OR iml
-                    [['probability (4)', 'iml (5)'], 'deep learning (4)', 'probability or iml'],
-                    // 67912 advanced ml requires iml with a grade of at least 60
-                    [['iml (5)'], 'advanced ml (4)']
+                    // 67594 communication networks requires algo AND probability
+                    // AND nand (or 67200 Computer Architecture, not in program)
+                    [['algo (5)'], 'communication (4)'],
+                    [['probability (4)'], 'communication (4)'],
+                    [['nand (5)'], 'communication (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)']
                 ]
             },
             {
@@ -297,25 +310,25 @@
                 ]
             },
             {
-                // Source: shnaton.huji.ac.il roadmap 521-3010 (year 2027),
-                // "Computer Sciences, single-major". Mandatory courses only;
+                // Source: shnaton.huji.ac.il roadmap 521-3011 (year 2027),
+                // "Computer Sciences, dual-major". Mandatory courses only;
                 // prerequisites from each course's /requirements record,
                 // restricted to courses that are themselves part of this program.
                 // Semester placement follows the roadmap's threshold notes:
-                //   Y1 sem A: 67101/67102, 80131, 80134, 80187
+                //   Y1 sem A: 67101, 80131, 80134, 80187 (the note writes the
+                //             older code 80181 for discrete maths)
                 //      sem B: 80430, 80133, 80135, 67315
-                //   Y2 sem A: 67577, 67109   sem B: 67504
-                //   Y3 sem A: 67521
-                //   67125, 67925, 67808 and 67594 carry no semester note;
-                //   placed by their own coursePeriod.
-                id: 'cs-single-2027',
-                name: 'Computer Science — Single Major (2027)',
+                //   Y2 sem 3: 67109, 67577, 67925   sem 4: 67504
+                //             67125 may be taken in either; placed in sem 4.
+                //   Y3 sem 5: 67521
+                id: 'cs-dual-2027',
+                name: 'Computer Science — Dual-Major (2027)',
                 courses: [
                     ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
                     ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
-                    ['dast (4)', 'oop (4)', 'nand (5)', 'iml (5)'],
-                    ['algo (5)', 'os (4)'],
-                    ['communication (4)', 'complexity (5)']
+                    ['dast (4)', 'iml (5)', 'nand (5)'],
+                    ['algo (5)', 'oop (4)'],
+                    ['complexity (5)']
                 ],
                 links: [
                     // 67101 intro2cs requires 67100 System Introduction for CS
@@ -333,15 +346,8 @@
                     // Edges added from the course's actual prerequisites.
                     [['intro2cs (7)'], 'dast (4)'],
                     [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
-                    // 67125 oop requires intro2cs AND c/cpp
-                    [['intro2cs (7)'], 'oop (4)'],
-                    [['c/cpp (4)'], 'oop (4)'],
                     // 67925 nand requires intro2cs (or the summer variant)
                     [['intro2cs (7)'], 'nand (5)'],
-                    // 67808 os requires c/cpp AND nand (or 67200 Computer
-                    // Architecture, which is not part of this program)
-                    [['c/cpp (4)'], 'os (4)'],
-                    [['nand (5)'], 'os (4)'],
                     // 67577 iml requires probability AND infi2 AND linear2
                     [['probability (4)'], 'iml (5)'],
                     [['infi2 (7)'], 'iml (5)'],
@@ -350,11 +356,75 @@
                     [['dast (4)'], 'algo (5)'],
                     [['linear1 (6)'], 'algo (5)'],
                     [['probability (4)'], 'algo (5)'],
-                    // 67594 communication networks requires algo AND probability
-                    // AND nand (or 67200 Computer Architecture, not in program)
-                    [['algo (5)'], 'communication (4)'],
-                    [['probability (4)'], 'communication (4)'],
-                    [['nand (5)'], 'communication (4)'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67521 complexity requires 67504 algo
+                    [['algo (5)'], 'complexity (5)']
+                ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 528-3091 (year 2027),
+                // "Artificial Intelligence, dual-major, with Computer Science".
+                // It is always combined with roadmap 521-3091 ("Computer Science,
+                // dual-major, with Artificial Intelligence"), so this graph shows
+                // the mandatory courses of both. Prerequisites from each course's
+                // /requirements record, restricted to courses that are themselves
+                // part of this program.
+                // Semester placement follows the threshold notes:
+                //   528-3091 Y1: 67101, 80187 in sem 1; 80430 in sem 2
+                //            Y2: 67577 in sem A; 67822, 67653 by coursePeriod (B)
+                //            Y3: "AI Systems" - a new course, opening in 2029 (תשפ"ט)
+                //   521-3091 Y1: 80131, 80134 in sem 1; 80133, 80135, 67315 in sem 2
+                //            Y2: 67109, 67925 in sem 3; 67125, 67504 in sem 4
+                //            Y3: 67521 in sem 5
+                // NOTE: 67912 carries no semester note and no coursePeriod; placed
+                // in sem 4, as in the 528-3090 roadmap.
+                id: 'cs-dual-ai-2027',
+                name: 'Computer Science — Dual-Major with AI (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'nand (5)', 'iml (5)'],
+                    ['algo (5)', 'oop (4)', 'stats (4)', 'deep learning (4)', 'advanced ml (4)'],
+                    ['complexity (5)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete (as in the
+                    // other programs; the 2027 record currently lists none)
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67925 nand requires intro2cs (or the summer variant)
+                    [['intro2cs (7)'], 'nand (5)'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67125 oop requires intro2cs AND c/cpp
+                    [['intro2cs (7)'], 'oop (4)'],
+                    [['c/cpp (4)'], 'oop (4)'],
+                    // 67653 stats requires probability
+                    [['probability (4)'], 'stats (4)'],
+                    // 67822 deep learning requires probability OR iml
+                    [['probability (4)', 'iml (5)'], 'deep learning (4)', 'probability or iml'],
+                    // 67912 advanced ml requires iml
+                    [['iml (5)'], 'advanced ml (4)'],
                     // 67521 complexity requires 67504 algo
                     [['algo (5)'], 'complexity (5)']
                 ]
@@ -413,60 +483,6 @@
                     // Architecture, which is not part of this program)
                     [['c/cpp (4)'], 'os (4)'],
                     [['nand (5)'], 'os (4)'],
-                    // 67521 complexity requires 67504 algo
-                    [['algo (5)'], 'complexity (5)']
-                ]
-            },
-            {
-                // Source: shnaton.huji.ac.il roadmap 521-3011 (year 2027),
-                // "Computer Sciences, dual-major". Mandatory courses only;
-                // prerequisites from each course's /requirements record,
-                // restricted to courses that are themselves part of this program.
-                // Semester placement follows the roadmap's threshold notes:
-                //   Y1 sem A: 67101, 80131, 80134, 80187 (the note writes the
-                //             older code 80181 for discrete maths)
-                //      sem B: 80430, 80133, 80135, 67315
-                //   Y2 sem 3: 67109, 67577, 67925   sem 4: 67504
-                //             67125 may be taken in either; placed in sem 4.
-                //   Y3 sem 5: 67521
-                id: 'cs-dual-2027',
-                name: 'Computer Science — Dual-Major (2027)',
-                courses: [
-                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
-                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
-                    ['dast (4)', 'iml (5)', 'nand (5)'],
-                    ['algo (5)', 'oop (4)'],
-                    ['complexity (5)']
-                ],
-                links: [
-                    // 67101 intro2cs requires 67100 System Introduction for CS
-                    [['sysintro (0)'], 'intro2cs (7)'],
-                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
-                    [['intro2cs (7)'], 'c/cpp (4)'],
-                    // 80133 infi2 requires 80131 infi1
-                    [['infi1 (7)'], 'infi2 (7)'],
-                    // 80135 linear2 requires 80134 linear1
-                    [['linear1 (6)'], 'linear2 (6)'],
-                    // 80430 probability requires infi1 AND discrete
-                    [['infi1 (7)'], 'probability (4)'],
-                    [['discrete (5)'], 'probability (4)'],
-                    // NOTE: shnaton lists no positive requirement for 67109 dast.
-                    // Edges added from the course's actual prerequisites.
-                    [['intro2cs (7)'], 'dast (4)'],
-                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
-                    // 67925 nand requires intro2cs (or the summer variant)
-                    [['intro2cs (7)'], 'nand (5)'],
-                    // 67577 iml requires probability AND infi2 AND linear2
-                    [['probability (4)'], 'iml (5)'],
-                    [['infi2 (7)'], 'iml (5)'],
-                    [['linear2 (6)'], 'iml (5)'],
-                    // 67504 algo requires dast AND linear1 AND probability
-                    [['dast (4)'], 'algo (5)'],
-                    [['linear1 (6)'], 'algo (5)'],
-                    [['probability (4)'], 'algo (5)'],
-                    // 67125 oop requires intro2cs AND c/cpp
-                    [['intro2cs (7)'], 'oop (4)'],
-                    [['c/cpp (4)'], 'oop (4)'],
                     // 67521 complexity requires 67504 algo
                     [['algo (5)'], 'complexity (5)']
                 ]
@@ -533,10 +549,60 @@
                     [['game theory (4)'], 'econ research seminar (2)']
                     // 67120 econ seminar has no prerequisites
                 ]
+            },
+            {
+                // Source: shnaton.huji.ac.il roadmap 528-3090 (year 2027) — mandatory
+                // courses only. Prerequisites come from each course's
+                // /courses/code/<code>/requirements record, restricted to courses
+                // that are themselves part of this program.
+                // Semester placement follows the roadmap's threshold notes:
+                //   Y1 sem A: 67101, 80131, 80134, 80187
+                //      sem B: 80430, 80133, 80135, 67315
+                //   Y2 sem A: 67577, 67109, 67653   sem B: 67912, 67822, 67504
+                //   Y3: "AI Systems" - a new course, opening in 2029 (תשפ"ט)
+                id: 'ai-dual-2027',
+                name: 'Artificial Intelligence — Dual-Major (2027)',
+                courses: [
+                    ['sysintro (0)', 'intro2cs (7)', 'infi1 (7)', 'discrete (5)', 'linear1 (6)'],
+                    ['c/cpp (4)', 'infi2 (7)', 'linear2 (6)', 'probability (4)'],
+                    ['dast (4)', 'iml (5)', 'stats (4)'],
+                    ['algo (5)', 'deep learning (4)', 'advanced ml (4)']
+                ],
+                links: [
+                    // 67101 intro2cs requires 67100 System Introduction for CS
+                    [['sysintro (0)'], 'intro2cs (7)'],
+                    // 67315 c/cpp requires 67101 (or the summer variant 67102)
+                    [['intro2cs (7)'], 'c/cpp (4)'],
+                    // 80133 infi2 requires 80131 infi1
+                    [['infi1 (7)'], 'infi2 (7)'],
+                    // 80135 linear2 requires 80134 linear1
+                    [['linear1 (6)'], 'linear2 (6)'],
+                    // 80430 probability requires infi1 AND discrete
+                    [['infi1 (7)'], 'probability (4)'],
+                    [['discrete (5)'], 'probability (4)'],
+                    // NOTE: shnaton lists no positive requirement for 67109 dast.
+                    // Edges added from the course's actual prerequisites.
+                    [['intro2cs (7)'], 'dast (4)'],
+                    [['infi1 (7)', 'linear1 (6)'], 'dast (4)', 'infi1 or linear1'],
+                    // 67577 iml requires probability AND infi2 AND linear2
+                    [['probability (4)'], 'iml (5)'],
+                    [['infi2 (7)'], 'iml (5)'],
+                    [['linear2 (6)'], 'iml (5)'],
+                    // 67653 stats requires probability
+                    [['probability (4)'], 'stats (4)'],
+                    // 67504 algo requires dast AND linear1 AND probability
+                    [['dast (4)'], 'algo (5)'],
+                    [['linear1 (6)'], 'algo (5)'],
+                    [['probability (4)'], 'algo (5)'],
+                    // 67822 deep learning requires probability OR iml
+                    [['probability (4)', 'iml (5)'], 'deep learning (4)', 'probability or iml'],
+                    // 67912 advanced ml requires iml with a grade of at least 60
+                    [['iml (5)'], 'advanced ml (4)']
+                ]
             }
         ];
 
-        let currentProgram = PROGRAMS[3];
+        let currentProgram = PROGRAMS[0];
 
         // Colors for different years - match original purple, blue, green, red, orange
         const COLORS = ['#9b59b6', '#3498db', '#2ecc71', '#e74c3c', '#f39c12', '#1abc9c'];
@@ -995,16 +1061,6 @@
 
         // Initialize the graph on page load
         window.addEventListener('load', () => {
-            // Without d3 nothing can be drawn; say so instead of showing an
-            // empty frame.
-            if (!window.d3) {
-                document.getElementById('graph').innerHTML =
-                    '<p style="padding:20px;color:#c0392b;">' +
-                    'Could not load the d3 library, so the graph cannot be drawn. ' +
-                    'Please try reloading the page.</p>';
-                return;
-            }
-
             populateProgramSelect();
             buildProgramGraph(currentProgram);
             initializeGraph();

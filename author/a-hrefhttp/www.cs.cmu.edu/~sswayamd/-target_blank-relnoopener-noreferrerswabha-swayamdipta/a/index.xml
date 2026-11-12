@@ -22,3 +22,23 @@
     
   </channel>
 </rss>
+  </item>
+    
+    <item>
+      <title>Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics</title>
+      <link>/publication/datamaps/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/datamaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Right Tool for the Job: Matching Model and Instance Complexities</title>
+      <link>/publication/sledgehammer/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sledgehammer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
